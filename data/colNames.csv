@@ -45,9 +45,9 @@ Q16_4;Q16- And for each of these sentences?-I am proud to work in my company
 Q17_1;Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention
 Q17_3;Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company
 Q17_4;Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers
-Q19_1;Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-Satisfying
-Q19_2;Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-Unsatisfactory
-Q19_3;Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-No response
+Q19_1;Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization
+Q19_2;Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the company’s activity
+Q19_3;Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training
 Q19_4;Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior
 Q19_5;Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team
 Q19_6;Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation
@@ -69,11 +69,11 @@ Q22_4;Q22- Over the last 12 months have you personally experienced one or more o
 Q22_5;Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment
 Q23_1;Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite
 Q25;Q25-Your workplace-home transportation time (round trip) is:
-Q31_1;Q31- When you think about the next 3 years, for each of the following points are you:-Very confident
-Q31_2;Q31- When you think about the next 3 years, for each of the following points are you:-Confident
-Q31_3;Q31- When you think about the next 3 years, for each of the following points are you:-Not very confident
-Q31_4;Q31- When you think about the next 3 years, for each of the following points are you:-Not confident at all
-Q31_5;Q31- When you think about the next 3 years, for each of the following points are you:-No response
+Q31_1;Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation
+Q31_2;Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household
+Q31_3;Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions
+Q31_4;Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life
+Q31_5;Q31- When you think about the next 3 years, for each of the following points are you:-Your health
 Q31_6;Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)
 Q34_1;Q34- In your personal life, would you say:-I feel well surrounded
 Q34_2;Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry
