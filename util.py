@@ -11,12 +11,12 @@ def load_data():
     """
     data = pd.read_csv("data/BST_V1toV10.csv", header=0, sep=";")
     colNames = pd.read_csv("data/colNames.csv", sep=";",
-                           header=None, encoding='MacRoman')
+                           header=0, index_col=0, encoding='MacRoman')
 
-    for i in data.columns:
-        for j in range(len(colNames)):
-            if i == colNames[0][j]:
-                data.rename(columns={i: colNames[1][j]}, inplace=True)
+    for i in data.columns:  # vague
+        for j in range(len(colNames.columns)):  # eg 0 - 104
+            if (i == colNames.columns[j]):
+                data.rename(columns={i: colNames.iloc[0, j]}, inplace=True)
     return data
 
 
@@ -146,5 +146,17 @@ def categorise(data):
     # drop the columns that were used to create the outcome column
     data.drop(vShort_column + short_columns +
               long_columns, axis=1, inplace=True)
+
+    # all columns are categorical columns except for the outcome column
+
+    # categorical_cols = data.columns.tolist()
+    # categorical_cols_wo = categorical_cols.remove('outcome')
+    # encode = pd.get_dummies(data, columns=categorical_cols_wo, prefix="cat")
+
+    # # add the encoded to data and remove the original columns
+    # data = pd.concat([data, encode], axis=1)
+    # data.drop(categorical_cols_wo, axis=1, inplace=True)
+
+    # data = data.astype(int)
 
     return data
