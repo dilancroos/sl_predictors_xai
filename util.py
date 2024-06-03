@@ -160,3 +160,14 @@ def categorise(data):
     # data = data.astype(int)
 
     return data
+
+
+def time_e(st, et, v="cell"):
+    """
+    Calculate the elapsed time
+    st: start time
+    et: end time
+    v: print statement
+    """
+    minutes, seconds = divmod(et - st, 60)
+    return f"Elapsed time to compute {v}: {minutes:.0f} minutes and {seconds:.0f} seconds"
