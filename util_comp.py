@@ -231,18 +231,24 @@ def main():
     """
     Main function
     """
+    st = time()
     # Load the data
     data = load_data()
 
     # Clean the data
     data = clean_data(data)
 
+    mst = time()
     # Using MICE to impute missing values
     for col in data.columns:
         impulated = mice(data, [col])
         data.loc[:, col] = impulated
+    met = time()
+    print(time_e(mst, met, v="complete MICE imputation"))
 
     # Categorise the data
     data = categorise(data)
+    et = time()
+    print(time_e(st, et, v="Full process"))
 
     return data
