@@ -23,7 +23,66 @@ def time_e(st, et, v="cell"):
     return f"Elapsed time to compute {v}: {minutes:.0f} minutes and {seconds:.0f} seconds"
 
 
-def load_data(data=data, colNames=colNames, retained=False):
+def age_cat(data=data):
+    """
+    Categorise the age
+    Return: DataFrame
+
+    ---
+    data: DataFrame
+
+    """
+
+    # check each value in the "Q2" column, if the value in that row is > 17, change the value to the category in the dataset
+    # bins=[16, 29.9, 39.9, 44.9, 49.9, 55.9, float('inf')], labels=[1, 2, 3, 4, 5, 6]
+    t1 = time()
+    for i in range(len(data["Q2"])):
+        if data["Q2"][i] > 17:
+            if data["Q2"][i] > 16 and data["Q2"][i] < 29.9:
+                data['Q2'][i] = 1
+            elif data["Q2"][i] > 29.9 and data["Q2"][i] < 39.9:
+                data['Q2'][i] = 2
+            elif data["Q2"][i] > 39.9 and data["Q2"][i] < 44.9:
+                data['Q2'][i] = 3
+            elif data["Q2"][i] > 44.9 and data["Q2"][i] < 49.9:
+                data['Q2'][i] = 4
+            elif data["Q2"][i] > 49.9 and data["Q2"][i] < 55.9:
+                data['Q2'][i] = 5
+            elif data["Q2"][i] > 55.9 and data["Q2"][i] < float('inf'):
+                data['Q2'][i] = 6
+    t2 = time()
+    print(time_e(t1, t2, v="age categorisation"))
+    return data
+
+
+def correct_sys_err(data):
+    """
+    Correct the systematic error
+    Return: DataFrame
+
+    ---
+    data: DataFrame
+
+    """
+
+    # Correct the systematic in the sys_err_cols coloumns by going through each coloumn and then each value and increasing the value by 1
+    t1 = time()
+    sys_err_cols = [
+        "Q22_2",
+        "Q22_3",
+        "Q22_4",
+        "Q22_5"
+    ]
+
+    for col in sys_err_cols:
+        for i in range(len(data)):
+            data[col][i] = data[col][i] + 1
+    t2 = time()
+    print(time_e(t1, t2, v="correct systematic error"))
+    return data
+
+
+def load_col_names(data=data, colNames=colNames):
     """
     Load the data from the CSV file
     Return: DataFrame
@@ -31,15 +90,7 @@ def load_data(data=data, colNames=colNames, retained=False):
     ---
     data: DataFrame = data/BST_V1toV10.csv
     colNames: DataFrame = data/colNames.csv
-    retained: bool = False (Default) -> if True, only the retained columns are used
-
     """
-
-    if retained == True:
-        ret_cols = [i for i in retained_cols[0]]
-        for j in data.columns:
-            if j not in ret_cols:
-                data.drop(j, axis=1, inplace=True)
 
     st = time()
     for i in data.columns:  # vague
@@ -47,7 +98,7 @@ def load_data(data=data, colNames=colNames, retained=False):
             if (i == colNames.columns[j]):
                 data.rename(columns={i: colNames.iloc[0, j]}, inplace=True)
     et = time()
-    print(time_e(st, et, v="data loading"))
+    print(time_e(st, et, v="load column names"))
 
     return data
 
@@ -63,78 +114,14 @@ def clean_data(data, retained=False):
 
     """
     st = time()
-    # Change AGE to categorical
-    q2 = "Q2- How old are you?"
-    for i in range(len(data[q2])):
-        if data[q2][i] > 17:
-            if data[q2][i] > 16 and data[q2][i] < 29.9:
-                data.loc[i, q2] = 1
-            elif data[q2][i] < 39.9:
-                data.loc[i, q2] = 2
-            elif data[q2][i] < 44.9:
-                data.loc[i, q2] = 3
-            elif data[q2][i] < 49.9:
-                data.loc[i, q2] = 4
-            elif data[q2][i] < 55.9:
-                data.loc[i, q2] = 5
-            else:
-                data.loc[i, q2] = 6
 
     # Remove the "YEAR MMS" coloumn as it is not needed
     data.drop("YEAR MMS", axis=1, inplace=True)
 
-    # Results columns cleaning
-    # Change the >2 and 0 values to NaN
-    results_cols = [
-        "MONS ARRESTS FOR 3 DAYS",
-        "STOPS OF 3 TO 5 DAYS",
-        "STOPS OF MORE THAN 1 WEEK",
-        "ARRESTS OF MORE THAN 1 MONTH",
-        "(V5 V9) Sick leave of more than 3 months"
-    ]
-
-    for col in results_cols:
-        # if the value is greater than 3, change the value to NaN
-        data.loc[data[col] > 2, col] = None
-        # if the value is 0, change the value to NaN
-        data.loc[data[col] == 0, col] = None
-
-    if retained == False:
-        # No response category values changed to NaN
-        q58_cols = [
-            'Q58- For each of these drinks, indicate whether you consume them:-Every day',
-            'Q58- For each of these drinks, indicate whether you consume them:-At least once a week'
-        ]
-
-        for col in q58_cols:
-            data.loc[data[col] == 4, col] = None
-
-        # Q22 systematic error correction
-        # increasing the value by 1
-        sys_err_cols = [
-            "Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession",
-            "Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business",
-            "Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company",
-            "Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment"
-        ]
-
-        for col in sys_err_cols:
-            for i in range(len(data[col])):
-                data.loc[i, col] = data.loc[i, col] + 1
-        et = time()
-        print(time_e(st, et, v="data cleaning"))
-
-    if retained == True:
-        st = time()
-        # Drop the rows with missing values
-        data.dropna(inplace=True)
-        et = time()
-        print(time_e(st, et, v="drop missing values"))
-
     return data
 
 
-def mice(data, col):
+def mice(data, columns, clip=False):
     """
     Impute the missing values using MICE
     Return: DataFrame
@@ -145,17 +132,28 @@ def mice(data, col):
 
     """
     st = time()
-    imp = IterativeImputer(max_iter=10, random_state=0)
+
+    imputer = IterativeImputer(random_state=100, max_iter=10,
+                               n_nearest_features=1, sample_posterior=True, min_value=1)
+
     # train
-    data_train = data.loc[:, col]
+    df_train = data.loc[:, columns]
     # fit
-    imp.fit(data_train)
+    imputer.fit(df_train)
     # transform
-    imputed = pd.DataFrame(imp.transform(data_train), columns=col).round()
+    df_imputed = imputer.transform(df_train)
+    df_imputed = pd.DataFrame(df_imputed, columns=columns).round()
+
+    if clip:
+        df_imputed = df_imputed.clip(lower=1)
+
+    # replace the original dataset with the imputed dataset
+    data.loc[:, columns] = df_imputed
+
     et = time()
     print(time_e(st, et, v="MICE imputation"))
 
-    return imputed
+    return data
 
 
 def categorise(data):
@@ -167,6 +165,8 @@ def categorise(data):
     data: DataFrame
 
     """
+    # for i in data.columns:
+    #     print(data.columns.get_loc(i), i)
 
     vShort_column = [
         'MONS ARRESTS FOR 3 DAYS'
@@ -187,8 +187,8 @@ def categorise(data):
     t1 = time()
     for i in range(len(data)):
         for j in range(len(long_columns)):
-            if data.loc[i, long_columns[j]] == 2:
-                data.loc[i, 'outcome'] = 2  # Long Sick Leave
+            if data[long_columns[j]][i] == 2:
+                data['outcome'][i] = 2  # Long Sick Leave
                 break
 
         if data.loc[i, 'outcome'] == 2:
@@ -213,26 +213,32 @@ def categorise(data):
     print(time_e(t1, t2, v="categorisation of outcome column"))
 
     # non-catagorical columns
-    not_to_cat = [
+    not_cat = [
         "Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?",
         "Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?",
         "Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?",
         "Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?",
         "outcome"
     ]
-
     t3 = time()
     for i in data.columns:  # vague
-        if i in not_to_cat:
+        if i in not_cat:
             continue
         for j in range(len(colNames.columns)):  # eg 0 - 104
+            opt = int(colNames.iloc[2, j])  # opt row value
             if (i == colNames.iloc[0, j]):  # j = column index
-                for k in range(12):  # 0 - 11 (rows)
+                for k in range(1, opt + 1):  # 1 to "opt" row value +1
                     if pd.isnull(colNames.iloc[k, j]):
                         break
                     for l in range(len(data)):  # 0 - 45000+ (rows)
                         if data[i][l] == k:  # Q1...== 0, 1 == 1
-                            data[i][l] = colNames.iloc[k, j]
+                            # k+1 because "cat" and "opt" rows is row 1 and 2
+                            data[i][l] = colNames.iloc[k + 2, j]
+                        if not isinstance(data[i][l], str) and not pd.isnull(data[i][l]):
+                            if int(data[i][l]) > opt:
+                                data[i][l] = None
+                            elif data[i][l] == 0:
+                                data[i][l] = None
     t4 = time()
     print(time_e(t3, t4, v="change values in catagorical columns"))
 
@@ -241,7 +247,7 @@ def categorise(data):
               long_columns, axis=1, inplace=True)
 
     # catagorical columns (everything other than the non_categorical columns)
-    categorical_cols = [col for col in data.columns if col not in not_to_cat]
+    categorical_cols = [col for col in data.columns if col not in not_cat]
 
     from sklearn.preprocessing import OneHotEncoder
 
@@ -271,7 +277,7 @@ def categorise(data):
     return data
 
 
-def main(retained=False):
+def main(data=data, retained=False):
     """
     Main function
     retained: True/False
@@ -282,8 +288,15 @@ def main(retained=False):
 
     """
     st = time()
-    # Load the data
-    data = load_data(retained=retained)
+
+    # Age categorisation
+    data = age_cat(data)
+
+    # Correct the systematic error
+    data = correct_sys_err(data)
+
+    # Load the column names
+    data = load_col_names(data)
 
     # Clean the data
     data = clean_data(data, retained=retained)
@@ -291,9 +304,7 @@ def main(retained=False):
     if retained == False:
         mst = time()
         # Using MICE to impute missing values
-        for col in data.columns:
-            impulated = mice(data, [col])
-            data.loc[:, col] = impulated
+        data = mice(data, data.columns)
         met = time()
         print(time_e(mst, met, v="complete MICE imputation"))
 
