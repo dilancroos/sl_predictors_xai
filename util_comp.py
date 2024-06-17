@@ -8,6 +8,7 @@ from sklearn.impute import IterativeImputer
 data = pd.read_csv("data/BST_V1toV10.csv", header=0, sep=";")
 colNames = pd.read_csv("data/colNames.csv", sep=";",
                        header=0, index_col=0, encoding='MacRoman')
+retained_cols = pd.read_csv("data/retained.csv", header=None)
 
 
 def time_e(st, et, v="cell"):
@@ -22,10 +23,24 @@ def time_e(st, et, v="cell"):
     return f"Elapsed time to compute {v}: {minutes:.0f} minutes and {seconds:.0f} seconds"
 
 
-def load_data(data=data, colNames=colNames):
+def load_data(data=data, colNames=colNames, retained=False):
     """
     Load the data from the CSV file
+    Return: DataFrame
+
+    ---
+    data: DataFrame = data/BST_V1toV10.csv
+    colNames: DataFrame = data/colNames.csv
+    retained: bool = False (Default) -> if True, only the retained columns are used
+
     """
+
+    if retained == True:
+        ret_cols = [i for i in retained_cols[0]]
+        for j in data.columns:
+            if j not in ret_cols:
+                data.drop(j, axis=1, inplace=True)
+
     st = time()
     for i in data.columns:  # vague
         for j in range(len(colNames.columns)):  # eg 0 - 104
@@ -33,13 +48,19 @@ def load_data(data=data, colNames=colNames):
                 data.rename(columns={i: colNames.iloc[0, j]}, inplace=True)
     et = time()
     print(time_e(st, et, v="data loading"))
+
     return data
 
 
-def clean_data(data):
+def clean_data(data, retained=False):
     """
     Clean the data
     Return: DataFrame
+
+    ---
+    data: DataFrame
+    retained: bool = False (Default) -> if True, only the retained columns are used
+
     """
     st = time()
     # Change AGE to categorical
@@ -78,29 +99,37 @@ def clean_data(data):
         # if the value is 0, change the value to NaN
         data.loc[data[col] == 0, col] = None
 
-    # No response category values changed to NaN
-    q58_cols = [
-        'Q58- For each of these drinks, indicate whether you consume them:-Every day',
-        'Q58- For each of these drinks, indicate whether you consume them:-At least once a week'
-    ]
+    if retained == False:
+        # No response category values changed to NaN
+        q58_cols = [
+            'Q58- For each of these drinks, indicate whether you consume them:-Every day',
+            'Q58- For each of these drinks, indicate whether you consume them:-At least once a week'
+        ]
 
-    for col in q58_cols:
-        data.loc[data[col] == 4, col] = None
+        for col in q58_cols:
+            data.loc[data[col] == 4, col] = None
 
-    # Q22 systematic error correction
-    # increasing the value by 1
-    sys_err_cols = [
-        "Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession",
-        "Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business",
-        "Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company",
-        "Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment"
-    ]
+        # Q22 systematic error correction
+        # increasing the value by 1
+        sys_err_cols = [
+            "Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession",
+            "Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business",
+            "Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company",
+            "Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment"
+        ]
 
-    for col in sys_err_cols:
-        for i in range(len(data[col])):
-            data.loc[i, col] = data.loc[i, col] + 1
-    et = time()
-    print(time_e(st, et, v="data cleaning"))
+        for col in sys_err_cols:
+            for i in range(len(data[col])):
+                data.loc[i, col] = data.loc[i, col] + 1
+        et = time()
+        print(time_e(st, et, v="data cleaning"))
+
+    if retained == True:
+        st = time()
+        # Drop the rows with missing values
+        data.dropna(inplace=True)
+        et = time()
+        print(time_e(st, et, v="drop missing values"))
 
     return data
 
@@ -108,6 +137,12 @@ def clean_data(data):
 def mice(data, col):
     """
     Impute the missing values using MICE
+    Return: DataFrame
+
+    ---
+    data: DataFrame
+    col: list = column names
+
     """
     st = time()
     imp = IterativeImputer(max_iter=10, random_state=0)
@@ -124,6 +159,15 @@ def mice(data, col):
 
 
 def categorise(data):
+    """
+    Categorise the data
+    Return: DataFrame
+
+    ---
+    data: DataFrame
+
+    """
+
     vShort_column = [
         'MONS ARRESTS FOR 3 DAYS'
     ]
@@ -141,7 +185,7 @@ def categorise(data):
     data['outcome'] = 0
 
     t1 = time()
-    for i in range(len(data[long_columns[0]])):
+    for i in range(len(data)):
         for j in range(len(long_columns)):
             if data.loc[i, long_columns[j]] == 2:
                 data.loc[i, 'outcome'] = 2  # Long Sick Leave
@@ -227,24 +271,31 @@ def categorise(data):
     return data
 
 
-def main():
+def main(retained=False):
     """
     Main function
+    retained: True/False
+    Return: DataFrame
+
+    ---
+    retained: bool = False (Default) -> if True, only the retained columns are used
+
     """
     st = time()
     # Load the data
-    data = load_data()
+    data = load_data(retained=retained)
 
     # Clean the data
-    data = clean_data(data)
+    data = clean_data(data, retained=retained)
 
-    mst = time()
-    # Using MICE to impute missing values
-    for col in data.columns:
-        impulated = mice(data, [col])
-        data.loc[:, col] = impulated
-    met = time()
-    print(time_e(mst, met, v="complete MICE imputation"))
+    if retained == False:
+        mst = time()
+        # Using MICE to impute missing values
+        for col in data.columns:
+            impulated = mice(data, [col])
+            data.loc[:, col] = impulated
+        met = time()
+        print(time_e(mst, met, v="complete MICE imputation"))
 
     # Categorise the data
     data = categorise(data)
