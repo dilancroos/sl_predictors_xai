@@ -10,6 +10,15 @@ colNames = pd.read_csv("data/colNames.csv", sep=";",
                        header=0, index_col=0, encoding='MacRoman')
 retained_cols = pd.read_csv("data/retained.csv", header=None)
 
+# non-catagorical columns
+not_cat = [
+    "Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?",
+    "Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?",
+    "Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?",
+    "Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?",
+    "outcome"
+]
+
 
 def time_e(st, et, v="cell"):
     """
@@ -212,14 +221,6 @@ def categorise(data):
     t2 = time()
     print(time_e(t1, t2, v="categorisation of outcome column"))
 
-    # non-catagorical columns
-    not_cat = [
-        "Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?",
-        "Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?",
-        "Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?",
-        "Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?",
-        "outcome"
-    ]
     t3 = time()
     for i in data.columns:  # vague
         if i in not_cat:
@@ -245,6 +246,19 @@ def categorise(data):
     # drop the columns that were used to create the outcome column
     data.drop(vShort_column + short_columns +
               long_columns, axis=1, inplace=True)
+
+    return data
+
+
+def one_hot_encode(data):
+    """
+    One hot encode the data
+    Return: DataFrame
+
+    ---
+    data: DataFrame
+
+    """
 
     # catagorical columns (everything other than the non_categorical columns)
     categorical_cols = [col for col in data.columns if col not in not_cat]
@@ -277,14 +291,16 @@ def categorise(data):
     return data
 
 
-def main(data=data, retained=False):
+def main(data=data, retained=False, one_hot=False):
     """
     Main function
-    retained: True/False
+    retained: True/False 
     Return: DataFrame
 
     ---
-    retained: bool = False (Default) -> if True, only the retained columns are used
+    data: DataFrame - (Default) data/BST_V1toV10.csv
+    retained: bool  - (Default) False 
+                    -> if True, only the retained columns are used
 
     """
     st = time()
@@ -310,6 +326,11 @@ def main(data=data, retained=False):
 
     # Categorise the data
     data = categorise(data)
+
+    if one_hot:
+        # One hot encode the data
+        data = one_hot_encode(data)
+
     et = time()
     print(time_e(st, et, v="Full process"))
 
