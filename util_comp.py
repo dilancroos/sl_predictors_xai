@@ -163,7 +163,7 @@ def mice(data, columns, clip=False):
     return data
 
 
-def categorise(data):
+def categorise(data, string_issue=False):
     """
     Categorise the data
     Return: DataFrame
@@ -219,27 +219,48 @@ def categorise(data):
     t2 = time()
     print(time_e(t1, t2, v="categorisation of outcome column"))
 
-    t3 = time()
-    for i in data.columns:  # vague
-        if i in not_cat:
-            continue
-        for j in range(len(colNames.columns)):  # eg 0 - 104
-            opt = int(colNames.iloc[2, j])  # opt row value
-            if (i == colNames.iloc[0, j]):  # j = column index
-                for k in range(1, opt + 1):  # 1 to "opt" row value +1
-                    if pd.isnull(colNames.iloc[k, j]):
-                        break
-                    for l in range(len(data)):  # 0 - 45000+ (rows)
-                        if data[i][l] == k:  # Q1...== 0, 1 == 1
-                            # k+1 because "cat" and "opt" rows is row 1 and 2
-                            data[i][l] = colNames.iloc[k + 2, j]
-                        if not isinstance(data[i][l], str) and not pd.isnull(data[i][l]):
-                            if int(data[i][l]) > opt:
-                                data[i][l] = None
-                            elif data[i][l] == 0:
-                                data[i][l] = None
-    t4 = time()
-    print(time_e(t3, t4, v="change values in catagorical columns"))
+    if string_issue == False:
+        t3 = time()
+        for i in data.columns:  # vague
+            if i in not_cat:
+                continue
+            for j in range(len(colNames.columns)):  # eg 0 - 104
+                opt = int(colNames.iloc[2, j])  # opt row value
+                if (i == colNames.iloc[0, j]):  # j = column index
+                    for k in range(1, opt + 1):  # 1 to "opt" row value +1
+                        if pd.isnull(colNames.iloc[k, j]):
+                            break
+                        for l in range(len(data)):  # 0 - 45000+ (rows)
+                            if data[i][l] == k:  # Q1...== 0, 1 == 1
+                                # k+1 because "cat" and "opt" rows is row 1 and 2
+                                data[i][l] = colNames.iloc[k + 2, j]
+                            if not isinstance(data[i][l], str) and not pd.isnull(data[i][l]):
+                                if int(data[i][l]) > opt:
+                                    data[i][l] = None
+                                elif data[i][l] == 0:
+                                    data[i][l] = None
+        t4 = time()
+        print(time_e(t3, t4, v="change values in catagorical columns"))
+
+    else:  # if string_issue == True
+        t3 = time()
+        for i in data.columns:  # vague
+            if i in not_cat:
+                continue
+            for j in range(len(colNames.columns)):  # eg 0 - 104
+                if (i == colNames.iloc[0, j]):  # j = column index
+                    opt = int(colNames.iloc[2, j])  # opt row value
+                    for k in range(1, opt + 1):  # 1 to "opt" row value +1
+                        if pd.isnull(colNames.iloc[k, j]):
+                            break
+                        for l in range(len(data)):  # 0 - 45000+ (rows)
+                            if not isinstance(data[i][l], str) and not pd.isnull(data[i][l]):
+                                if int(data[i][l]) > opt:
+                                    data[i][l] = None
+                                elif data[i][l] == 0:
+                                    data[i][l] = None
+        t4 = time()
+        print(time_e(t3, t4, v="change values > opt"))
 
     # drop the columns that were used to create the outcome column
     data.drop(vShort_column + short_columns +
@@ -289,16 +310,22 @@ def one_hot_encode(data):
     return data
 
 
-def main(data=data, retained=False, one_hot=False):
+def main(data=data, retained=False, one_hot=False, string_issue=False):
     """
     Main function
     retained: True/False 
+    one_hot: True/False
+    string_issue: True/False
     Return: DataFrame
 
     ---
     data: DataFrame - (Default) data/BST_V1toV10.csv
     retained: bool  - (Default) False 
                     -> if True, only the retained columns are used
+    one_hot: bool - (Default) False
+                    -> if True, one hot encoding is used
+    string_issue: bool - (Default) False
+                    -> if True, the data will NOT be changed to string values.
 
     """
     st = time()
@@ -323,7 +350,7 @@ def main(data=data, retained=False, one_hot=False):
         print(time_e(mst, met, v="complete MICE imputation"))
 
     # Categorise the data
-    data = categorise(data)
+    data = categorise(data, string_issue)
 
     if one_hot:
         # One hot encode the data
