@@ -4,6 +4,8 @@ from time import time
 # MICE imputer
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import f1_score, accuracy_score, roc_auc_score, confusion_matrix, classification_report
 
 data = pd.read_csv("data/BST_V1toV10.csv", header=0, sep=";")
 colNames = pd.read_csv("data/colNames.csv", sep=";",
@@ -140,8 +142,7 @@ def mice(data, columns, clip=False):
     col: list = column names
 
     """
-    st = time()
-
+    # Initialize the IterativeImputer
     imputer = IterativeImputer(random_state=100, max_iter=10,
                                n_nearest_features=1, sample_posterior=True, min_value=1)
 
@@ -158,9 +159,6 @@ def mice(data, columns, clip=False):
 
     # replace the original dataset with the imputed dataset
     data.loc[:, columns] = df_imputed
-
-    et = time()
-    print(time_e(st, et, v="MICE imputation"))
 
     return data
 
@@ -197,22 +195,22 @@ def categorise(data):
     for i in range(len(data)):
         for j in range(len(long_columns)):
             if data[long_columns[j]][i] == 2:
-                data['outcome'][i] = 2  # Long Sick Leave
+                data['outcome'][i] = 3  # Long Sick Leave
+                break
+
+        if data.loc[i, 'outcome'] == 3:
+            continue
+
+        for k in range(len(short_columns)):
+            if data.loc[i, short_columns[k]] == 2:
+                data.loc[i, 'outcome'] = 2  # Short Sick Leave
                 break
 
         if data.loc[i, 'outcome'] == 2:
             continue
 
-        for k in range(len(short_columns)):
-            if data.loc[i, short_columns[k]] == 2:
-                data.loc[i, 'outcome'] = 1  # Short Sick Leave
-                break
-
-        if data.loc[i, 'outcome'] == 1:
-            continue
-
         if data.loc[i, vShort_column[0]] == 2:
-            data.loc[i, 'outcome'] = 0  # Very Short Sick Leave
+            data.loc[i, 'outcome'] = 1  # Very Short Sick Leave
             continue
 
         # if does not fall into any of the above categories, set the value to NaN
@@ -335,3 +333,39 @@ def main(data=data, retained=False, one_hot=False):
     print(time_e(st, et, v="Full process"))
 
     return data
+
+
+def train_random_forests(num_forests, num_trees, X_train, y_train, X_test, y_test):
+    models = []
+    test_accuracies = []
+
+    for i in range(num_forests):
+        # Initialize the Random Forest model
+        t1 = time()
+        rf = RandomForestClassifier(
+            n_estimators=num_trees, random_state=i, class_weight='balanced')
+
+        # Train the model
+        rf.fit(X_train, y_train)
+
+        # Predict using the trained model
+        y_pred = rf.predict(X_test)
+
+        # Predict probabilities
+        y_pred_proba = rf.predict_proba(X_test)
+
+        # Calculate accuracy (or any other performance metric)
+
+        test_accuracy = accuracy_score(y_test, y_pred)
+        train_accuracy = accuracy_score(y_train, rf.predict(X_train))
+        # confusion matrix: \n{confusion_matrix(y_test, y_pred)} \n
+
+        # Store the trained model and its accuracy
+        models.append(rf)
+        test_accuracies.append(test_accuracy)
+
+        print(
+            f"Forest {i+1}/{num_forests} trained with \ntest accuracy: {test_accuracy:.4f} \ntrain accuracy: {train_accuracy:.4f} \nROAUC: {roc_auc_score(y_test, y_pred_proba[:, 1])} \n{classification_report(y_test, y_pred)}\n")
+        t2 = time()
+        print(time_e(t1, t2, v=f"Random Forest {i+1}/{num_forests}"))
+    return models, test_accuracies
