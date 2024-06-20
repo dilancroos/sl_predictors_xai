@@ -107,11 +107,11 @@ def categorise(data):
     ]
 
     short_columns = [
-        'STOPS OF 3 TO 5 DAYS',
-        'STOPS OF MORE THAN 1 WEEK'
+        'STOPS OF 3 TO 5 DAYS'
     ]
 
     long_columns = [
+        'STOPS OF MORE THAN 1 WEEK',
         'ARRESTS OF MORE THAN 1 MONTH',
         '(V5 V9) Sick leave of more than 3 months'
     ]

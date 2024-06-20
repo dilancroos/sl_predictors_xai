@@ -180,11 +180,11 @@ def categorise(data, string_issue=False):
     ]
 
     short_columns = [
-        'STOPS OF 3 TO 5 DAYS',
-        'STOPS OF MORE THAN 1 WEEK'
+        'STOPS OF 3 TO 5 DAYS'
     ]
 
     long_columns = [
+        'STOPS OF MORE THAN 1 WEEK',
         'ARRESTS OF MORE THAN 1 MONTH',
         '(V5 V9) Sick leave of more than 3 months'
     ]
@@ -363,6 +363,20 @@ def main(data=data, retained=False, one_hot=False, string_issue=False):
 
 
 def train_random_forests(num_forests, num_trees, X_train, y_train, X_test, y_test):
+    """
+    Train Random Forests
+    Return: List, List
+
+    ---
+    num_forests: int - number of forests to train on the data - number of iterations
+    num_trees: int - number of trees in each forest - number of estimators
+    X_train: DataFrame - training data - features
+    y_train: DataFrame - training labels - target
+    X_test: DataFrame - testing data - features
+    y_test: DataFrame - testing labels - target
+
+    """
+
     models = []
     test_accuracies = []
 
@@ -395,4 +409,5 @@ def train_random_forests(num_forests, num_trees, X_train, y_train, X_test, y_tes
             f"Forest {i+1}/{num_forests} trained with \ntest accuracy: {test_accuracy:.4f} \ntrain accuracy: {train_accuracy:.4f} \nROAUC: {roc_auc_score(y_test, y_pred_proba[:, 1])} \n{classification_report(y_test, y_pred)}\n")
         t2 = time()
         print(time_e(t1, t2, v=f"Random Forest {i+1}/{num_forests}"))
+
     return models, test_accuracies
