@@ -6,6 +6,7 @@ from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, accuracy_score, roc_auc_score, confusion_matrix, classification_report
+from imblearn.over_sampling import SMOTE
 
 data = pd.read_csv("data/BST_V1toV10.csv", header=0, sep=";")
 colNames = pd.read_csv("data/colNames.csv", sep=";",
@@ -411,3 +412,27 @@ def train_random_forests(num_forests, num_trees, X_train, y_train, X_test, y_tes
         print(time_e(t1, t2, v=f"Random Forest {i+1}/{num_forests}"))
 
     return models, test_accuracies
+
+
+def smote(X_train, y_train):
+    """
+    Apply SMOTE to the training data to balance the classes
+    Return: DataFrame, DataFrame 
+
+    ---
+    X_train: DataFrame - training data - features
+    y_train: DataFrame - training labels - target
+
+    """
+    t1 = time()
+    # Apply SMOTE to the training data
+    smote = SMOTE(random_state=42, sampling_strategy='minority')
+    # Resample the training data only to prevent data leakage
+    X_train_res, y_train_res = smote.fit_resample(X_train, y_train)
+    t2 = time()
+
+    print(f"y_train: {y_train_res.value_counts()}")
+
+    print(time_e(t1, t2, v="oversampling using SMOTE"))
+
+    return X_train_res, y_train_res
