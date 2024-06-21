@@ -121,22 +121,22 @@ def categorise(data):
     for i in range(len(data[long_columns[0]])):
         for j in range(len(long_columns)):
             if data.loc[i, long_columns[j]] == 2:
-                data.loc[i, 'outcome'] = 2  # Long Sick Leave
+                data.loc[i, 'outcome'] = 3  # Long Sick Leave
+                break
+
+        if data.loc[i, 'outcome'] == 3:
+            continue
+
+        for k in range(len(short_columns)):
+            if data.loc[i, short_columns[k]] == 2:
+                data.loc[i, 'outcome'] = 2  # Short Sick Leave
                 break
 
         if data.loc[i, 'outcome'] == 2:
             continue
 
-        for k in range(len(short_columns)):
-            if data.loc[i, short_columns[k]] == 2:
-                data.loc[i, 'outcome'] = 1  # Short Sick Leave
-                break
-
-        if data.loc[i, 'outcome'] == 1:
-            continue
-
         if data.loc[i, vShort_column[0]] == 2:
-            data.loc[i, 'outcome'] = 0  # Very Short Sick Leave
+            data.loc[i, 'outcome'] = 1  # Very Short Sick Leave
             continue
 
         # if does not fall into any of the above categories, set the value to NaN
