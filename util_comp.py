@@ -8,6 +8,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, accuracy_score, roc_auc_score, confusion_matrix, classification_report
 from imblearn.over_sampling import SMOTE
 
+# Makes sure we see all columns
+pd.set_option('display.max_columns', None)
+
 data = pd.read_csv("data/BST_V1toV10.csv", header=0, sep=";")
 colNames = pd.read_csv("data/colNames.csv", sep=";",
                        header=0, index_col=0, encoding='MacRoman')
@@ -363,18 +366,18 @@ def main(data=data, retained=False, one_hot=False, string_issue=False):
     return data
 
 
-def train_random_forests(num_forests, num_trees, X_train, y_train, X_test, y_test):
+def train_random_forests(X_train, y_train, X_test, y_test, num_forests=1, num_trees=100):
     """
     Train Random Forests
     Return: List, List
 
     ---
-    num_forests: int - number of forests to train on the data - number of iterations
-    num_trees: int - number of trees in each forest - number of estimators
     X_train: DataFrame - training data - features
     y_train: DataFrame - training labels - target
     X_test: DataFrame - testing data - features
     y_test: DataFrame - testing labels - target
+    num_forests: int - number of forests to train (Default) 1
+    num_trees: int - number of trees in each forest (Default) 100
 
     """
 
@@ -431,7 +434,7 @@ def smote(X_train, y_train):
     X_train_res, y_train_res = smote.fit_resample(X_train, y_train)
     t2 = time()
 
-    print(f"y_train: {y_train_res.value_counts()}")
+    print(f"y_train: \n{y_train_res.value_counts()}")
 
     print(time_e(t1, t2, v="oversampling using SMOTE"))
 
