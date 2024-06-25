@@ -1,427 +1,427 @@
-feature,cluster,corr,abs_corr
-"('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_Completetly',)",1,0.126,0.126
-"('STATUS_Workers',)",1,0.123,0.123
-"('Q13- Is the performance of your work taxing on you?-To work in noise_Most of the time',)",1,0.118,0.118
-"('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_Most of the time',)",1,0.116,0.116
-"('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_Most of the time',)",1,0.112,0.112
-"('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_Most of the time',)",1,0.112,0.112
-"('Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury_Yes',)",1,0.1,0.1
-"('Q12- Do you work most often?_In a workshop, a technical room',)",1,0.097,0.097
-"('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_Most of the time',)",1,0.093,0.093
-"('Q14- During your work, are you in a situation? (Of-breathe toxic products or dust_Yes',)",1,0.088,0.088
-"('Q14- During your work, are you in a situation? (Of-risk a serious fall_Yes',)",1,0.082,0.082
-"('Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products_Yes',)",1,0.072,0.072
-"('Q13- Is the performance of your work taxing on you?-To work on screen_Rarely',)",1,0.043,0.043
-"('In which sector of activity do you work?_Industry',)",1,0.041,0.041
-"('Q37- How do you rate your state of health in general?_AVERAGE',)",2,0.145,0.145
-"('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_often',)",2,0.121,0.121
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee_Often',)",2,0.103,0.103
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_Not very confident',)",2,0.101,0.101
-"('Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)_often',)",2,0.1,0.1
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body_Often',)",2,0.098,0.098
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm_Often',)",2,0.091,0.091
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back_Often',)",2,0.087,0.087
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life_Unsatisfactory',)",2,0.068,0.068
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours_Unsatisfactory',)",2,0.067,0.067
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_Often',)",2,0.067,0.067
-"('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_Rather',)",2,0.066,0.066
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_Not very confident',)",2,0.061,0.061
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_Not very confident',)",2,0.054,0.054
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_Not very confident',)",2,0.043,0.043
-"('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_Often',)",2,0.037,0.037
-"('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_Often',)",2,0.034,0.034
-"('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_Yes, rather',)",2,0.029,0.029
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes_Often',)",2,0.029,0.029
-"('Q34- In your personal life, would you say:-I feel well surrounded_Rather not',)",2,0.027,0.027
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_Not very confident',)",2,0.022,0.022
-"('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_Often',)",2,0.02,0.02
-"('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_Rather',)",2,0.015,0.015
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_Not very confident',)",2,0.012,0.012
-"('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_Rather not',)",2,0.012,0.012
-"('Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently_Yes',)",3,0.212,0.212
-"('Q38- Did you:-Disabilities_Yes',)",3,0.173,0.173
-"('Q37- How do you rate your state of health in general?_Bad',)",3,0.161,0.161
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back_Permanently',)",3,0.152,0.152
-"('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_At least once a week',)",3,0.142,0.142
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm_Permanently',)",3,0.124,0.124
-"('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_Completetly',)",3,0.123,0.123
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee_Permanently',)",3,0.118,0.118
-"('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_permanently',)",3,0.118,0.118
-"('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_Very Often',)",3,0.106,0.106
-"('Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)_permanently',)",3,0.103,0.103
-"('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_Completetly',)",3,0.101,0.101
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_Not confident at all',)",3,0.089,0.089
-"('Q37- How do you rate your state of health in general?_Very bad',)",3,0.079,0.079
-"('Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely_Completetly',)",3,0.077,0.077
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body_Permanently',)",3,0.069,0.069
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_Not confident at all',)",3,0.068,0.068
-"('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_Very Often',)",3,0.067,0.067
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_Not confident at all',)",3,0.054,0.054
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_Permanently',)",3,0.054,0.054
-"('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_Very Often',)",3,0.05,0.05
-"('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_Yes quite',)",3,0.048,0.048
-"('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_Completetly',)",3,0.043,0.043
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_Not confident at all',)",3,0.036,0.036
-"('Q34- In your personal life, would you say:-I feel well surrounded_Not at all',)",3,0.025,0.025
-"('Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration_Completetly',)",3,0.023,0.023
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_Not confident at all',)",3,0.022,0.022
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes_Permanently',)",3,0.022,0.022
-"('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_Completetly',)",3,0.02,0.02
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_Not confident at all',)",3,0.017,0.017
-"('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_Not at all',)",3,0.01,0.01
-"('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_Not at all',)",4,0.116,0.116
-"('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_Not at all',)",4,0.094,0.094
-"('Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills_Not at all',)",4,0.089,0.089
-"('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_Not at all',)",4,0.089,0.089
-"('Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work_Not at all',)",4,0.087,0.087
-"('Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work_Not at all',)",4,0.085,0.085
-"('Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation_Not at all',)",4,0.078,0.078
-"('Q16- And for each of these sentences?-I would recommend my company to a friend_Not at all',)",4,0.077,0.077
-"('Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things_Not at all',)",4,0.074,0.074
-"('Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions_Not at all',)",4,0.073,0.073
-"('Q16- And for each of these sentences?-I am proud to work in my company_Not at all',)",4,0.071,0.071
-"('Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business_Not at all',)",4,0.046,0.046
-"('Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work_Not at all',)",4,0.01,0.01
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work_Unsatisfactory',)",5,0.109,0.109
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior_Unsatisfactory',)",5,0.107,0.107
-"(""Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization_Unsatisfactory"",)",5,0.1,0.1
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services_Unsatisfactory',)",5,0.097,0.097
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development_Unsatisfactory',)",5,0.096,0.096
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team_Unsatisfactory',)",5,0.093,0.093
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management_Unsatisfactory',)",5,0.093,0.093
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality_Unsatisfactory',)",5,0.092,0.092
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy_Unsatisfactory',)",5,0.086,0.086
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity_Unsatisfactory',)",5,0.085,0.085
-"('Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation_Rather not',)",5,0.084,0.084
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation_Unsatisfactory',)",5,0.082,0.082
-"('Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work_Rather not',)",5,0.074,0.074
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training_Unsatisfactory',)",5,0.066,0.066
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills_Unsatisfactory',)",5,0.064,0.064
-"('Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work_Rather not',)",5,0.063,0.063
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.)_Unsatisfactory',)",5,0.057,0.057
-"('Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills_Rather not',)",5,0.055,0.055
-"('Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things_Rather not',)",5,0.05,0.05
-"('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_Rather not',)",5,0.044,0.044
-"('Q16- And for each of these sentences?-I am proud to work in my company_Rather not',)",5,0.044,0.044
-"('Q16- And for each of these sentences?-I would recommend my company to a friend_Rather not',)",5,0.043,0.043
-"('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_Rather not',)",5,0.042,0.042
-"('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_Rather not',)",5,0.042,0.042
-"('Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions_Rather not',)",5,0.037,0.037
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company_Unsatisfactory',)",5,0.03,0.03
-"('Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business_Rather not',)",5,0.019,0.019
-"('Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work_Rather not',)",5,0.006,0.006
-"('Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury_No',)",6,-0.1,0.1
-"('STATUS_Frames',)",6,-0.093,0.093
-"('Q14- During your work, are you in a situation? (Of-breathe toxic products or dust_No',)",6,-0.088,0.088
-"('Q14- During your work, are you in a situation? (Of-risk a serious fall_No',)",6,-0.082,0.082
-"('Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?_No',)",6,-0.081,0.081
-"('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_Never',)",6,-0.081,0.081
-"('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_Never',)",6,-0.081,0.081
-"('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_Never',)",6,-0.079,0.079
-"('Q13- Is the performance of your work taxing on you?-To work on screen_Most of the time',)",6,-0.078,0.078
-"('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_Never',)",6,-0.073,0.073
-"('Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products_No',)",6,-0.073,0.073
-"('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_Rather not',)",6,-0.069,0.069
-"('Q13- Is the performance of your work taxing on you?-To work in noise_Never',)",6,-0.068,0.068
-"('Q12- Do you work most often?_In an office alone or in pairs',)",6,-0.055,0.055
-"('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_Not at all',)",6,-0.055,0.055
-"('In which sector of activity do you work?_Design office and engineering',)",6,-0.038,0.038
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work_Satisfying',)",7,-0.113,0.113
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior_Satisfying',)",7,-0.107,0.107
-"(""Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization_Satisfying"",)",7,-0.101,0.101
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development_Satisfying',)",7,-0.101,0.101
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services_Satisfying',)",7,-0.099,0.099
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management_Satisfying',)",7,-0.096,0.096
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team_Satisfying',)",7,-0.092,0.092
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality_Satisfying',)",7,-0.092,0.092
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy_Satisfying',)",7,-0.091,0.091
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity_Satisfying',)",7,-0.085,0.085
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation_Satisfying',)",7,-0.082,0.082
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life_Satisfying',)",7,-0.069,0.069
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training_Satisfying',)",7,-0.068,0.068
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours_Satisfying',)",7,-0.066,0.066
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills_Satisfying',)",7,-0.064,0.064
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.)_Satisfying',)",7,-0.062,0.062
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company_Satisfying',)",7,-0.03,0.03
-"('Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently_No',)",8,-0.212,0.212
-"('Q38- Did you:-Disabilities_No',)",8,-0.173,0.173
-"('Q37- How do you rate your state of health in general?_Good',)",8,-0.147,0.147
-"('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_Never',)",8,-0.14,0.14
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_Confident',)",8,-0.099,0.099
-"('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_Never',)",8,-0.092,0.092
-"('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_Rather',)",8,-0.083,0.083
-"('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_Rather',)",8,-0.082,0.082
-"('Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation_Rather',)",8,-0.074,0.074
-"('Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills_Rather',)",8,-0.07,0.07
-"('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_sometimes',)",8,-0.069,0.069
-"('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_Rather not',)",8,-0.067,0.067
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_Confident',)",8,-0.064,0.064
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_Confident',)",8,-0.064,0.064
-"('Q16- And for each of these sentences?-I would recommend my company to a friend_Rather',)",8,-0.061,0.061
-"('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_Rather not',)",8,-0.06,0.06
-"('Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work_Rather',)",8,-0.056,0.056
-"('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_Rather',)",8,-0.056,0.056
-"('Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)_sometimes',)",8,-0.056,0.056
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_Confident',)",8,-0.055,0.055
-"('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_Never',)",8,-0.05,0.05
-"('Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things_Rather',)",8,-0.049,0.049
-"('Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions_Rather',)",8,-0.044,0.044
-"('Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely_Rather not',)",8,-0.042,0.042
-"('Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work_Rather',)",8,-0.042,0.042
-"('Q16- And for each of these sentences?-I am proud to work in my company_Rather',)",8,-0.04,0.04
-"('Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration_Rather',)",8,-0.034,0.034
-"('Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business_Rather',)",8,-0.034,0.034
-"('Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?_No',)",8,-0.027,0.027
-"('Q34- In your personal life, would you say:-I feel well surrounded_Rather',)",8,-0.024,0.024
-"('Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely_Rather',)",8,-0.021,0.021
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_Confident',)",8,-0.02,0.02
-"('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_Rather',)",8,-0.016,0.016
-"('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_Rather not',)",8,-0.016,0.016
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_Confident',)",8,-0.011,0.011
-"('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_Rather',)",8,-0.011,0.011
-"('Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration_Rather not',)",8,0.01,0.01
-"('Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work_Rather',)",8,-0.01,0.01
-"('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_Rather not',)",8,-0.006,0.006
-"('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_Sometimes',)",8,-0.005,0.005
-"('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_No, rather not',)",8,-0.004,0.004
-"('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_Rather',)",8,-0.003,0.003
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I understand they are necessary',)",9,-0.101,0.101
-"('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_TOTAL YES',)",9,-0.093,0.093
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I understand they are necessary',)",9,-0.068,0.068
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I understand they are necessary',)",9,-0.062,0.062
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I understand they are necessary',)",9,-0.056,0.056
-"('What is the size of your business (in total, all locations combined)? 2009 fake_5000 employees and more',)",9,-0.052,0.052
-"('What is the size of your business (in total, all locations combined)? 2009 fake_1000 to 4999 employees',)",9,-0.046,0.046
-"('In which sector of activity do you work?_Wholesale trade (all businesses in 206)',)",9,-0.027,0.027
-"('Q42-During the last 12 months have you had a work accident?_Yes',)",10,0.208,0.208
-"('Q42-During the last 12 months have you had a work accident?_No',)",10,-0.207,0.207
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back_Sometimes',)",10,-0.101,0.101
-"('Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?_Yes',)",10,0.081,0.081
-"('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_Never',)",10,-0.057,0.057
-"('Q13- Is the performance of your work taxing on you?-To work on screen_Never',)",10,0.055,0.055
-"('Would you say that over the last 12 months, your pace of work has:_Slow motion',)",10,0.052,0.052
-"('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_Alcoholic beverages',)",10,-0.051,0.051
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm_Sometimes',)",10,-0.05,0.05
-"('What is the size of your business (in total, all locations combined)? 2009 fake_Less than 10 employees',)",10,-0.049,0.049
-"('Q13- Is the performance of your work taxing on you?-To work in noise_Rarely',)",10,-0.048,0.048
-"('Q60- Are you a smoker?_No',)",10,-0.047,0.047
-"('Q60- Are you a smoker?_Yes',)",10,0.047,0.047
-"('Q1- Your sex?_A man',)",10,-0.044,0.044
-"('Q1- Your sex?_A woman',)",10,0.044,0.044
-"('What is the size of your business (in total, all locations combined)? 2009 fake_50 to 249 employees',)",10,0.044,0.044
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body_Sometimes',)",10,0.044,0.044
-"('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_Several times a month',)",10,0.044,0.044
-"('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_Rarely',)",10,-0.042,0.042
-"('Would you say that over the last 12 months, your pace of work has:_Stabilized',)",10,-0.04,0.04
-"('Q12- Do you work most often?_At home teleworking',)",10,-0.039,0.039
-"('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_None',)",10,0.039,0.039
-"('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_Rarely',)",10,-0.038,0.038
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I make sure to adapt',)",10,0.038,0.038
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I make sure to adapt',)",10,0.038,0.038
-"('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_Less than once a month',)",10,0.038,0.038
-"('Q2- How old are you?_18 - 30',)",10,-0.036,0.036
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_Sometimes',)",10,-0.036,0.036
-"('Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?_Yes, who lives elsewhere',)",10,0.035,0.035
-"('Q12- Do you work most often?_Outside-outside',)",10,0.035,0.035
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I am involved upstream, we integrate my point of view',)",10,0.035,0.035
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I make sure to adapt',)",10,0.034,0.034
-"('What is the size of your business (in total, all locations combined)? 2009 fake_250 to 999 employees',)",10,0.033,0.033
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I am involved upstream, we integrate my point of view',)",10,-0.033,0.033
-"('Q2- How old are you?_50 - 55',)",10,0.032,0.032
-"('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_Not at all',)",10,-0.032,0.032
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development_None',)",10,0.031,0.031
-"('In which sector of activity do you work?_Human health and social action',)",10,0.03,0.03
-"(""Would you say that over the last 12 months, your company's activity has:_Slow down"",)",10,0.03,0.03
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy_None',)",10,0.03,0.03
-"('Q12- Do you work most often?_In an open space, a tray',)",10,-0.029,0.029
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I benefit from support in implementation (training, communication, etc.)',)",10,-0.029,0.029
-"('STATUS_AM Technicians',)",10,-0.028,0.028
-"('Q12- Do you work most often?_In a shared office (3 to 5 people)',)",10,-0.028,0.028
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I adhere to the directions chosen by my company',)",10,0.028,0.028
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_They come back too often',)",10,-0.028,0.028
-"('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_Rarely',)",10,-0.027,0.027
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I make sure to adapt',)",10,0.027,0.027
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I benefit from support in implementation (training, communication, etc.)',)",10,0.026,0.026
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I adhere to the directions chosen by my company',)",10,0.025,0.025
-"('Q58- For each of these drinks, indicate whether you consume them:-Every day_Sodas',)",10,0.025,0.025
-"('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_Occasionally',)",10,0.024,0.024
-"(""Would you say that over the last 12 months, your company's activity has:_Accelerated"",)",10,-0.022,0.022
-"(""Would you say that over the last 12 months, your company's activity has:_Stabilized"",)",10,-0.022,0.022
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work_None',)",10,0.021,0.021
-"('Q57- How do you most frequently eat your midday meal?_In the canteen or company restaurant',)",10,-0.021,0.021
-"('Q57- How do you most frequently eat your midday meal?_When going to a restaurant, brasserie, snack bar',)",10,-0.021,0.021
-"Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?",10,-0.02,0.02
-"('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_Rarely',)",10,-0.02,0.02
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I adhere to the directions chosen by my company',)",10,0.02,0.02
-"('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_None',)",10,-0.02,0.02
-"('Q12- Do you work most often?_None',)",10,-0.019,0.019
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services_None',)",10,0.019,0.019
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.)_None',)",10,0.019,0.019
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I benefit from support in implementation (training, communication, etc.)',)",10,0.019,0.019
-"('Q25-Your workplace-home transportation time (round trip) is:_More than 3 hours per day',)",10,0.018,0.018
-"Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?",10,-0.017,0.017
-"('In which sector of activity do you work?_Services',)",10,-0.017,0.017
-"('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_Occasionally',)",10,0.017,0.017
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management_None',)",10,0.017,0.017
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I am involved upstream, we integrate my point of view',)",10,0.017,0.017
-"('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_Once a month',)",10,0.017,0.017
-"('Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely_Not at all',)",10,-0.016,0.016
-"('Q25-Your workplace-home transportation time (round trip) is:_Less than 1 hour per day',)",10,-0.016,0.016
-"(""Would you say that over the last 12 months, your company's activity has:_None"",)",10,0.015,0.015
-"('Q13- Is the performance of your work taxing on you?-To work on screen_Occasionally',)",10,0.015,0.015
-"('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_Sometimes',)",10,0.015,0.015
-"('Q58- For each of these drinks, indicate whether you consume them:-Every day_None',)",10,-0.015,0.015
-"('Q2- How old are you?_30 - 39',)",10,-0.014,0.014
-"('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_None',)",10,0.014,0.014
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training_None',)",10,0.014,0.014
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I adhere to the directions chosen by my company',)",10,0.014,0.014
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_None',)",10,0.014,0.014
-"('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_Sodas',)",10,0.014,0.014
-"Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?",10,-0.013,0.013
-"('Q2- How old are you?_56 - 70',)",10,0.013,0.013
-"('Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration_Not at all',)",10,0.013,0.013
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I understand they are necessary',)",10,0.013,0.013
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_They come back too often',)",10,-0.013,0.013
-"('Q57- How do you most frequently eat your midday meal?_By bringing your meal from home',)",10,0.013,0.013
-"('Q12- Do you work most often?_In a vehicle',)",10,0.012,0.012
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I adhere to the directions chosen by my company',)",10,0.012,0.012
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee_Sometimes',)",10,-0.012,0.012
-"('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_Not at all',)",10,0.011,0.011
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I make sure to adapt',)",10,0.011,0.011
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I am involved upstream, we integrate my point of view',)",10,-0.011,0.011
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes_Sometimes',)",10,0.011,0.011
-"('Q57- How do you most frequently eat your midday meal?_When returning home',)",10,0.011,0.011
-"('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_Energy drinks (like Red Bull or Monster)',)",10,0.011,0.011
-"('STATUS_Employees',)",10,-0.01,0.01
-"(""Would you say that over the last 12 months, your company's activity has:_Do not know"",)",10,0.01,0.01
-"('Would you say that over the last 12 months, your pace of work has:_Accelerated',)",10,-0.01,0.01
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior_None',)",10,0.01,0.01
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_None',)",10,-0.01,0.01
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_They come back too often',)",10,0.01,0.01
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_They come back too often',)",10,0.01,0.01
-"('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_No not at all',)",10,-0.01,0.01
-"('Q58- For each of these drinks, indicate whether you consume them:-Every day_Energy drinks (like Red Bull or Monster)',)",10,-0.01,0.01
-"('In which sector of activity do you work?_Retail business',)",10,-0.009,0.009
-"('Q9- Are you working?_Part time',)",10,0.009,0.009
-"('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_Occasionally',)",10,-0.009,0.009
-"('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_Rather',)",10,0.009,0.009
-"('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_None',)",10,0.009,0.009
-"('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_None',)",10,0.009,0.009
-"('Q25-Your workplace-home transportation time (round trip) is:_Between 1 hour and 2 hours per day',)",10,0.009,0.009
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_None',)",10,0.009,0.009
-"('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_None',)",10,0.009,0.009
-"('Q38- Did you:-Disabilities_None',)",10,0.009,0.009
-"('Q57- How do you most frequently eat your midday meal?_While eating a sandwich',)",10,0.009,0.009
-"('Q58- For each of these drinks, indicate whether you consume them:-Every day_Alcoholic beverages',)",10,0.009,0.009
-"('Q61- Do you smoke cannabis, hashish, marijuana?_Once a week',)",10,0.009,0.009
-"('Q2- How old are you?_40 - 44',)",10,0.008,0.008
-"('Q2- How old are you?_None',)",10,0.008,0.008
-"('Q13- Is the performance of your work taxing on you?-To work in noise_Occasionally',)",10,-0.008,0.008
-"('Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury_None',)",10,0.008,0.008
-"('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_None',)",10,0.008,0.008
-"(""Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization_None"",)",10,0.008,0.008
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I benefit from support in implementation (training, communication, etc.)',)",10,-0.008,0.008
-"('Q42-During the last 12 months have you had a work accident?_None',)",10,-0.008,0.008
-"('Q58- For each of these drinks, indicate whether you consume them:-Every day_nan',)",10,0.008,0.008
-"('In which sector of activity do you work?_Other businesses',)",10,-0.007,0.007
-"('Q12- Do you work most often?_At customers',)",10,0.007,0.007
-"('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_Occasionally',)",10,0.007,0.007
-"('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_None',)",10,0.007,0.007
-"('Q2- How old are you?_45 - 49',)",10,0.006,0.006
-"('What is the size of your business (in total, all locations combined)? 2009 fake_10 to 49 employees',)",10,-0.006,0.006
-"('Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?_None',)",10,0.006,0.006
-"('Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products_None',)",10,0.006,0.006
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_They come back too often',)",10,0.006,0.006
-"('Q25-Your workplace-home transportation time (round trip) is:_From 2 hours to 3 hours per day',)",10,0.006,0.006
-"('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_nan',)",10,0.006,0.006
-"('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_None',)",10,0.006,0.006
-"('Q1- Your sex?_None',)",10,0.005,0.005
-"('In which sector of activity do you work?_Transport, energy, telecommunications',)",10,0.005,0.005
-"('Q14- During your work, are you in a situation? (Of-breathe toxic products or dust_None',)",10,0.005,0.005
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_None',)",10,-0.005,0.005
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_None',)",10,0.005,0.005
-"('Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently_None',)",10,-0.005,0.005
-"('Q61- Do you smoke cannabis, hashish, marijuana?_Less than once a month',)",10,-0.005,0.005
-"Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?",10,-0.004,0.004
-"('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_None',)",10,0.004,0.004
-"('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_None',)",10,-0.004,0.004
-"('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_Sometimes',)",10,0.004,0.004
-"('Q61- Do you smoke cannabis, hashish, marijuana?_Once a month',)",10,-0.004,0.004
-"('In which sector of activity do you work?_Construction',)",10,0.003,0.003
-"('Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?_Yes, who lives with me',)",10,-0.003,0.003
-"('Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?_None',)",10,0.003,0.003
-"('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_None',)",10,-0.003,0.003
-"('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_nan',)",10,-0.003,0.003
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team_None',)",10,-0.003,0.003
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life_None',)",10,0.003,0.003
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company_None',)",10,-0.003,0.003
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I am involved upstream, we integrate my point of view',)",10,0.003,0.003
-"('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_nan',)",10,0.003,0.003
-"(""Would you say that over the last 12 months, your company's activity has:_nan"",)",10,-0.002,0.002
-"('Q12- Do you work most often?_In a commercial premises or agency',)",10,-0.002,0.002
-"('Q14- During your work, are you in a situation? (Of-risk a serious fall_None',)",10,-0.002,0.002
-"('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_None',)",10,-0.002,0.002
-"('Q16- And for each of these sentences?-I am proud to work in my company_None',)",10,0.002,0.002
-"('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_None',)",10,-0.002,0.002
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours_None',)",10,-0.002,0.002
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I benefit from support in implementation (training, communication, etc.)',)",10,0.002,0.002
-"('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_None',)",10,0.002,0.002
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_None',)",10,-0.002,0.002
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_nan',)",10,-0.002,0.002
-"('Q61- Do you smoke cannabis, hashish, marijuana?_Never',)",10,0.002,0.002
-"('Q12- Do you work most often?_In a shared work space - co-working',)",10,-0.001,0.001
-"('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_None',)",10,0.001,0.001
-"('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_None',)",10,-0.001,0.001
-"('Q13- Is the performance of your work taxing on you?-To work in noise_None',)",10,0.001,0.001
-"('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_None',)",10,-0.001,0.001
-"('Would you say that over the last 12 months, your pace of work has:_Do not know',)",10,-0.001,0.001
-"('Would you say that over the last 12 months, your pace of work has:_None',)",10,-0.001,0.001
-"('Q16- And for each of these sentences?-I would recommend my company to a friend_None',)",10,-0.001,0.001
-"('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_nan',)",10,0.001,0.001
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation_None',)",10,0.001,0.001
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills_None',)",10,0.001,0.001
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality_None',)",10,0.001,0.001
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_None',)",10,0.001,0.001
-"('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_None',)",10,0.001,0.001
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_None',)",10,0.001,0.001
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_None',)",10,0.001,0.001
-"('Q57- How do you most frequently eat your midday meal?_None',)",10,0.001,0.001
-"('Q60- Are you a smoker?_None',)",10,-0.001,0.001
-"('Q13- Is the performance of your work taxing on you?-To work on screen_None',)",10,-0.0,0.0
-"('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity_None',)",10,-0.0,0.0
-"('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_TOTAL NO',)",10,-0.0,0.0
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_None',)",10,0.0,0.0
-"('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_None',)",10,-0.0,0.0
-"('Q61- Do you smoke cannabis, hashish, marijuana?_Every day or almost',)",10,0.0,0.0
-"('Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work_Completetly',)",11,-0.059,0.059
-"('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_Completetly',)",11,-0.055,0.055
-"('Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation_Completetly',)",11,-0.045,0.045
-"('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_Completetly',)",11,-0.043,0.043
-"('Q16- And for each of these sentences?-I am proud to work in my company_Completetly',)",11,-0.043,0.043
-"('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_Completetly',)",11,-0.042,0.042
-"('Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills_Completetly',)",11,-0.041,0.041
-"('Q16- And for each of these sentences?-I would recommend my company to a friend_Completetly',)",11,-0.039,0.039
-"('Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things_Completetly',)",11,-0.038,0.038
-"('Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work_Completetly',)",11,-0.038,0.038
-"('Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions_Completetly',)",11,-0.026,0.026
-"('Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business_Completetly',)",11,-0.007,0.007
-"('Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work_Completetly',)",11,0.003,0.003
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body_Never',)",12,-0.116,0.116
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee_Never',)",12,-0.113,0.113
-"('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_Never',)",12,-0.103,0.103
-"('Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)_Never',)",12,-0.098,0.098
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm_Never',)",12,-0.097,0.097
-"('Q37- How do you rate your state of health in general?_Very good',)",12,-0.092,0.092
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back_Never',)",12,-0.081,0.081
-"('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_Not at all',)",12,-0.078,0.078
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_Never',)",12,-0.044,0.044
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_Very confident',)",12,-0.037,0.037
-"('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes_Never',)",12,-0.037,0.037
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_Very confident',)",12,-0.036,0.036
-"('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_Not at all',)",12,-0.032,0.032
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_Very confident',)",12,-0.031,0.031
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_Very confident',)",12,-0.014,0.014
-"('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_Very confident',)",12,-0.011,0.011
-"('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_Very confident',)",12,0.003,0.003
-"('Q34- In your personal life, would you say:-I feel well surrounded_Completetly',)",12,-0.002,0.002
-"('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_Completetly',)",12,-0.002,0.002
+feature;cluster;corr;abs_corr
+('Q13- Is the performance of your work taxing on you?-To work in noise_Most of the time',);1;0.116;0.116
+('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_Completetly',);1;0.107;0.107
+('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_Most of the time',);1;0.103;0.103
+('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_Most of the time',);1;0.095;0.095
+('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_Most of the time',);1;0.094;0.094
+('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_Most of the time',);1;0.08;0.08
+('STATUS_Workers',);2;0.104;0.104
+('Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury_Yes',);2;0.091;0.091
+('Q12- Do you work most often?_In a workshop, a technical room',);2;0.087;0.087
+('Q14- During your work, are you in a situation? (Of-breathe toxic products or dust_Yes',);2;0.08;0.08
+('Q14- During your work, are you in a situation? (Of-risk a serious fall_Yes',);2;0.067;0.067
+('Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products_Yes',);2;0.063;0.063
+('In which sector of activity do you work?_Industry',);2;0.042;0.042
+('Q13- Is the performance of your work taxing on you?-To work on screen_Rarely',);2;0.032;0.032
+('Q37- How do you rate your state of health in general?_AVERAGE',);3;0.147;0.147
+('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_often',);3;0.132;0.132
+('Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)_often',);3;0.103;0.103
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee_Often',);3;0.102;0.102
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_Not very confident',);3;0.101;0.101
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm_Often',);3;0.1;0.1
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back_Often',);3;0.099;0.099
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body_Often',);3;0.092;0.092
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_Often',);3;0.083;0.083
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes_Often',);3;0.041;0.041
+('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_Rather',);4;0.066;0.066
+('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_Not very confident',);4;0.062;0.062
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_Not very confident',);4;0.057;0.057
+('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_Not very confident',);4;0.045;0.045
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_Not very confident',);4;0.026;0.026
+('Q34- In your personal life, would you say:-I feel well surrounded_Rather not',);4;0.024;0.024
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_Not very confident',);4;0.019;0.019
+('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_Rather',);4;0.015;0.015
+('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_Rather not',);4;0.012;0.012
+('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_Often',);5;0.04;0.04
+('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_Often',);5;0.028;0.028
+('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_Often',);5;0.014;0.014
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life_Unsatisfactory',);6;0.069;0.069
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours_Unsatisfactory',);6;0.067;0.067
+('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_Yes, rather',);6;0.033;0.033
+('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_Very Often',);7;0.117;0.117
+('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_Completetly',);7;0.096;0.096
+('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_Very Often',);7;0.083;0.083
+('Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely_Completetly',);7;0.075;0.075
+('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_Very Often',);7;0.045;0.045
+('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_Yes quite',);7;0.045;0.045
+('Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration_Completetly',);7;0.026;0.026
+('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_Completetly',);7;0.019;0.019
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_Not confident at all',);8;0.051;0.051
+('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_Not confident at all',);8;0.044;0.044
+('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_Not confident at all',);8;0.03;0.03
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_Not confident at all',);8;0.015;0.015
+('Q34- In your personal life, would you say:-I feel well surrounded_Not at all',);8;0.015;0.015
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_Not confident at all',);8;0.009;0.009
+('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_Not at all',);8;0.002;0.002
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back_Permanently',);9;0.138;0.138
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm_Permanently',);9;0.11;0.11
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee_Permanently',);9;0.098;0.098
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_Permanently',);9;0.055;0.055
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body_Permanently',);9;0.055;0.055
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes_Permanently',);9;0.02;0.02
+('Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently_Yes',);10;0.198;0.198
+('Q38- Did you:-Disabilities_Yes',);10;0.141;0.141
+('Q37- How do you rate your state of health in general?_Bad',);10;0.138;0.138
+('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_At least once a week',);10;0.122;0.122
+('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_Completetly',);10;0.111;0.111
+('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_permanently',);10;0.106;0.106
+('Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)_permanently',);10;0.092;0.092
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_Not confident at all',);10;0.069;0.069
+('Q37- How do you rate your state of health in general?_Very bad',);10;0.055;0.055
+('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_Completetly',);10;0.039;0.039
+('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_Not at all',);11;0.105;0.105
+('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_Not at all',);11;0.081;0.081
+('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_Not at all',);11;0.076;0.076
+('Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills_Not at all',);11;0.075;0.075
+('Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work_Not at all',);11;0.074;0.074
+('Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work_Not at all',);11;0.072;0.072
+('Q16- And for each of these sentences?-I would recommend my company to a friend_Not at all',);11;0.065;0.065
+('Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things_Not at all',);11;0.064;0.064
+('Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation_Not at all',);11;0.064;0.064
+('Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions_Not at all',);11;0.06;0.06
+('Q16- And for each of these sentences?-I am proud to work in my company_Not at all',);11;0.059;0.059
+('Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business_Not at all',);11;0.038;0.038
+('Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work_Not at all',);11;0.0;0.0
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work_Unsatisfactory',);12;0.111;0.111
+"(""Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization_Unsatisfactory"",)";12;0.108;0.108
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior_Unsatisfactory',);12;0.107;0.107
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services_Unsatisfactory',);12;0.102;0.102
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development_Unsatisfactory',);12;0.098;0.098
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management_Unsatisfactory',);12;0.098;0.098
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy_Unsatisfactory',);12;0.091;0.091
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality_Unsatisfactory',);12;0.088;0.088
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team_Unsatisfactory',);12;0.087;0.087
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity_Unsatisfactory',);12;0.085;0.085
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation_Unsatisfactory',);12;0.083;0.083
+('Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation_Rather not',);12;0.08;0.08
+('Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work_Rather not',);12;0.069;0.069
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills_Unsatisfactory',);12;0.069;0.069
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training_Unsatisfactory',);12;0.067;0.067
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.)_Unsatisfactory',);12;0.059;0.059
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company_Unsatisfactory',);12;0.029;0.029
+('Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work_Rather not',);13;0.067;0.067
+('Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills_Rather not',);13;0.057;0.057
+('Q16- And for each of these sentences?-I would recommend my company to a friend_Rather not',);13;0.052;0.052
+('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_Rather not',);13;0.051;0.051
+('Q16- And for each of these sentences?-I am proud to work in my company_Rather not',);13;0.05;0.05
+('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_Rather not',);13;0.047;0.047
+('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_Rather not',);13;0.047;0.047
+('Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things_Rather not',);13;0.045;0.045
+('Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions_Rather not',);13;0.041;0.041
+('Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business_Rather not',);13;0.028;0.028
+('Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work_Rather not',);13;0.007;0.007
+('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_Never',);14;-0.072;0.072
+('Q13- Is the performance of your work taxing on you?-To work in noise_Never',);14;-0.07;0.07
+('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_Never',);14;-0.065;0.065
+('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_Never',);14;-0.061;0.061
+('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_Never',);14;-0.061;0.061
+('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_Not at all',);14;-0.046;0.046
+('Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury_No',);15;-0.091;0.091
+('Q14- During your work, are you in a situation? (Of-breathe toxic products or dust_No',);15;-0.08;0.08
+('Q14- During your work, are you in a situation? (Of-risk a serious fall_No',);15;-0.067;0.067
+('Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products_No',);15;-0.063;0.063
+('STATUS_Frames',);16;-0.076;0.076
+('Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?_No',);16;-0.071;0.071
+('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_Rather not',);16;-0.057;0.057
+('Q13- Is the performance of your work taxing on you?-To work on screen_Most of the time',);16;-0.05;0.05
+('Q12- Do you work most often?_In an office alone or in pairs',);16;-0.049;0.049
+('In which sector of activity do you work?_Design office and engineering',);16;-0.027;0.027
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work_Satisfying',);17;-0.117;0.117
+"(""Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization_Satisfying"",)";17;-0.109;0.109
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior_Satisfying',);17;-0.107;0.107
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development_Satisfying',);17;-0.105;0.105
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services_Satisfying',);17;-0.105;0.105
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management_Satisfying',);17;-0.103;0.103
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy_Satisfying',);17;-0.097;0.097
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality_Satisfying',);17;-0.089;0.089
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team_Satisfying',);17;-0.087;0.087
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity_Satisfying',);17;-0.085;0.085
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation_Satisfying',);17;-0.083;0.083
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training_Satisfying',);17;-0.07;0.07
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life_Satisfying',);17;-0.07;0.07
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills_Satisfying',);17;-0.069;0.069
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours_Satisfying',);17;-0.067;0.067
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.)_Satisfying',);17;-0.066;0.066
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company_Satisfying',);17;-0.029;0.029
+('Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration_Rather',);18;-0.03;0.03
+('Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely_Rather',);18;-0.016;0.016
+('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_Rather',);18;-0.009;0.009
+('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_Rather',);18;0.008;0.008
+('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_Rather',);19;-0.081;0.081
+('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_Rather',);19;-0.076;0.076
+('Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills_Rather',);19;-0.065;0.065
+('Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation_Rather',);19;-0.065;0.065
+('Q16- And for each of these sentences?-I would recommend my company to a friend_Rather',);19;-0.059;0.059
+('Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work_Rather',);19;-0.052;0.052
+('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_Rather',);19;-0.051;0.051
+('Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things_Rather',);19;-0.043;0.043
+('Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions_Rather',);19;-0.039;0.039
+('Q16- And for each of these sentences?-I am proud to work in my company_Rather',);19;-0.038;0.038
+('Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work_Rather',);19;-0.036;0.036
+('Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business_Rather',);19;-0.032;0.032
+('Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work_Rather',);19;-0.006;0.006
+('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_Confident',);20;-0.059;0.059
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_Confident',);20;-0.056;0.056
+('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_Confident',);20;-0.052;0.052
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_Confident',);20;-0.02;0.02
+('Q34- In your personal life, would you say:-I feel well surrounded_Rather',);20;-0.016;0.016
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_Confident',);20;-0.01;0.01
+('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_Rather',);20;-0.005;0.005
+('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_Never',);21;-0.094;0.094
+('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_Rather not',);21;-0.066;0.066
+('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_Never',);21;-0.045;0.045
+('Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely_Rather not',);21;-0.043;0.043
+('Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?_No',);21;-0.022;0.022
+('Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration_Rather not',);21;0.007;0.007
+('Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently_No',);22;-0.197;0.197
+('Q38- Did you:-Disabilities_No',);22;-0.141;0.141
+('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_Never',);22;-0.136;0.136
+('Q37- How do you rate your state of health in general?_Good',);22;-0.132;0.132
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_Confident',);22;-0.089;0.089
+('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_sometimes',);23;-0.059;0.059
+('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_Rather not',);23;-0.05;0.05
+('Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)_sometimes',);23;-0.043;0.043
+('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_Rather not',);23;-0.018;0.018
+('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_No, rather not',);23;0.01;0.01
+('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_Sometimes',);23;0.008;0.008
+('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_Rather not',);23;0.001;0.001
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I understand they are necessary',);24;-0.129;0.129
+('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_TOTAL YES',);24;-0.116;0.116
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I understand they are necessary',);24;-0.083;0.083
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I understand they are necessary',);24;-0.081;0.081
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I understand they are necessary',);24;-0.068;0.068
+('What is the size of your business (in total, all locations combined)? 2009 fake_5000 employees and more',);24;-0.065;0.065
+('What is the size of your business (in total, all locations combined)? 2009 fake_1000 to 4999 employees',);24;-0.058;0.058
+('In which sector of activity do you work?_Wholesale trade (all businesses in 206)',);24;-0.028;0.028
+('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_Never',);25;-0.074;0.074
+('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_Not at all',);25;-0.04;0.04
+('Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely_Not at all',);25;-0.023;0.023
+('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_No not at all',);25;-0.017;0.017
+('Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration_Not at all',);25;0.004;0.004
+('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_Not at all',);25;0.001;0.001
+('What is the size of your business (in total, all locations combined)? 2009 fake_Less than 10 employees',);26;-0.061;0.061
+('Q1- Your sex?_A woman',);26;0.054;0.054
+('Q12- Do you work most often?_At home teleworking',);26;-0.048;0.048
+('In which sector of activity do you work?_Services',);26;-0.015;0.015
+('STATUS_Employees',);26;-0.007;0.007
+('Q9- Are you working?_Part time',);26;-0.002;0.002
+('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_Occasionally',);27;0.016;0.016
+('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_Occasionally',);27;0.01;0.01
+('Q13- Is the performance of your work taxing on you?-To work in noise_Occasionally',);27;-0.009;0.009
+('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_Occasionally',);27;-0.006;0.006
+('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_Rather',);27;0.005;0.005
+('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_Occasionally',);27;0.001;0.001
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back_Sometimes',);28;-0.097;0.097
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body_Sometimes',);28;0.053;0.053
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm_Sometimes',);28;-0.043;0.043
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_Sometimes',);28;-0.037;0.037
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes_Sometimes',);28;0.02;0.02
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee_Sometimes',);28;-0.005;0.005
+('Q58- For each of these drinks, indicate whether you consume them:-Every day_nan',);29;0.005;0.005
+"(""Would you say that over the last 12 months, your company's activity has:_nan"",)";29;-0.003;0.003
+('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_nan',);29;0.003;0.003
+('Would you say that over the last 12 months, your pace of work has:_Slow motion',);30;0.061;0.061
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I make sure to adapt',);30;0.05;0.05
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I make sure to adapt',);30;0.046;0.046
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I benefit from support in implementation (training, communication, etc.)',);30;0.039;0.039
+"(""Would you say that over the last 12 months, your company's activity has:_Slow down"",)";30;0.037;0.037
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I adhere to the directions chosen by my company',);30;0.027;0.027
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I adhere to the directions chosen by my company',);30;0.02;0.02
+('Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?_Yes',);31;0.071;0.071
+('What is the size of your business (in total, all locations combined)? 2009 fake_50 to 249 employees',);31;0.051;0.051
+('Q60- Are you a smoker?_Yes',);31;0.051;0.051
+('Q58- For each of these drinks, indicate whether you consume them:-Every day_Sodas',);31;0.033;0.033
+('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_Once a month',);31;0.02;0.02
+('Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?_Yes, who lives with me',);31;-0.014;0.014
+('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_Sodas',);31;0.01;0.01
+('Q61- Do you smoke cannabis, hashish, marijuana?_Every day or almost',);31;0.009;0.009
+('Q13- Is the performance of your work taxing on you?-To work on screen_Occasionally',);31;0.004;0.004
+('Q61- Do you smoke cannabis, hashish, marijuana?_Once a month',);31;0.002;0.002
+('Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products_None',);32;0.005;0.005
+('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_None',);32;0.005;0.005
+('Q13- Is the performance of your work taxing on you?-To work in noise_None',);32;0.002;0.002
+Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?;33;-0.034;0.034
+Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?;33;-0.01;0.01
+('Q2- How old are you?_30 - 39',);33;0.007;0.007
+('Q42-During the last 12 months have you had a work accident?_Yes',);34;0.21;0.21
+('Q1- Your sex?_A man',);34;-0.054;0.054
+('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_Less than once a month',);34;0.048;0.048
+('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_Several times a month',);34;0.047;0.047
+('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_Alcoholic beverages',);34;-0.045;0.045
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I am involved upstream, we integrate my point of view',);34;-0.04;0.04
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development_None',);34;0.037;0.037
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy_None',);34;0.037;0.037
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I benefit from support in implementation (training, communication, etc.)',);34;-0.036;0.036
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_They come back too often',);34;-0.035;0.035
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work_None',);34;0.028;0.028
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management_None',);34;0.026;0.026
+('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_None',);34;-0.026;0.026
+('Q12- Do you work most often?_None',);34;-0.024;0.024
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training_None',);34;0.023;0.023
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services_None',);34;0.022;0.022
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.)_None',);34;0.022;0.022
+('Q58- For each of these drinks, indicate whether you consume them:-Every day_Alcoholic beverages',);34;0.02;0.02
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_They come back too often',);34;0.019;0.019
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I am involved upstream, we integrate my point of view',);34;0.019;0.019
+"(""Would you say that over the last 12 months, your company's activity has:_None"",)";34;0.018;0.018
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I understand they are necessary',);34;0.018;0.018
+('Q25-Your workplace-home transportation time (round trip) is:_More than 3 hours per day',);34;0.018;0.018
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I benefit from support in implementation (training, communication, etc.)',);34;-0.016;0.016
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_They come back too often',);34;0.015;0.015
+('Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities_None',);34;0.014;0.014
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I am involved upstream, we integrate my point of view',);34;-0.014;0.014
+('Q61- Do you smoke cannabis, hashish, marijuana?_Once a week',);34;0.014;0.014
+('Q57- How do you most frequently eat your midday meal?_While eating a sandwich',);34;0.013;0.013
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_None',);34;-0.012;0.012
+('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_None',);34;0.012;0.012
+('Q25-Your workplace-home transportation time (round trip) is:_From 2 hours to 3 hours per day',);34;0.011;0.011
+('Q57- How do you most frequently eat your midday meal?_When going to a restaurant, brasserie, snack bar',);34;-0.011;0.011
+('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_None',);34;0.01;0.01
+"(""Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization_None"",)";34;0.01;0.01
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior_None',);34;0.01;0.01
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I adhere to the directions chosen by my company',);34;0.01;0.01
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_None',);34;0.01;0.01
+('Q2- How old are you?_18 - 30',);34;-0.009;0.009
+('Q2- How old are you?_None',);34;0.009;0.009
+('What is the size of your business (in total, all locations combined)? 2009 fake_10 to 49 employees',);34;-0.009;0.009
+('In which sector of activity do you work?_Other businesses',);34;-0.008;0.008
+('Q42-During the last 12 months have you had a work accident?_None',);34;-0.008;0.008
+('Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury_None',);34;0.007;0.007
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality_None',);34;0.007;0.007
+('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_None',);34;0.007;0.007
+('Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently_None',);34;-0.007;0.007
+('Q16- And for each of these sentences?-I am proud to work in my company_None',);34;0.006;0.006
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_None',);34;0.006;0.006
+('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_None',);34;0.006;0.006
+('Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?_None',);34;0.005;0.005
+('Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?_None',);34;0.005;0.005
+('Q15- Indicate whether each of the following sentences suits you-My job is physically tiring_None',);34;-0.005;0.005
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life_None',);34;0.005;0.005
+('Q2- How old are you?_40 - 44',);34;0.004;0.004
+('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_None',);34;-0.004;0.004
+('Q16- And for each of these sentences?-I would recommend my company to a friend_None',);34;0.004;0.004
+('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_nan',);34;-0.004;0.004
+('Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring_None',);34;-0.003;0.003
+('Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention_None',);34;-0.003;0.003
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company_None',);34;0.003;0.003
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_None',);34;0.003;0.003
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I am involved upstream, we integrate my point of view',);34;0.003;0.003
+('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_nan',);34;-0.003;0.003
+('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_nan',);34;0.003;0.003
+('Q60- Are you a smoker?_None',);34;0.003;0.003
+('Q1- Your sex?_None',);34;0.002;0.002
+('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_None',);34;-0.002;0.002
+('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_None',);34;0.002;0.002
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team_None',);34;-0.002;0.002
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills_None',);34;0.002;0.002
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours_None',);34;-0.002;0.002
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I benefit from support in implementation (training, communication, etc.)',);34;0.002;0.002
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_None',);34;0.002;0.002
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_None',);34;0.002;0.002
+('Q61- Do you smoke cannabis, hashish, marijuana?_Less than once a month',);34;0.002;0.002
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity_None',);34;0.001;0.001
+('Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation_None',);34;0.001;0.001
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_None',);34;0.001;0.001
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_None',);34;0.001;0.001
+('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_None',);34;0.001;0.001
+('In which sector of activity do you work?_Construction',);34;-0.0;0.0
+('Q13- Is the performance of your work taxing on you?-To work on screen_None',);34;0.0;0.0
+('Would you say that over the last 12 months, your pace of work has:_None',);34;-0.0;0.0
+('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_nan',);34;-0.0;0.0
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_None',);34;-0.0;0.0
+('Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite_TOTAL NO',);34;0.0;0.0
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_I adhere to the directions chosen by my company',);35;0.032;0.032
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I make sure to adapt',);35;0.03;0.03
+('In which sector of activity do you work?_Human health and social action',);35;0.029;0.029
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment_I adhere to the directions chosen by my company',);35;0.028;0.028
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_They come back too often',);35;-0.015;0.015
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I make sure to adapt',);35;0.008;0.008
+('Would you say that over the last 12 months, your pace of work has:_Do not know',);35;-0.005;0.005
+"(""Would you say that over the last 12 months, your company's activity has:_Do not know"",)";35;0.003;0.003
+('Q12- Do you work most often?_In a shared work space - co-working',);35;0.002;0.002
+('Q12- Do you work most often?_At customers',);35;-0.0;0.0
+('Q42-During the last 12 months have you had a work accident?_No',);36;-0.208;0.208
+('Would you say that over the last 12 months, your pace of work has:_Stabilized',);36;-0.046;0.046
+('STATUS_AM Technicians',);36;-0.028;0.028
+"(""Would you say that over the last 12 months, your company's activity has:_Stabilized"",)";36;-0.025;0.025
+('Q57- How do you most frequently eat your midday meal?_By bringing your meal from home',);36;0.019;0.019
+('Q25-Your workplace-home transportation time (round trip) is:_Between 1 hour and 2 hours per day',);36;0.018;0.018
+('Q12- Do you work most often?_In a shared office (3 to 5 people)',);36;-0.017;0.017
+('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_Energy drinks (like Red Bull or Monster)',);36;0.016;0.016
+('Q58- For each of these drinks, indicate whether you consume them:-Every day_Energy drinks (like Red Bull or Monster)',);36;-0.011;0.011
+('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_None',);36;0.007;0.007
+('Q38- Did you:-Disabilities_None',);36;0.005;0.005
+('Q14- During your work, are you in a situation? (Of-breathe toxic products or dust_None',);36;0.003;0.003
+('Q14- During your work, are you in a situation? (Of-risk a serious fall_None',);36;-0.002;0.002
+('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_None',);36;0.001;0.001
+('Q57- How do you most frequently eat your midday meal?_None',);36;-0.001;0.001
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession_I am involved upstream, we integrate my point of view',);37;0.047;0.047
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse)_I make sure to adapt',);37;0.036;0.036
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business_I benefit from support in implementation (training, communication, etc.)',);37;0.027;0.027
+('Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company_They come back too often',);37;0.006;0.006
+('In which sector of activity do you work?_Retail business',);38;-0.015;0.015
+('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_Sometimes',);38;0.015;0.015
+('Q12- Do you work most often?_In a commercial premises or agency',);38;-0.009;0.009
+('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_Sometimes',);38;-0.007;0.007
+('In which sector of activity do you work?_Transport, energy, telecommunications',);39;0.004;0.004
+('Q12- Do you work most often?_In a vehicle',);39;-0.002;0.002
+('Q13- Is the performance of your work taxing on you?-To work on screen_Never',);40;0.037;0.037
+('Q12- Do you work most often?_Outside-outside',);40;0.028;0.028
+('Q25-Your workplace-home transportation time (round trip) is:_Less than 1 hour per day',);40;-0.027;0.027
+('Q57- How do you most frequently eat your midday meal?_When returning home',);40;-0.014;0.014
+('Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?_Yes, who lives elsewhere',);41;0.039;0.039
+('Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company_None',);41;0.009;0.009
+('Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers_None',);41;0.009;0.009
+('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_None',);41;0.008;0.008
+('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_None',);41;0.001;0.001
+Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?;42;-0.038;0.038
+Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?;42;-0.03;0.03
+('Q2- How old are you?_50 - 55',);42;0.012;0.012
+('Q2- How old are you?_45 - 49',);42;-0.01;0.01
+('Q13- Is the performance of your work taxing on you?-To work in noise_Rarely',);43;-0.044;0.044
+('Q13- Is the performance of your work taxing on you?-To perform repetitive gestures_Rarely',);43;-0.038;0.038
+('Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture_Rarely',);43;-0.035;0.035
+('Q13- Is the performance of your work taxing on you?-To carry or move heavy loads_Rarely',);43;-0.023;0.023
+('Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat_Rarely',);43;-0.016;0.016
+('Q60- Are you a smoker?_No',);44;-0.052;0.052
+('Q58- For each of these drinks, indicate whether you consume them:-Every day_None',);44;-0.029;0.029
+('Q58- For each of these drinks, indicate whether you consume them:-At least once a week_None',);44;0.029;0.029
+('Q61- Do you smoke cannabis, hashish, marijuana?_Never',);44;-0.011;0.011
+('Q2- How old are you?_56 - 70',);44;-0.008;0.008
+"(""Would you say that over the last 12 months, your company's activity has:_Accelerated"",)";45;-0.021;0.021
+('Would you say that over the last 12 months, your pace of work has:_Accelerated',);45;-0.011;0.011
+('What is the size of your business (in total, all locations combined)? 2009 fake_250 to 999 employees',);46;0.046;0.046
+('Q12- Do you work most often?_In an open space, a tray',);46;-0.01;0.01
+('Q57- How do you most frequently eat your midday meal?_In the canteen or company restaurant',);46;-0.009;0.009
+('Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy_Completetly',);47;-0.059;0.059
+('Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work_Completetly',);47;-0.054;0.054
+('Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees_Completetly',);47;-0.045;0.045
+('Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation_Completetly',);47;-0.044;0.044
+('Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor_Completetly',);47;-0.044;0.044
+('Q16- And for each of these sentences?-I am proud to work in my company_Completetly',);47;-0.044;0.044
+('Q16- And for each of these sentences?-I would recommend my company to a friend_Completetly',);47;-0.042;0.042
+('Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work_Completetly',);47;-0.04;0.04
+('Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills_Completetly',);47;-0.039;0.039
+('Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things_Completetly',);47;-0.035;0.035
+('Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions_Completetly',);47;-0.028;0.028
+('Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business_Completetly',);47;-0.014;0.014
+('Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work_Completetly',);47;0.001;0.001
+('Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone_Never',);48;-0.123;0.123
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body_Never',);48;-0.117;0.117
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee_Never',);48;-0.112;0.112
+('Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)_Never',);48;-0.11;0.11
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm_Never',);48;-0.106;0.106
+('Q37- How do you rate your state of health in general?_Very good',);48;-0.099;0.099
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back_Never',);48;-0.092;0.092
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head_Never',);48;-0.061;0.061
+('Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes_Never',);48;-0.054;0.054
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your health_Very confident',);49;-0.039;0.039
+('Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household_Very confident',);49;-0.037;0.037
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation_Very confident',);49;-0.034;0.034
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions_Very confident',);49;-0.017;0.017
+('Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren)_Very confident',);49;-0.014;0.014
+('Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life_Very confident',);49;0.0;0.0
+('Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health_Not at all',);50;-0.08;0.08
+('Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry_Not at all',);50;-0.037;0.037
+('Q34- In your personal life, would you say:-I feel well surrounded_Completetly',);50;-0.005;0.005
+('Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one_Completetly',);50;-0.005;0.005
