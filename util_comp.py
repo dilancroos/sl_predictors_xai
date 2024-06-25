@@ -410,7 +410,7 @@ def train_random_forests(X_train, y_train, X_test, y_test, num_forests=1, num_tr
         test_accuracies.append(test_accuracy)
 
         print(
-            f"Forest {i+1}/{num_forests} trained with \ntest accuracy: {test_accuracy:.4f} \ntrain accuracy: {train_accuracy:.4f} \nROAUC: {roc_auc_score(y_test, y_pred_proba[:, 1])} \n{classification_report(y_test, y_pred)}\n")
+            f"Forest {i+1}/{num_forests} trained with \nF1 score: {f1_score(y_test, y_pred, average='macro')} \ntest accuracy: {test_accuracy:.4f} \ntrain accuracy: {train_accuracy:.4f} \nROAUC: {roc_auc_score(y_test, y_pred_proba[:, 1])} \n{classification_report(y_test, y_pred)}\n")
         t2 = time()
         print(time_e(t1, t2, v=f"Random Forest {i+1}/{num_forests}"))
 
