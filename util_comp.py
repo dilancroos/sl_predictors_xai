@@ -314,7 +314,7 @@ def one_hot_encode(data):
     return data
 
 
-def main(data=data, retained=False, one_hot=False, string_issue=False):
+def main(dataV=data, retained=False, one_hot=False, string_issue=False):
     """
     Main function
     retained: True/False 
@@ -335,35 +335,35 @@ def main(data=data, retained=False, one_hot=False, string_issue=False):
     st = time()
 
     # Age categorisation
-    data = age_cat(data)
+    dataV = age_cat(dataV)
 
     # Correct the systematic error
-    data = correct_sys_err(data)
+    dataV = correct_sys_err(dataV)
 
     # Load the column names
-    data = load_col_names(data)
+    dataV = load_col_names(dataV)
 
     # Clean the data
-    data = clean_data(data, retained=retained)
+    dataV = clean_data(dataV, retained=retained)
 
     if retained == False:
         mst = time()
         # Using MICE to impute missing values
-        data = mice(data, data.columns)
+        data = mice(dataV, dataV.columns)
         met = time()
         print(time_e(mst, met, v="complete MICE imputation"))
 
     # Categorise the data
-    data = categorise(data, string_issue)
+    dataV = categorise(dataV, string_issue)
 
     if one_hot:
         # One hot encode the data
-        data = one_hot_encode(data)
+        dataV = one_hot_encode(dataV)
 
     et = time()
     print(time_e(st, et, v="Full process"))
 
-    return data
+    return dataV
 
 
 def train_random_forests(X_train, y_train, X_test, y_test, num_forests=1, num_trees=100):
