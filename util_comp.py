@@ -130,13 +130,18 @@ def clean_data(data, retained=False):
     """
     st = time()
 
-    # Remove the "YEAR MMS" coloumn as it is not needed
-    data.drop("YEAR MMS", axis=1, inplace=True)
+    if not retained:
+
+        # Remove the "YEAR MMS" coloumn as it is not needed
+        data.drop("YEAR MMS", axis=1, inplace=True)
+
+    et = time()
+    print(time_e(st, et, v="clean data"))
 
     return data
 
 
-def mice(data, columns, clip=False):
+def mice(data, columns=data.columns, clip=False):
     """
     Impute the missing values using MICE
     Return: DataFrame
@@ -156,7 +161,7 @@ def mice(data, columns, clip=False):
     imputer.fit(df_train)
     # transform
     df_imputed = imputer.transform(df_train)
-    df_imputed = pd.DataFrame(df_imputed, columns=columns).round()
+    df_imputed = pd.DataFrame(df_imputed).round()
 
     if clip:
         df_imputed = df_imputed.clip(lower=1)
@@ -349,7 +354,8 @@ def main(dataV=data, retained=False, one_hot=False, string_issue=False):
     if retained == False:
         mst = time()
         # Using MICE to impute missing values
-        data = mice(dataV, dataV.columns)
+        columns = dataV.columns
+        data = mice(dataV, columns)
         met = time()
         print(time_e(mst, met, v="complete MICE imputation"))
 
@@ -410,7 +416,15 @@ def train_random_forests(X_train, y_train, X_test, y_test, num_forests=1, num_tr
         test_accuracies.append(test_accuracy)
 
         print(
-            f"Forest {i+1}/{num_forests} trained with \nF1 score: {f1_score(y_test, y_pred, average='macro')} \ntest accuracy: {test_accuracy:.4f} \ntrain accuracy: {train_accuracy:.4f} \nROAUC: {roc_auc_score(y_test, y_pred_proba[:, 1])} \n{classification_report(y_test, y_pred)}\n")
+            f"Forest {i+1}/{num_forests} trained with:")
+        print(f"F1 score: {f1_score(y_test, y_pred, average='macro')}")
+        print(f"test accuracy: {test_accuracy:.4f}")
+        print(f"train accuracy: {train_accuracy:.4f}")
+        print(f"ROAUC: {roc_auc_score(
+            y_test, y_pred_proba[:, 1], multi_class='ovo')}")
+        print(f"Classification report:\n{
+              classification_report(y_test, y_pred)}")
+
         t2 = time()
         print(time_e(t1, t2, v=f"Random Forest {i+1}/{num_forests}"))
 
