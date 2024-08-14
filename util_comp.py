@@ -125,7 +125,7 @@ def clean_data(data, retained=False):
 
     ---
     data: DataFrame
-    retained: bool = False (Default) -> if True, only the retained columns are used
+    retained: bool = False (Default) -> if True, only the retained columns are used - not implemented
 
     """
     st = time()
@@ -141,7 +141,7 @@ def clean_data(data, retained=False):
     return data
 
 
-def mice(data, columns=data.columns, clip=False):
+def mice(data, columns, clip=False):
     """
     Impute the missing values using MICE
     Return: DataFrame
@@ -349,7 +349,7 @@ def main(dataV=data, retained=False, one_hot=False, string_issue=False):
     dataV = load_col_names(dataV)
 
     # Clean the data
-    dataV = clean_data(dataV, retained=retained)
+    dataV = clean_data(dataV, retained)
 
     if retained == False:
         mst = time()
