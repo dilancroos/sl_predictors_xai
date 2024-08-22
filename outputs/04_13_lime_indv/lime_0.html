@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divSGHFE0SZVSXWBG5"></div>
+        <div class="lime top_div" id="top_divANLAO42121ASYFY"></div>
         
         <script>
-        var top_div = d3.select('#top_divSGHFE0SZVSXWBG5').classed('lime top_div', true);
+        var top_div = d3.select('#top_divANLAO42121ASYFY').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1", "3"], [0.43, 0.57]);
+            var pp = new lime.PredictProba(pp_svg, ["1.0", "3.0"], [0.31, 0.69]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1", "3"]);
+            var exp = new lime.Explanation(["1.0", "3.0"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["('Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently_1.0',) <= 0.00", -0.05292986511522585], ["('Q38- Did you:-Disabilities_1.0',) <= 0.00", -0.05200856087892516], ["('What is the size of your business (in total, all locations combined)? 2009 fake_nan',) <= 0.00", 0.047049541868220836], ["('Q42-During the last 12 months have you had a work accident?_1.0',) <= 0.00", -0.04691488263978503], ["('What is the size of your business (in total, all locations combined)? 2009 fake_5.0',) <= 0.00", -0.042853894078869366], ["('Q37- How do you rate your state of health in general?_4.0',) <= 0.00", -0.03787623417102976], ["('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_5.0',) <= 0.00", -0.03753121939868227], ["('Q9- Are you working?_nan',) <= 0.00", -0.036079453356714135], ["('Q2- How old are you?_6.0',) <= 0.00", -0.0311253066284502], ["0.00 < ('STATUS_4.0',) <= 1.00", 0.030333481567966933]], 1, exp_div);
+                exp.show([["Q2- How old are you? > 4.00", 0.08673091495964995], ["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 1.00", 0.06807638957394976], ["STATUS <= 1.00", -0.02850401968810678], ["Q13- Is the performance of your work taxing on you?-To work on screen <= 1.00", -0.022091050289608265], ["3.00 < Q13- Is the performance of your work taxing on you?-To carry or move heavy loads <= 4.00", -0.020846257634863936], ["Q12- Do you work most often? <= 2.00", -0.01778145971292417], ["2.00 < Q37- How do you rate your state of health in general? <= 3.00", 0.01745590206595514], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.) <= 2.00", -0.01737501980386118], ["Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work > 2.00", 0.017301563769113702], ["Q62- Do you take sleeping pills, anxiolytics or anti-depressants: > 1.00", 0.01716018995832832]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["('Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently_1.0',)", "0.00", -0.05292986511522585], ["('Q38- Did you:-Disabilities_1.0',)", "0.00", -0.05200856087892516], ["('What is the size of your business (in total, all locations combined)? 2009 fake_nan',)", "0.00", 0.047049541868220836], ["('Q42-During the last 12 months have you had a work accident?_1.0',)", "0.00", -0.04691488263978503], ["('What is the size of your business (in total, all locations combined)? 2009 fake_5.0',)", "0.00", -0.042853894078869366], ["('Q37- How do you rate your state of health in general?_4.0',)", "0.00", -0.03787623417102976], ["('Q62- Do you take sleeping pills, anxiolytics or anti-depressants:_5.0',)", "0.00", -0.03753121939868227], ["('Q9- Are you working?_nan',)", "0.00", -0.036079453356714135], ["('Q2- How old are you?_6.0',)", "0.00", -0.0311253066284502], ["('STATUS_4.0',)", "1.00", 0.030333481567966933]], 1, raw_div);
+            exp.show_raw_tabular([["Q2- How old are you?", "6.00", 0.08673091495964995], ["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "1.00", 0.06807638957394976], ["STATUS", "1.00", -0.02850401968810678], ["Q13- Is the performance of your work taxing on you?-To work on screen", "1.00", -0.022091050289608265], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads", "4.00", -0.020846257634863936], ["Q12- Do you work most often?", "2.00", -0.01778145971292417], ["Q37- How do you rate your state of health in general?", "3.00", 0.01745590206595514], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)", "2.00", -0.01737501980386118], ["Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work", "4.00", 0.017301563769113702], ["Q62- Do you take sleeping pills, anxiolytics or anti-depressants:", "5.00", 0.01716018995832832]], 1, raw_div);
         
         </script>
         </body></html>
