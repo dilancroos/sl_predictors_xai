@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div4994JCIBAEKKKV8"></div>
+        <div class="lime top_div" id="top_divBJ8ZCW3DDHWT09N"></div>
         
         <script>
-        var top_div = d3.select('#top_div4994JCIBAEKKKV8').classed('lime top_div', true);
+        var top_div = d3.select('#top_divBJ8ZCW3DDHWT09N').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["2.0", "3.0"], [0.17, 0.83]);
+            var pp = new lime.PredictProba(pp_svg, ["2", "3"], [0.41, 0.59]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["2.0", "3.0"]);
+            var exp = new lime.Explanation(["2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 1.00", 0.13738194491223843], ["2.00 < Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health <= 3.00", -0.04338393657611937], ["1.00 < Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury <= 2.00", -0.01716481543557549], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company <= 3.00", 0.016727389389353736], ["1.00 < Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body <= 2.00", -0.014878718447580142], ["1.00 < Q13- Is the performance of your work taxing on you?-To perform repetitive gestures <= 2.00", -0.014520148155897156], ["Q12- Do you work most often? > 4.74", 0.013529254026553984], ["Q37- How do you rate your state of health in general? <= 2.00", 0.012159067536299443], ["1.00 < Q13- Is the performance of your work taxing on you?-To work in noise <= 2.00", -0.011867232979567046], ["Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you? <= 0.00", -0.011209234182107413]], 1, exp_div);
+                exp.show([["state of health in general <= 1.00", -0.04178168528415168], ["Full Time/Part Time <= 0.00", -0.038222228701783524], ["lack of tone <= 1.00", -0.028313410737397113], ["difficulty reconciling your work with your other personal commitments > 2.00", 0.02797317454326682], ["leg, foot, knee pain <= 0.00", -0.02483538359814536], ["work on screen > 2.00", 0.024542930242932103], ["Sleep disorders <= 1.00", -0.023079200886478267], ["back pain <= 1.00", -0.02224727629334733], ["well-suited workstation > 2.00", 0.018956771883924372], ["0.00 < long-term illness <= 1.00", -0.016802699603195918]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "1.00", 0.13738194491223843], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health", "3.00", -0.04338393657611937], ["Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury", "2.00", -0.01716481543557549], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company", "3.00", 0.016727389389353736], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body", "2.00", -0.014878718447580142], ["Q13- Is the performance of your work taxing on you?-To perform repetitive gestures", "2.00", -0.014520148155897156], ["Q12- Do you work most often?", "9.00", 0.013529254026553984], ["Q37- How do you rate your state of health in general?", "2.00", 0.012159067536299443], ["Q13- Is the performance of your work taxing on you?-To work in noise", "2.00", -0.011867232979567046], ["Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?", "0.00", -0.011209234182107413]], 1, raw_div);
+            exp.show_raw_tabular([["state of health in general", "1.00", -0.04178168528415168], ["Full Time/Part Time", "0.00", -0.038222228701783524], ["lack of tone", "1.00", -0.028313410737397113], ["difficulty reconciling your work with your other personal commitments", "3.00", 0.02797317454326682], ["leg, foot, knee pain", "0.00", -0.02483538359814536], ["work on screen", "3.00", 0.024542930242932103], ["Sleep disorders", "1.00", -0.023079200886478267], ["back pain", "1.00", -0.02224727629334733], ["well-suited workstation", "3.00", 0.018956771883924372], ["long-term illness", "1.00", -0.016802699603195918]], 1, raw_div);
         
         </script>
         </body></html>

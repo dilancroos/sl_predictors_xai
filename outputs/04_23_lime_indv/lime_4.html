@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divACRZNEN06H7QQ0G"></div>
+        <div class="lime top_div" id="top_divYU815DD7L409HE7"></div>
         
         <script>
-        var top_div = d3.select('#top_divACRZNEN06H7QQ0G').classed('lime top_div', true);
+        var top_div = d3.select('#top_divYU815DD7L409HE7').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["2.0", "3.0"], [0.26, 0.74]);
+            var pp = new lime.PredictProba(pp_svg, ["2", "3"], [0.35, 0.65]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["2.0", "3.0"]);
+            var exp = new lime.Explanation(["2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 1.00", 0.13424889085040037], ["Q37- How do you rate your state of health in general? > 3.00", 0.05315500643956648], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health <= 2.00", 0.047035262854266784], ["Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone > 3.00", 0.034053222704541496], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back > 3.00", 0.029443329804675573], ["2.00 < Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee <= 3.00", -0.027350487025563135], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.) > 3.00", 0.02634122222499392], ["Q2- How old are you? > 5.00", 0.02029041766545217], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company <= 3.00", 0.017679521673323262], ["1.00 < Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body <= 2.00", -0.01727079498738009]], 1, exp_div);
+                exp.show([["back pain > 2.00", 0.05196375957904701], ["Full Time/Part Time <= 0.00", -0.03870879378311057], ["1.00 < leg, foot, knee pain <= 2.00", 0.02806362140091342], ["lack of tone > 2.00", 0.027136711758981052], ["1.00 < state of health in general <= 2.00", 0.02457414624804811], ["work on screen <= 0.00", -0.019491290584842953], ["2.00 < Age <= 4.00", 0.01918571174281049], ["1.00 < midday meal <= 4.00", 0.018905347078489284], ["Sleep disorders > 2.00", 0.01788567231980806], ["1.00 < drinks (At least once a week) <= 2.00", 0.016754639802395593]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "1.00", 0.13424889085040037], ["Q37- How do you rate your state of health in general?", "4.00", 0.05315500643956648], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health", "1.00", 0.047035262854266784], ["Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone", "4.00", 0.034053222704541496], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back", "4.00", 0.029443329804675573], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee", "3.00", -0.027350487025563135], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)", "4.00", 0.02634122222499392], ["Q2- How old are you?", "6.00", 0.02029041766545217], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company", "3.00", 0.017679521673323262], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body", "2.00", -0.01727079498738009]], 1, raw_div);
+            exp.show_raw_tabular([["back pain", "3.00", 0.05196375957904701], ["Full Time/Part Time", "0.00", -0.03870879378311057], ["leg, foot, knee pain", "2.00", 0.02806362140091342], ["lack of tone", "3.00", 0.027136711758981052], ["state of health in general", "2.00", 0.02457414624804811], ["work on screen", "0.00", -0.019491290584842953], ["Age", "3.00", 0.01918571174281049], ["midday meal", "3.00", 0.018905347078489284], ["Sleep disorders", "3.00", 0.01788567231980806], ["drinks (At least once a week)", "2.00", 0.016754639802395593]], 1, raw_div);
         
         </script>
         </body></html>

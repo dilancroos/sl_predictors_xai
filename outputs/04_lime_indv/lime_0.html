@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divCQ923XA8DEHTI6K"></div>
+        <div class="lime top_div" id="top_divQMYT0ACVWZD059F"></div>
         
         <script>
-        var top_div = d3.select('#top_divCQ923XA8DEHTI6K').classed('lime top_div', true);
+        var top_div = d3.select('#top_divQMYT0ACVWZD059F').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1.0", "2.0", "3.0"], [0.3, 0.28, 0.42]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.22, 0.25, 0.14, 0.39]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1.0", "2.0", "3.0"]);
+            var exp = new lime.Explanation(["0", "1", "2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 1.00", -0.06535603624622832], ["2.00 < Q37- How do you rate your state of health in general? <= 3.00", 0.050905946622112216], ["2.00 < Q2- How old are you? <= 3.00", 0.03455019989848148], ["3.00 < STATUS <= 4.00", 0.024140580277375482], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 1.00", -0.0191060783124664], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee > 2.31", -0.012979241910094407], ["Q13- Is the performance of your work taxing on you?-To work on screen <= 1.00", 0.01232294178573549], ["Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you? > 0.00", -0.012115713292779317], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads <= 2.00", -0.01099539562425013], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week <= 2.00", -0.01075535964861047]], 1, exp_div);
+                exp.show([["Age <= 1.00", 0.06268197805108108], ["state of health in general <= 1.00", 0.02180284475217634], ["work on screen <= 0.00", 0.019699032388692885], ["Full Time/Part Time <= 0.00", 0.015044064617240768], ["hurtful or aggressive remarks <= 2.00", 0.013196766745569377], ["0.00 < long-term illness <= 1.00", -0.012048433785808709], ["sleeping pills, anxiolytics or anti-depressants <= 0.00", 0.010631420365228376], ["No of 3 to 6 years old children > 0.00", 0.010421985110708739], ["tools or workstation <= 0.00", 0.008739246640241581], ["Sleep disorders <= 1.00", 0.008584152297004214]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "1.00", -0.06535603624622832], ["Q37- How do you rate your state of health in general?", "3.00", 0.050905946622112216], ["Q2- How old are you?", "3.00", 0.03455019989848148], ["STATUS", "4.00", 0.024140580277375482], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "1.00", -0.0191060783124664], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee", "3.00", -0.012979241910094407], ["Q13- Is the performance of your work taxing on you?-To work on screen", "1.00", 0.01232294178573549], ["Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?", "1.00", -0.012115713292779317], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads", "2.00", -0.01099539562425013], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week", "1.00", -0.01075535964861047]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "1.00", 0.06268197805108108], ["state of health in general", "1.00", 0.02180284475217634], ["work on screen", "0.00", 0.019699032388692885], ["Full Time/Part Time", "0.00", 0.015044064617240768], ["hurtful or aggressive remarks", "2.00", 0.013196766745569377], ["long-term illness", "1.00", -0.012048433785808709], ["sleeping pills, anxiolytics or anti-depressants", "0.00", 0.010631420365228376], ["No of 3 to 6 years old children", "2.00", 0.010421985110708739], ["tools or workstation", "0.00", 0.008739246640241581], ["Sleep disorders", "1.00", 0.008584152297004214]], 1, raw_div);
         
         </script>
         </body></html>

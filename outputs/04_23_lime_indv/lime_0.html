@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divC2VC87HAMW3R4FG"></div>
+        <div class="lime top_div" id="top_div0H9D7XHODLB61LX"></div>
         
         <script>
-        var top_div = d3.select('#top_divC2VC87HAMW3R4FG').classed('lime top_div', true);
+        var top_div = d3.select('#top_div0H9D7XHODLB61LX').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["2.0", "3.0"], [0.46, 0.54]);
+            var pp = new lime.PredictProba(pp_svg, ["2", "3"], [0.15, 0.85]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["2.0", "3.0"]);
+            var exp = new lime.Explanation(["2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.00 < Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 2.00", -0.1362782011902117], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health <= 2.00", 0.04809192133391672], ["Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business > 3.00", 0.04171757290451748], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.) > 3.00", 0.029698933678827834], ["Q13- Is the performance of your work taxing on you?-To perform repetitive gestures <= 1.00", 0.025914153447315288], ["2.00 < Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back <= 3.00", -0.019216109324927882], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company <= 3.00", 0.01890288592702327], ["Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you? <= 0.00", -0.015758811860781867], ["1.00 < Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury <= 2.00", -0.015164363470172125], ["Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions > 3.00", 0.014123120484012026]], 1, exp_div);
+                exp.show([["state of health in general > 2.00", 0.05250877205466221], ["leg, foot, knee pain > 2.00", 0.039006055741792584], ["Full Time/Part Time <= 0.00", -0.03583610140026357], ["1.00 < lack of tone <= 2.00", 0.027934385710089334], ["work on screen > 2.00", 0.025465836285248577], ["Place of work > 3.00", 0.020054979747322545], ["0.00 < tools or workstation <= 1.00", 0.01670285423892457], ["well-being of its employees > 2.00", 0.01550061905913596], ["clarity of your role in the company <= 0.00", -0.01504039612068001], ["2.00 < Age <= 4.00", 0.014927613212976776]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "2.00", -0.1362782011902117], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health", "2.00", 0.04809192133391672], ["Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business", "4.00", 0.04171757290451748], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)", "4.00", 0.029698933678827834], ["Q13- Is the performance of your work taxing on you?-To perform repetitive gestures", "1.00", 0.025914153447315288], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back", "3.00", -0.019216109324927882], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company", "3.00", 0.01890288592702327], ["Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?", "0.00", -0.015758811860781867], ["Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury", "2.00", -0.015164363470172125], ["Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions", "4.00", 0.014123120484012026]], 1, raw_div);
+            exp.show_raw_tabular([["state of health in general", "3.00", 0.05250877205466221], ["leg, foot, knee pain", "3.00", 0.039006055741792584], ["Full Time/Part Time", "0.00", -0.03583610140026357], ["lack of tone", "2.00", 0.027934385710089334], ["work on screen", "3.00", 0.025465836285248577], ["Place of work", "5.00", 0.020054979747322545], ["tools or workstation", "1.00", 0.01670285423892457], ["well-being of its employees", "3.00", 0.01550061905913596], ["clarity of your role in the company", "0.00", -0.01504039612068001], ["Age", "4.00", 0.014927613212976776]], 1, raw_div);
         
         </script>
         </body></html>

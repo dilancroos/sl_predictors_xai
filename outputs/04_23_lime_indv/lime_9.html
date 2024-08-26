@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div03TWPDCQ8CVELIV"></div>
+        <div class="lime top_div" id="top_divFCNST30HE1H7VGK"></div>
         
         <script>
-        var top_div = d3.select('#top_div03TWPDCQ8CVELIV').classed('lime top_div', true);
+        var top_div = d3.select('#top_divFCNST30HE1H7VGK').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["2.0", "3.0"], [0.64, 0.36]);
+            var pp = new lime.PredictProba(pp_svg, ["2", "3"], [0.74, 0.26]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["2.0", "3.0"]);
+            var exp = new lime.Explanation(["2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.00 < Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 2.00", -0.13348301117526593], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company <= 3.00", 0.01985517451661211], ["1.00 < Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury <= 2.00", -0.017330934373193402], ["2.00 < Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone <= 3.00", -0.017262642466960066], ["1.96 < Q15- Indicate whether each of the following sentences suits you-My job is physically tiring <= 2.05", 0.011980735999252102], ["2.00 < Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business <= 3.00", -0.011318677912334117], ["Q13- Is the performance of your work taxing on you?-To perform repetitive gestures > 3.00", -0.009963223567507949], ["Q37- How do you rate your state of health in general? <= 2.00", 0.009647834680505129], ["Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you? <= 0.00", -0.009622015176373292], ["1.00 < Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one <= 2.00", -0.009421368989141548]], 1, exp_div);
+                exp.show([["state of health in general <= 1.00", -0.040880834613421166], ["Full Time/Part Time <= 0.00", -0.03884003490229229], ["lack of tone <= 1.00", -0.028193633841036344], ["back pain <= 1.00", -0.024946624755850116], ["Sleep disorders <= 1.00", -0.02289737256779955], ["work on screen <= 0.00", -0.02080368191356393], ["leg, foot, knee pain <= 0.00", -0.01908987402640307], ["tools or workstation <= 0.00", -0.014445298706254198], ["other parts of the body pain <= 0.00", -0.013699158508120176], ["well-suited workstation <= 1.00", -0.012432342198641123]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "2.00", -0.13348301117526593], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company", "3.00", 0.01985517451661211], ["Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury", "2.00", -0.017330934373193402], ["Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone", "3.00", -0.017262642466960066], ["Q15- Indicate whether each of the following sentences suits you-My job is physically tiring", "2.00", 0.011980735999252102], ["Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business", "3.00", -0.011318677912334117], ["Q13- Is the performance of your work taxing on you?-To perform repetitive gestures", "4.00", -0.009963223567507949], ["Q37- How do you rate your state of health in general?", "2.00", 0.009647834680505129], ["Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?", "0.00", -0.009622015176373292], ["Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one", "2.00", -0.009421368989141548]], 1, raw_div);
+            exp.show_raw_tabular([["state of health in general", "1.00", -0.040880834613421166], ["Full Time/Part Time", "0.00", -0.03884003490229229], ["lack of tone", "1.00", -0.028193633841036344], ["back pain", "0.00", -0.024946624755850116], ["Sleep disorders", "1.00", -0.02289737256779955], ["work on screen", "0.00", -0.02080368191356393], ["leg, foot, knee pain", "0.00", -0.01908987402640307], ["tools or workstation", "0.00", -0.014445298706254198], ["other parts of the body pain", "0.00", -0.013699158508120176], ["well-suited workstation", "1.00", -0.012432342198641123]], 1, raw_div);
         
         </script>
         </body></html>

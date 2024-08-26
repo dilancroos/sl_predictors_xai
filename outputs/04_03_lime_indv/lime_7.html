@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div7ILYRLH94SY4TUP"></div>
+        <div class="lime top_div" id="top_divU1FHU9C86XYHLC1"></div>
         
         <script>
-        var top_div = d3.select('#top_div7ILYRLH94SY4TUP').classed('lime top_div', true);
+        var top_div = d3.select('#top_divU1FHU9C86XYHLC1').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "3"], [0.65, 0.35]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "3"], [0.54, 0.46]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.00 < Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 2.00", 0.03692344669697718], ["Q37- How do you rate your state of health in general? <= 2.00", -0.01676499797328876], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health <= 2.00", -0.014396237098255427], ["2.00 < Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back <= 3.00", 0.012799816499954807], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm > 3.00", -0.012509042755324752], ["Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone <= 2.00", 0.011814951663955001], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company <= 3.00", -0.00997926139982709], ["Q25-Your workplace-home transportation time (round trip) is: > 2.00", -0.0086960095452865], ["1.18 < Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one <= 2.00", 0.008426733952704914], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body > 2.00", -0.007914638008974878]], 1, exp_div);
+                exp.show([["0.00 < long-term illness <= 1.00", -0.16718444231637242], ["personal concerns <= 1.00", 0.058786018510351944], ["hurtful or aggressive remarks <= 2.00", 0.051802670201495364], ["No of 3 to 6 years old children <= 0.00", -0.030001922757692173], ["sleeping pills, anxiolytics or anti-depressants <= 0.00", -0.027919039423152808], ["No of 18 years and over children <= 0.00", -0.026898965195717064], ["0.00 < smoker <= 1.00", -0.021922460461600388], ["Full Time/Part Time <= 0.00", 0.02007861102911895], ["0.00 < shift work with alternating hours <= 1.00", -0.020037193911338295], ["work in noisy env <= 0.00", 0.01857784298897787]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "2.00", 0.03692344669697718], ["Q37- How do you rate your state of health in general?", "1.00", -0.01676499797328876], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health", "1.00", -0.014396237098255427], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back", "3.00", 0.012799816499954807], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm", "4.00", -0.012509042755324752], ["Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone", "2.00", 0.011814951663955001], ["Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company", "1.00", -0.00997926139982709], ["Q25-Your workplace-home transportation time (round trip) is:", "3.00", -0.0086960095452865], ["Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one", "2.00", 0.008426733952704914], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body", "3.00", -0.007914638008974878]], 1, raw_div);
+            exp.show_raw_tabular([["long-term illness", "1.00", -0.16718444231637242], ["personal concerns", "1.00", 0.058786018510351944], ["hurtful or aggressive remarks", "2.00", 0.051802670201495364], ["No of 3 to 6 years old children", "0.00", -0.030001922757692173], ["sleeping pills, anxiolytics or anti-depressants", "0.00", -0.027919039423152808], ["No of 18 years and over children", "0.00", -0.026898965195717064], ["smoker", "1.00", -0.021922460461600388], ["Full Time/Part Time", "0.00", 0.02007861102911895], ["shift work with alternating hours", "1.00", -0.020037193911338295], ["work in noisy env", "0.00", 0.01857784298897787]], 1, raw_div);
         
         </script>
         </body></html>

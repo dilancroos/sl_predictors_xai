@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divUOHX39MW2BCSOQW"></div>
+        <div class="lime top_div" id="top_divFCVA2KGGM1VVZH4"></div>
         
         <script>
-        var top_div = d3.select('#top_divUOHX39MW2BCSOQW').classed('lime top_div', true);
+        var top_div = d3.select('#top_divFCVA2KGGM1VVZH4').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1.0", "2.0", "3.0"], [0.18, 0.23, 0.59]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.63, 0.16, 0.08, 0.13]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1.0", "2.0", "3.0"]);
+            var exp = new lime.Explanation(["0", "1", "2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.00 < Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 2.00", 0.06355645991599713], ["2.00 < Q37- How do you rate your state of health in general? <= 3.00", 0.050758192634830605], ["1.00 < Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 2.00", 0.02314215398994361], ["Q13- Is the performance of your work taxing on you?-To work on screen > 2.00", -0.021156928638869605], ["3.00 < Q2- How old are you? <= 4.00", 0.01670050848040051], ["2.00 < Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work <= 3.00", 0.01368867597205262], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health <= 2.00", -0.012895267146765973], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body <= 1.00", -0.012583426241645084], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week <= 2.00", -0.012282880291241966], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads <= 2.00", -0.011322928012654871]], 1, exp_div);
+                exp.show([["1.00 < Age <= 3.00", -0.037196265883785766], ["state of health in general <= 1.00", 0.024091438101665585], ["work on screen > 1.00", -0.023635279327040792], ["can talk to loved ones > 1.00", -0.023210534400389102], ["Full Time/Part Time <= 0.00", 0.01597940053853206], ["tools or workstation <= 0.00", 0.010429390157270086], ["0.00 < long-term illness <= 1.00", -0.009854549539730053], ["Sleep disorders <= 1.00", 0.009701237587541494], ["0.00 < smoker <= 1.00", -0.009627647506430349], ["mastery of position <= 0.00", 0.008900693833094582]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "2.00", 0.06355645991599713], ["Q37- How do you rate your state of health in general?", "3.00", 0.050758192634830605], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "2.00", 0.02314215398994361], ["Q13- Is the performance of your work taxing on you?-To work on screen", "4.00", -0.021156928638869605], ["Q2- How old are you?", "4.00", 0.01670050848040051], ["Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work", "3.00", 0.01368867597205262], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health", "1.00", -0.012895267146765973], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body", "1.00", -0.012583426241645084], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week", "2.00", -0.012282880291241966], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads", "2.00", -0.011322928012654871]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "2.00", -0.037196265883785766], ["state of health in general", "1.00", 0.024091438101665585], ["work on screen", "2.00", -0.023635279327040792], ["can talk to loved ones", "2.00", -0.023210534400389102], ["Full Time/Part Time", "0.00", 0.01597940053853206], ["tools or workstation", "0.00", 0.010429390157270086], ["long-term illness", "1.00", -0.009854549539730053], ["Sleep disorders", "1.00", 0.009701237587541494], ["smoker", "1.00", -0.009627647506430349], ["mastery of position", "0.00", 0.008900693833094582]], 1, raw_div);
         
         </script>
         </body></html>

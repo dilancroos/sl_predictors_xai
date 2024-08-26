@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divI3G7BYC9R0F3GPL"></div>
+        <div class="lime top_div" id="top_divHJXYSRKG1R6ZNI0"></div>
         
         <script>
-        var top_div = d3.select('#top_divI3G7BYC9R0F3GPL').classed('lime top_div', true);
+        var top_div = d3.select('#top_divHJXYSRKG1R6ZNI0').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1.0", "3.0"], [0.26, 0.74]);
+            var pp = new lime.PredictProba(pp_svg, ["1", "3"], [0.64, 0.36]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1.0", "3.0"]);
+            var exp = new lime.Explanation(["1", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Q2- How old are you? > 4.00", 0.09073366148487401], ["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 1.00", 0.0712835449569308], ["3.00 < STATUS <= 4.00", 0.036263435961773796], ["Q13- Is the performance of your work taxing on you?-To work on screen > 2.00", 0.033544779483552487], ["Q12- Do you work most often? > 4.00", 0.031089480622428244], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back > 3.00", 0.029994487611428], ["Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat <= 2.00", 0.022988626878423516], ["Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work <= 2.00", -0.02297413103164], ["Q15- Indicate whether each of the following sentences suits you-My job is physically tiring <= 2.00", 0.022073795136380282], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads <= 2.00", 0.0193563311621742]], 1, exp_div);
+                exp.show([["Age > 3.00", 0.08128685597144511], ["state of health in general <= 1.00", -0.06920768704396671], ["Work type <= 0.00", -0.031223102918519055], ["Place of work <= 1.00", -0.02757231823609614], ["Sleep disorders <= 1.00", -0.027476157514404992], ["sleeping pills, anxiolytics or anti-depressants <= 0.00", -0.024604289592650617], ["long-term illness <= 0.00", 0.024428388276585805], ["work on screen <= 0.00", -0.02366225343178074], ["back pain <= 1.00", -0.023232513435651584], ["recognized by my hierarchy <= 1.00", -0.017797898940032093]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q2- How old are you?", "5.00", 0.09073366148487401], ["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "1.00", 0.0712835449569308], ["STATUS", "4.00", 0.036263435961773796], ["Q13- Is the performance of your work taxing on you?-To work on screen", "4.00", 0.033544779483552487], ["Q12- Do you work most often?", "6.00", 0.031089480622428244], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back", "4.00", 0.029994487611428], ["Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat", "1.00", 0.022988626878423516], ["Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work", "2.00", -0.02297413103164], ["Q15- Indicate whether each of the following sentences suits you-My job is physically tiring", "2.00", 0.022073795136380282], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads", "1.00", 0.0193563311621742]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "4.00", 0.08128685597144511], ["state of health in general", "1.00", -0.06920768704396671], ["Work type", "0.00", -0.031223102918519055], ["Place of work", "0.00", -0.02757231823609614], ["Sleep disorders", "1.00", -0.027476157514404992], ["sleeping pills, anxiolytics or anti-depressants", "0.00", -0.024604289592650617], ["long-term illness", "0.00", 0.024428388276585805], ["work on screen", "0.00", -0.02366225343178074], ["back pain", "1.00", -0.023232513435651584], ["recognized by my hierarchy", "1.00", -0.017797898940032093]], 1, raw_div);
         
         </script>
         </body></html>

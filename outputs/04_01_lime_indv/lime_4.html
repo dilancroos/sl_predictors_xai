@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div7O37EDZLYSTWSEF"></div>
+        <div class="lime top_div" id="top_divJ1HKLTPJ99PI50D"></div>
         
         <script>
-        var top_div = d3.select('#top_div7O37EDZLYSTWSEF').classed('lime top_div', true);
+        var top_div = d3.select('#top_divJ1HKLTPJ99PI50D').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.92, 0.08]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.71, 0.29]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.26 < Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body <= 2.00", 0.020105725375729584], ["Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration > 2.00", -0.01609922201345895], ["Q2- How old are you? <= 1.78", 0.011565410636064706], ["Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work <= 2.00", 0.010776054533203367], ["1.00 < Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee <= 2.00", 0.010214307312335486], ["Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities <= 2.00", -0.009589079620461393], ["Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work > 2.00", -0.009575642792781686], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head <= 2.00", 0.009365420070722181], ["1.15 < Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one <= 2.00", 0.00902265267284015], ["Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation > 2.15", -0.007976600744231685]], 1, exp_div);
+                exp.show([["decreased alertness <= 2.00", 0.10326880006135193], ["Full Time/Part Time <= 0.00", 0.07019952263315163], ["No of 3 to 6 years old children <= 0.00", -0.05944172429488047], ["2.00 < hurtful or aggressive remarks <= 3.00", -0.05219993249985332], ["Age <= 0.00", 0.051500892084534976], ["tools or workstation <= 0.00", 0.02886256259828962], ["0.00 < work on screen <= 1.00", -0.026485773115729774], ["work quickly or very intensely > 1.00", -0.024748387057849364], ["No of 13 to 17 years old children <= 0.00", -0.02418542031648989], ["0.00 < access to professional training <= 1.00", -0.02359709311744897]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body", "2.00", 0.020105725375729584], ["Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration", "3.00", -0.01609922201345895], ["Q2- How old are you?", "1.00", 0.011565410636064706], ["Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work", "2.00", 0.010776054533203367], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee", "2.00", 0.010214307312335486], ["Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities", "2.00", -0.009589079620461393], ["Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work", "4.00", -0.009575642792781686], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head", "2.00", 0.009365420070722181], ["Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one", "2.00", 0.00902265267284015], ["Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation", "3.00", -0.007976600744231685]], 1, raw_div);
+            exp.show_raw_tabular([["decreased alertness", "2.00", 0.10326880006135193], ["Full Time/Part Time", "0.00", 0.07019952263315163], ["No of 3 to 6 years old children", "0.00", -0.05944172429488047], ["hurtful or aggressive remarks", "3.00", -0.05219993249985332], ["Age", "0.00", 0.051500892084534976], ["tools or workstation", "0.00", 0.02886256259828962], ["work on screen", "1.00", -0.026485773115729774], ["work quickly or very intensely", "2.00", -0.024748387057849364], ["No of 13 to 17 years old children", "0.00", -0.02418542031648989], ["access to professional training", "1.00", -0.02359709311744897]], 1, raw_div);
         
         </script>
         </body></html>

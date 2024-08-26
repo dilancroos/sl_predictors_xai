@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divVQ19273SC62R9D6"></div>
+        <div class="lime top_div" id="top_divPJ91JQ627GUFODI"></div>
         
         <script>
-        var top_div = d3.select('#top_divVQ19273SC62R9D6').classed('lime top_div', true);
+        var top_div = d3.select('#top_divPJ91JQ627GUFODI').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.72, 0.28]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.66, 0.34]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.26 < Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body <= 2.00", 0.018587858703274982], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm > 2.35", -0.013123608214708168], ["Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work <= 2.00", 0.01248906147589542], ["1.78 < Q2- How old are you? <= 2.00", 0.010771807131535782], ["Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone <= 2.00", 0.009928582646408689], ["Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you? <= 0.00", 0.009657042486697942], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head <= 2.00", 0.009599484737303238], ["Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite > 4.00", 0.007569300237181773], ["Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely > 2.96", -0.007105530212191328], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 1.00", -0.006996702508494731]], 1, exp_div);
+                exp.show([["decreased alertness <= 2.00", 0.10088296442837645], ["personal concerns > 2.00", -0.07139474810343874], ["Full Time/Part Time > 0.00", -0.05780929811828629], ["hurtful or aggressive remarks <= 2.00", 0.05275804049046544], ["No of 3 to 6 years old children <= 0.00", -0.05097127920323727], ["1.00 < Age <= 3.00", -0.042073400640839316], ["work on screen <= 0.00", 0.0388242107443408], ["can talk to loved ones <= 0.00", 0.03111781167014428], ["clarity of your role in the company > 0.00", -0.028942738985855008], ["No of 7 to 12 years old children <= 0.00", -0.025399145693444005]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body", "2.00", 0.018587858703274982], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm", "3.00", -0.013123608214708168], ["Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work", "2.00", 0.01248906147589542], ["Q2- How old are you?", "2.00", 0.010771807131535782], ["Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone", "2.00", 0.009928582646408689], ["Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?", "0.00", 0.009657042486697942], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head", "2.00", 0.009599484737303238], ["Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite", "5.00", 0.007569300237181773], ["Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely", "3.00", -0.007105530212191328], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "1.00", -0.006996702508494731]], 1, raw_div);
+            exp.show_raw_tabular([["decreased alertness", "2.00", 0.10088296442837645], ["personal concerns", "3.00", -0.07139474810343874], ["Full Time/Part Time", "1.00", -0.05780929811828629], ["hurtful or aggressive remarks", "2.00", 0.05275804049046544], ["No of 3 to 6 years old children", "0.00", -0.05097127920323727], ["Age", "3.00", -0.042073400640839316], ["work on screen", "0.00", 0.0388242107443408], ["can talk to loved ones", "0.00", 0.03111781167014428], ["clarity of your role in the company", "1.00", -0.028942738985855008], ["No of 7 to 12 years old children", "0.00", -0.025399145693444005]], 1, raw_div);
         
         </script>
         </body></html>

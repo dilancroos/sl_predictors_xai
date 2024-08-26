@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divVBKP6IR61M0WSDN"></div>
+        <div class="lime top_div" id="top_div3CAJA6YXXTPXSVD"></div>
         
         <script>
-        var top_div = d3.select('#top_divVBKP6IR61M0WSDN').classed('lime top_div', true);
+        var top_div = d3.select('#top_div3CAJA6YXXTPXSVD').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1.0", "3.0"], [0.67, 0.33]);
+            var pp = new lime.PredictProba(pp_svg, ["1", "3"], [0.21, 0.79]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1.0", "3.0"]);
+            var exp = new lime.Explanation(["1", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Q2- How old are you? <= 2.00", -0.07458197241439526], ["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 1.00", 0.06679683590923108], ["Q13- Is the performance of your work taxing on you?-To work on screen <= 1.00", -0.024203529862908163], ["Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work <= 2.00", -0.022345886033155876], ["Q62- Do you take sleeping pills, anxiolytics or anti-depressants: <= 1.00", -0.018428580400074657], ["Q12- Do you work most often? <= 2.00", -0.017234204106129643], ["2.00 < Q15- Indicate whether each of the following sentences suits you-My job is physically tiring <= 3.00", -0.015315097459266198], ["Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone <= 2.00", -0.015113325121030198], ["2.00 < Q37- How do you rate your state of health in general? <= 3.00", 0.0143655236137099], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.) <= 2.00", -0.014189790670158842]], 1, exp_div);
+                exp.show([["Age <= 1.00", -0.08036540176421927], ["state of health in general > 2.00", 0.05577205050572209], ["recognized by my hierarchy > 2.00", 0.03620129629927732], ["back pain > 2.00", 0.034768560843702445], ["2.00 < Work type <= 3.00", 0.03225196817406216], ["1.00 < leg, foot, knee pain <= 2.00", 0.02929865122572953], ["count on supervisor > 2.00", 0.02627013001325207], ["long-term illness <= 0.00", 0.025059164749002025], ["2.00 < Place of work <= 3.00", 0.02299457206109538], ["1.00 < Sleep disorders <= 2.00", 0.022290506414055108]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q2- How old are you?", "2.00", -0.07458197241439526], ["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "1.00", 0.06679683590923108], ["Q13- Is the performance of your work taxing on you?-To work on screen", "1.00", -0.024203529862908163], ["Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work", "2.00", -0.022345886033155876], ["Q62- Do you take sleeping pills, anxiolytics or anti-depressants:", "1.00", -0.018428580400074657], ["Q12- Do you work most often?", "2.00", -0.017234204106129643], ["Q15- Indicate whether each of the following sentences suits you-My job is physically tiring", "3.00", -0.015315097459266198], ["Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone", "2.00", -0.015113325121030198], ["Q37- How do you rate your state of health in general?", "3.00", 0.0143655236137099], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)", "2.00", -0.014189790670158842]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "1.00", -0.08036540176421927], ["state of health in general", "3.00", 0.05577205050572209], ["recognized by my hierarchy", "3.00", 0.03620129629927732], ["back pain", "3.00", 0.034768560843702445], ["Work type", "3.00", 0.03225196817406216], ["leg, foot, knee pain", "2.00", 0.02929865122572953], ["count on supervisor", "3.00", 0.02627013001325207], ["long-term illness", "0.00", 0.025059164749002025], ["Place of work", "3.00", 0.02299457206109538], ["Sleep disorders", "2.00", 0.022290506414055108]], 1, raw_div);
         
         </script>
         </body></html>

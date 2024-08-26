@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div1IP22AW7NPB9CR8"></div>
+        <div class="lime top_div" id="top_divBIG4LPSHZKLXABM"></div>
         
         <script>
-        var top_div = d3.select('#top_div1IP22AW7NPB9CR8').classed('lime top_div', true);
+        var top_div = d3.select('#top_divBIG4LPSHZKLXABM').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1.0", "2.0", "3.0"], [0.37, 0.39, 0.24]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.39, 0.16, 0.26, 0.19]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1.0", "2.0", "3.0"]);
+            var exp = new lime.Explanation(["0", "1", "2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.00 < Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 2.00", 0.06542694352572519], ["Q37- How do you rate your state of health in general? <= 2.00", -0.04788695836584824], ["1.00 < Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 2.00", 0.02370167623220169], ["2.00 < Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health <= 3.00", 0.01488673514869457], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body <= 1.00", -0.012349866639258262], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week <= 2.00", -0.012176267390184495], ["3.00 < Q13- Is the performance of your work taxing on you?-To carry or move heavy loads <= 4.00", 0.011382640304886612], ["3.00 < What is the size of your business (in total, all locations combined)? 2009 fake <= 4.00", 0.011099766798814522], ["Q13- Is the performance of your work taxing on you?-To work on screen <= 1.00", 0.01102340142785579], ["2.00 < Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities <= 3.00", 0.010709122916985636]], 1, exp_div);
+                exp.show([["1.00 < Age <= 3.00", -0.03720064216931314], ["state of health in general <= 1.00", 0.02426137557933002], ["difficulty reconciling your work with your other personal commitments > 2.00", -0.023962100432073617], ["Full Time/Part Time <= 0.00", 0.016205301420953888], ["difficulty managing priorities > 2.00", -0.014837629985574186], ["tools or workstation <= 0.00", 0.012891708842426174], ["0.00 < work on screen <= 1.00", -0.012580749071271666], ["2.00 < Work type <= 3.00", -0.01178592353619847], ["hurtful or aggressive remarks <= 2.00", 0.011630726229434127], ["2.00 < Place of work <= 3.00", -0.010826102732718126]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "2.00", 0.06542694352572519], ["Q37- How do you rate your state of health in general?", "2.00", -0.04788695836584824], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "2.00", 0.02370167623220169], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health", "3.00", 0.01488673514869457], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body", "1.00", -0.012349866639258262], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week", "2.00", -0.012176267390184495], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads", "4.00", 0.011382640304886612], ["What is the size of your business (in total, all locations combined)? 2009 fake", "4.00", 0.011099766798814522], ["Q13- Is the performance of your work taxing on you?-To work on screen", "1.00", 0.01102340142785579], ["Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities", "3.00", 0.010709122916985636]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "2.00", -0.03720064216931314], ["state of health in general", "1.00", 0.02426137557933002], ["difficulty reconciling your work with your other personal commitments", "3.00", -0.023962100432073617], ["Full Time/Part Time", "0.00", 0.016205301420953888], ["difficulty managing priorities", "3.00", -0.014837629985574186], ["tools or workstation", "0.00", 0.012891708842426174], ["work on screen", "1.00", -0.012580749071271666], ["Work type", "3.00", -0.01178592353619847], ["hurtful or aggressive remarks", "2.00", 0.011630726229434127], ["Place of work", "3.00", -0.010826102732718126]], 1, raw_div);
         
         </script>
         </body></html>

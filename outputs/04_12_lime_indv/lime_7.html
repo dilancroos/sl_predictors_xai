@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divQ1C0XDTFO90EZNT"></div>
+        <div class="lime top_div" id="top_div78IOCP3MWDAMZFY"></div>
         
         <script>
-        var top_div = d3.select('#top_divQ1C0XDTFO90EZNT').classed('lime top_div', true);
+        var top_div = d3.select('#top_div78IOCP3MWDAMZFY').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1", "2"], [0.74, 0.26]);
+            var pp = new lime.PredictProba(pp_svg, ["1", "2"], [0.48, 0.52]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["1", "2"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 1.00", -0.06916940193002664], ["Q37- How do you rate your state of health in general? <= 2.00", -0.054176598291503654], ["STATUS <= 1.00", -0.022690836467169642], ["2.00 < Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities <= 3.00", 0.02182513100975677], ["1.00 < Q14- During your work, are you in a situation? (Of-breathe toxic products or dust <= 2.00", 0.02033928690598611], ["Q2- How old are you? <= 2.00", -0.01862266288398582], ["2.05 < Q58- For each of these drinks, indicate whether you consume them:-At least once a week <= 3.00", 0.015608952026499959], ["Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one <= 1.00", -0.014190834945143243], ["Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business <= 2.00", 0.013898772328395216], ["Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration <= 1.00", -0.012390496888882526]], 1, exp_div);
+                exp.show([["Age <= 1.00", -0.03530939730522808], ["No of 18 years and over children <= 0.00", -0.027828810395153163], ["0.00 < transportation <= 1.00", -0.025443641066083263], ["physically tiring <= 1.00", 0.01892221684262752], ["standing or in an awkward posture <= 0.00", 0.01885611733784629], ["work in noisy env <= 0.00", 0.016808115082939955], ["smoker <= 0.00", 0.01580798452204741], ["No of 13 to 17 years old children <= 0.00", -0.01573519299257606], ["long-term illness <= 0.00", 0.014107909515965982], ["insulted or attacked by the public or customers <= 2.00", 0.013541732179350252]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "1.00", -0.06916940193002664], ["Q37- How do you rate your state of health in general?", "2.00", -0.054176598291503654], ["STATUS", "1.00", -0.022690836467169642], ["Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities", "3.00", 0.02182513100975677], ["Q14- During your work, are you in a situation? (Of-breathe toxic products or dust", "2.00", 0.02033928690598611], ["Q2- How old are you?", "1.00", -0.01862266288398582], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week", "3.00", 0.015608952026499959], ["Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one", "1.00", -0.014190834945143243], ["Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business", "2.00", 0.013898772328395216], ["Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration", "1.00", -0.012390496888882526]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "1.00", -0.03530939730522808], ["No of 18 years and over children", "0.00", -0.027828810395153163], ["transportation", "1.00", -0.025443641066083263], ["physically tiring", "0.00", 0.01892221684262752], ["standing or in an awkward posture", "0.00", 0.01885611733784629], ["work in noisy env", "0.00", 0.016808115082939955], ["smoker", "0.00", 0.01580798452204741], ["No of 13 to 17 years old children", "0.00", -0.01573519299257606], ["long-term illness", "0.00", 0.014107909515965982], ["insulted or attacked by the public or customers", "2.00", 0.013541732179350252]], 1, raw_div);
         
         </script>
         </body></html>

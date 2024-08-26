@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divB1M3PT36LFP2NS3"></div>
+        <div class="lime top_div" id="top_div30N17BTKT5AR8RD"></div>
         
         <script>
-        var top_div = d3.select('#top_divB1M3PT36LFP2NS3').classed('lime top_div', true);
+        var top_div = d3.select('#top_div30N17BTKT5AR8RD').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1.0", "2.0", "3.0"], [0.48, 0.25, 0.27]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.2, 0.3, 0.18, 0.32]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1.0", "2.0", "3.0"]);
+            var exp = new lime.Explanation(["0", "1", "2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.00 < Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 2.00", 0.06457429336559752], ["Q37- How do you rate your state of health in general? <= 2.00", -0.045287366542642024], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 1.00", -0.02486050376063198], ["STATUS <= 1.00", -0.023881134945613135], ["Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely > 3.00", -0.018188138444211657], ["2.00 < Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health <= 3.00", 0.0165830170994531], ["Q13- Is the performance of your work taxing on you?-To work on screen <= 1.00", 0.013428734774585806], ["3.00 < Q13- Is the performance of your work taxing on you?-To carry or move heavy loads <= 4.00", 0.012909538514965747], ["Q13- Is the performance of your work taxing on you?-To work in noise > 3.00", -0.011741356380870505], ["3.00 < Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers <= 4.00", 0.01134514955737203]], 1, exp_div);
+                exp.show([["Age > 3.00", -0.0549895046111885], ["state of health in general <= 1.00", 0.027448963119732796], ["work on screen <= 0.00", 0.022989830834302654], ["Work type <= 0.00", 0.01810686398431362], ["can talk to loved ones > 1.00", -0.014946296370224536], ["Full Time/Part Time <= 0.00", 0.013431202062131154], ["Sleep disorders <= 1.00", 0.012902572535354102], ["tools or workstation <= 0.00", 0.011666648417210159], ["No of 3 to 6 years old children <= 0.00", -0.011392231339902572], ["long-term illness <= 0.00", 0.011070118555438529]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "2.00", 0.06457429336559752], ["Q37- How do you rate your state of health in general?", "2.00", -0.045287366542642024], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "1.00", -0.02486050376063198], ["STATUS", "1.00", -0.023881134945613135], ["Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely", "4.00", -0.018188138444211657], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health", "3.00", 0.0165830170994531], ["Q13- Is the performance of your work taxing on you?-To work on screen", "1.00", 0.013428734774585806], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads", "4.00", 0.012909538514965747], ["Q13- Is the performance of your work taxing on you?-To work in noise", "4.00", -0.011741356380870505], ["Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers", "4.00", 0.01134514955737203]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "4.00", -0.0549895046111885], ["state of health in general", "1.00", 0.027448963119732796], ["work on screen", "0.00", 0.022989830834302654], ["Work type", "0.00", 0.01810686398431362], ["can talk to loved ones", "2.00", -0.014946296370224536], ["Full Time/Part Time", "0.00", 0.013431202062131154], ["Sleep disorders", "1.00", 0.012902572535354102], ["tools or workstation", "0.00", 0.011666648417210159], ["No of 3 to 6 years old children", "0.00", -0.011392231339902572], ["long-term illness", "0.00", 0.011070118555438529]], 1, raw_div);
         
         </script>
         </body></html>

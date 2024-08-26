@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divCPQ93ZUB2USWN9F"></div>
+        <div class="lime top_div" id="top_divHTRGO9MENNYFVL2"></div>
         
         <script>
-        var top_div = d3.select('#top_divCPQ93ZUB2USWN9F').classed('lime top_div', true);
+        var top_div = d3.select('#top_divHTRGO9MENNYFVL2').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1.0", "2.0", "3.0"], [0.6, 0.12, 0.28]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.4, 0.12, 0.24, 0.24]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1.0", "2.0", "3.0"]);
+            var exp = new lime.Explanation(["0", "1", "2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.00 < Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 2.00", 0.06539220108746495], ["Q37- How do you rate your state of health in general? <= 2.00", -0.046508557307514985], ["Q2- How old are you? <= 2.00", -0.027740979882251254], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 1.00", -0.021191676677428634], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week <= 2.00", -0.01581161000746113], ["Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration <= 1.00", -0.014493800656636451], ["Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities <= 2.00", -0.01354196744747125], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health <= 2.00", -0.012284224858063296], ["Q57- How do you most frequently eat your midday meal? > 4.25", -0.012182849152615444], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back <= 2.00", -0.011907898811372586]], 1, exp_div);
+                exp.show([["Age > 3.00", -0.05571767944444684], ["work on screen <= 0.00", 0.022380218300758897], ["1.00 < state of health in general <= 2.00", -0.021908625545728814], ["Work type <= 0.00", 0.01896493981828075], ["Full Time/Part Time <= 0.00", 0.014001688077047401], ["tools or workstation <= 0.00", 0.013211045521108113], ["1.00 < drinks (At least once a week) <= 2.00", -0.01084908195849987], ["long periods of concentration > 1.00", -0.010569102263565663], ["2.00 < standing or in an awkward posture <= 3.00", 0.00998621254636784], ["work in noisy env > 2.00", -0.009889392435951602]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "2.00", 0.06539220108746495], ["Q37- How do you rate your state of health in general?", "2.00", -0.046508557307514985], ["Q2- How old are you?", "1.00", -0.027740979882251254], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "1.00", -0.021191676677428634], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week", "2.00", -0.01581161000746113], ["Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration", "1.00", -0.014493800656636451], ["Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities", "1.00", -0.01354196744747125], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health", "2.00", -0.012284224858063296], ["Q57- How do you most frequently eat your midday meal?", "5.00", -0.012182849152615444], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back", "1.00", -0.011907898811372586]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "5.00", -0.05571767944444684], ["work on screen", "0.00", 0.022380218300758897], ["state of health in general", "2.00", -0.021908625545728814], ["Work type", "0.00", 0.01896493981828075], ["Full Time/Part Time", "0.00", 0.014001688077047401], ["tools or workstation", "0.00", 0.013211045521108113], ["drinks (At least once a week)", "2.00", -0.01084908195849987], ["long periods of concentration", "2.00", -0.010569102263565663], ["standing or in an awkward posture", "3.00", 0.00998621254636784], ["work in noisy env", "3.00", -0.009889392435951602]], 1, raw_div);
         
         </script>
         </body></html>

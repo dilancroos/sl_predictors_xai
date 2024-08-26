@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divTZVZSNZWQEPLQ7M"></div>
+        <div class="lime top_div" id="top_divVDQD460OPUFTP45"></div>
         
         <script>
-        var top_div = d3.select('#top_divTZVZSNZWQEPLQ7M').classed('lime top_div', true);
+        var top_div = d3.select('#top_divVDQD460OPUFTP45').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1.0", "2.0", "3.0"], [0.16, 0.27, 0.57]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.77, 0.17, 0.01, 0.05]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1.0", "2.0", "3.0"]);
+            var exp = new lime.Explanation(["0", "1", "2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 1.00", -0.06660760456343892], ["Q37- How do you rate your state of health in general? <= 2.00", -0.046754500175349684], ["3.00 < STATUS <= 4.00", 0.026345987560210126], ["1.00 < Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 2.00", 0.019523207338491978], ["1.00 < Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body <= 2.00", 0.013015261238264074], ["2.00 < Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.) <= 3.00", 0.012467356866843908], ["2.00 < Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities <= 3.00", 0.011826985378808897], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week <= 2.00", -0.010761372515030503], ["Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration <= 1.00", -0.010377401313062596], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health <= 2.00", -0.009960447824504887]], 1, exp_div);
+                exp.show([["Age <= 1.00", 0.06589963057283695], ["decreased alertness > 2.00", -0.03826816844884649], ["state of health in general <= 1.00", 0.026683359952731203], ["midday meal > 3.00", -0.022488918232066835], ["work on screen <= 0.00", 0.021616749093732], ["personal concerns > 2.00", -0.01678568862744367], ["Work type <= 0.00", 0.016439816428600346], ["Full Time/Part Time <= 0.00", 0.013724964545554802], ["clarity of your role in the company <= 0.00", 0.011044338608079166], ["Sleep disorders <= 1.00", 0.010768156549231432]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "1.00", -0.06660760456343892], ["Q37- How do you rate your state of health in general?", "2.00", -0.046754500175349684], ["STATUS", "4.00", 0.026345987560210126], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "2.00", 0.019523207338491978], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body", "2.00", 0.013015261238264074], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)", "3.00", 0.012467356866843908], ["Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities", "3.00", 0.011826985378808897], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week", "1.00", -0.010761372515030503], ["Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration", "1.00", -0.010377401313062596], ["Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health", "2.00", -0.009960447824504887]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "0.00", 0.06589963057283695], ["decreased alertness", "3.00", -0.03826816844884649], ["state of health in general", "1.00", 0.026683359952731203], ["midday meal", "4.00", -0.022488918232066835], ["work on screen", "0.00", 0.021616749093732], ["personal concerns", "3.00", -0.01678568862744367], ["Work type", "0.00", 0.016439816428600346], ["Full Time/Part Time", "0.00", 0.013724964545554802], ["clarity of your role in the company", "0.00", 0.011044338608079166], ["Sleep disorders", "1.00", 0.010768156549231432]], 1, raw_div);
         
         </script>
         </body></html>

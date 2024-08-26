@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div8OLBRFS32IFGRLH"></div>
+        <div class="lime top_div" id="top_divNTD5X79PIPRHWO9"></div>
         
         <script>
-        var top_div = d3.select('#top_div8OLBRFS32IFGRLH').classed('lime top_div', true);
+        var top_div = d3.select('#top_divNTD5X79PIPRHWO9').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1.0", "3.0"], [0.5, 0.5]);
+            var pp = new lime.PredictProba(pp_svg, ["1", "3"], [0.39, 0.61]);
             
         
         var exp_div;
-            var exp = new lime.Explanation(["1.0", "3.0"]);
+            var exp = new lime.Explanation(["1", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["1.00 < Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently <= 2.00", -0.06708841447419522], ["3.00 < STATUS <= 4.00", 0.03424947758628964], ["Q37- How do you rate your state of health in general? <= 2.00", -0.03069546749168981], ["2.00 < Q2- How old are you? <= 3.00", -0.02551604256399313], ["Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat <= 2.00", 0.02338169875687105], ["Q62- Do you take sleeping pills, anxiolytics or anti-depressants: <= 1.00", -0.021877264517803634], ["Q15- Indicate whether each of the following sentences suits you-My job is physically tiring <= 2.00", 0.021138091320176793], ["Q13- Is the performance of your work taxing on you?-To work on screen <= 1.00", -0.020340249764859042], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.) <= 2.00", -0.02020464701628031], ["3.00 < Q13- Is the performance of your work taxing on you?-To carry or move heavy loads <= 4.00", -0.020118748374472282]], 1, exp_div);
+                exp.show([["Age <= 1.00", -0.07993720672210851], ["state of health in general <= 1.00", -0.06378891717359701], ["2.00 < Work type <= 3.00", 0.03204659787338953], ["Place of work > 3.00", 0.030846616636499853], ["0.00 < long-term illness <= 1.00", -0.029080578571717097], ["Sleep disorders <= 1.00", -0.02850671514840704], ["sleeping pills, anxiolytics or anti-depressants <= 0.00", -0.026129750927029644], ["recognized by my hierarchy <= 1.00", -0.020447929024765638], ["work on screen > 1.00", 0.017951711574117745], ["leg, foot, knee pain <= 0.00", -0.017407520670278644]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently", "2.00", -0.06708841447419522], ["STATUS", "4.00", 0.03424947758628964], ["Q37- How do you rate your state of health in general?", "2.00", -0.03069546749168981], ["Q2- How old are you?", "3.00", -0.02551604256399313], ["Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat", "1.00", 0.02338169875687105], ["Q62- Do you take sleeping pills, anxiolytics or anti-depressants:", "1.00", -0.021877264517803634], ["Q15- Indicate whether each of the following sentences suits you-My job is physically tiring", "1.00", 0.021138091320176793], ["Q13- Is the performance of your work taxing on you?-To work on screen", "1.00", -0.020340249764859042], ["Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.)", "2.00", -0.02020464701628031], ["Q13- Is the performance of your work taxing on you?-To carry or move heavy loads", "4.00", -0.020118748374472282]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "1.00", -0.07993720672210851], ["state of health in general", "1.00", -0.06378891717359701], ["Work type", "3.00", 0.03204659787338953], ["Place of work", "5.00", 0.030846616636499853], ["long-term illness", "1.00", -0.029080578571717097], ["Sleep disorders", "0.00", -0.02850671514840704], ["sleeping pills, anxiolytics or anti-depressants", "0.00", -0.026129750927029644], ["recognized by my hierarchy", "0.00", -0.020447929024765638], ["work on screen", "3.00", 0.017951711574117745], ["leg, foot, knee pain", "0.00", -0.017407520670278644]], 1, raw_div);
         
         </script>
         </body></html>

@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divBOCEHVPMZWZW4MO"></div>
+        <div class="lime top_div" id="top_divREBOVHES5A8D2XH"></div>
         
         <script>
-        var top_div = d3.select('#top_divBOCEHVPMZWZW4MO').classed('lime top_div', true);
+        var top_div = d3.select('#top_divREBOVHES5A8D2XH').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["1", "2"], [0.69, 0.31]);
+            var pp = new lime.PredictProba(pp_svg, ["1", "2"], [0.41, 0.59]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["1", "2"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development <= 1.00", -0.06788878208927], ["2.00 < Q37- How do you rate your state of health in general? <= 3.00", 0.057275386124421054], ["1.00 < Q14- During your work, are you in a situation? (Of-breathe toxic products or dust <= 2.00", 0.020670839111751108], ["Q2- How old are you? <= 2.00", -0.01969944697950612], ["2.05 < Q58- For each of these drinks, indicate whether you consume them:-At least once a week <= 3.00", 0.017903816565486532], ["Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers <= 3.00", -0.013493027971269445], ["Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business <= 2.00", 0.013332114529464058], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body > 2.00", -0.01247960715858185], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training <= 1.00", -0.012042193058719338], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity <= 1.00", -0.011062179275074161]], 1, exp_div);
+                exp.show([["Age <= 1.00", -0.03901088026036357], ["No of 18 years and over children <= 0.00", -0.031651342340202136], ["transportation <= 0.00", 0.025120813324382506], ["physically tiring <= 1.00", 0.013904523489411265], ["0.00 < work in noisy env <= 1.00", 0.013571683520824026], ["0.00 < smoker <= 1.00", -0.013231568345772219], ["0.00 < long-term illness <= 1.00", -0.013161398628973798], ["make decisions <= 1.00", 0.012279552596943825], ["No of 13 to 17 years old children <= 0.00", -0.01214538447237012], ["Security is a priority <= 1.00", 0.011939472166499076]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development", "1.00", -0.06788878208927], ["Q37- How do you rate your state of health in general?", "3.00", 0.057275386124421054], ["Q14- During your work, are you in a situation? (Of-breathe toxic products or dust", "2.00", 0.020670839111751108], ["Q2- How old are you?", "1.00", -0.01969944697950612], ["Q58- For each of these drinks, indicate whether you consume them:-At least once a week", "3.00", 0.017903816565486532], ["Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers", "3.00", -0.013493027971269445], ["Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business", "2.00", 0.013332114529464058], ["Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body", "3.00", -0.01247960715858185], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training", "1.00", -0.012042193058719338], ["Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity", "1.00", -0.011062179275074161]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "1.00", -0.03901088026036357], ["No of 18 years and over children", "0.00", -0.031651342340202136], ["transportation", "0.00", 0.025120813324382506], ["physically tiring", "1.00", 0.013904523489411265], ["work in noisy env", "1.00", 0.013571683520824026], ["smoker", "1.00", -0.013231568345772219], ["long-term illness", "1.00", -0.013161398628973798], ["make decisions", "1.00", 0.012279552596943825], ["No of 13 to 17 years old children", "0.00", -0.01214538447237012], ["Security is a priority", "1.00", 0.011939472166499076]], 1, raw_div);
         
         </script>
         </body></html>
