@@ -7,6 +7,7 @@ from sklearn.impute import IterativeImputer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score, accuracy_score, roc_auc_score, confusion_matrix, classification_report
 from imblearn.over_sampling import SMOTE
+from pandas.api.types import CategoricalDtype
 
 # Makes sure we see all columns
 pd.set_option('display.max_columns', None)
@@ -18,12 +19,13 @@ retained_cols = pd.read_csv("data/retained.csv", header=None)
 
 # non-catagorical columns
 not_cat = [
-    "Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?",
-    "Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?",
-    "Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?",
-    "Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?",
-    "outcome"
+    "No of 3 to 6 years old children",
+    "No of 7 to 12 years old children",
+    "No of 13 to 17 years old children",
+    "No of 18 years and over children"
 ]
+
+cat_codes = {}  # cat_codes[i] = (ordered_values, cat_dtype)
 
 
 def time_e(st, et, v="cell"):
@@ -38,7 +40,7 @@ def time_e(st, et, v="cell"):
     return f"Elapsed time to compute {v}: {minutes:.0f} minutes and {seconds:.0f} seconds"
 
 
-def age_cat(data=data):
+def age_cat(data=data, retained=False):
     """
     Categorise the age
     Return: DataFrame
@@ -47,6 +49,16 @@ def age_cat(data=data):
     data: DataFrame
 
     """
+    if retained:
+        df = pd.DataFrame()
+        for i in data.columns:
+            for j in retained_cols[0]:
+                if i == j:
+                    df[i] = data[i]
+                    break
+        print("Only retained columns are used")
+        data = df.copy()
+        print(f"Shape of data: {data.shape}")
 
     # check each value in the "Q2" column, if the value in that row is > 17, change the value to the category in the dataset
     # bins=[16, 29.9, 39.9, 44.9, 49.9, 55.9, float('inf')], labels=[1, 2, 3, 4, 5, 6]
@@ -67,10 +79,11 @@ def age_cat(data=data):
                 data['Q2'][i] = 6
     t2 = time()
     print(time_e(t1, t2, v="age categorisation"))
+
     return data
 
 
-def correct_sys_err(data):
+def correct_sys_err(data, retained=False):
     """
     Correct the systematic error
     Return: DataFrame
@@ -89,11 +102,12 @@ def correct_sys_err(data):
         "Q22_5"
     ]
 
-    for col in sys_err_cols:
-        for i in range(len(data)):
-            data[col][i] = data[col][i] + 1
-    t2 = time()
-    print(time_e(t1, t2, v="correct systematic error"))
+    if not retained:
+        for col in sys_err_cols:
+            for i in range(len(data)):
+                data[col][i] = data[col][i] + 1
+        t2 = time()
+        print(time_e(t1, t2, v="correct systematic error"))
     return data
 
 
@@ -135,6 +149,13 @@ def clean_data(data, retained=False):
         # Remove the "YEAR MMS" coloumn as it is not needed
         data.drop("YEAR MMS", axis=1, inplace=True)
 
+    else:
+        # drop rows where 'YEAR MMS' is 1 or 10
+        data = data[data['YEAR MMS'] != 1]
+        data = data[data['YEAR MMS'] != 10]
+        data.drop("YEAR MMS", axis=1, inplace=True)
+        data.reset_index(drop=True, inplace=True)
+
     et = time()
     print(time_e(st, et, v="clean data"))
 
@@ -172,13 +193,13 @@ def mice(data, columns, clip=False):
     return data
 
 
-def categorise(data, string_issue=False):
+def categorise(dataV, string_issue=False):
     """
     Categorise the data
     Return: DataFrame
 
     ---
-    data: DataFrame
+    dataV: DataFrame
 
     """
     # for i in data.columns:
@@ -198,63 +219,89 @@ def categorise(data, string_issue=False):
         '(V5 V9) Sick leave of more than 3 months'
     ]
 
-    data['outcome'] = 0
+    dataV['outcome'] = "NoSL"
 
     t1 = time()
-    for i in range(len(data)):
+    for i in range(len(dataV)):
         for j in range(len(long_columns)):
-            if data[long_columns[j]][i] == 2:
-                data['outcome'][i] = 3  # Long Sick Leave
+            if dataV[long_columns[j]][i] == 2:
+                dataV['outcome'][i] = "LSL"  # Long Sick Leave
                 break
 
-        if data.loc[i, 'outcome'] == 3:
+        if dataV.loc[i, 'outcome'] == "LSL":
             continue
 
         for k in range(len(short_columns)):
-            if data.loc[i, short_columns[k]] == 2:
-                data.loc[i, 'outcome'] = 2  # Short Sick Leave
+            if dataV.loc[i, short_columns[k]] == 2:
+                dataV.loc[i, 'outcome'] = "SSL"  # Short Sick Leave
                 break
 
-        if data.loc[i, 'outcome'] == 2:
+        if dataV.loc[i, 'outcome'] == "SSL":
             continue
 
-        if data.loc[i, vShort_column[0]] == 2:
-            data.loc[i, 'outcome'] = 1  # Very Short Sick Leave
+        if dataV.loc[i, vShort_column[0]] == 2:
+            dataV.loc[i, 'outcome'] = "VSSL"  # Very Short Sick Leave
             continue
 
-        # if does not fall into any of the above categories, set the value to NaN
+        # if does not fall into any of the above categories, set the value to 0
         else:
-            data.loc[i, 'outcome'] = 0
+            dataV.loc[i, 'outcome'] = "NoSL"
     t2 = time()
     print(time_e(t1, t2, v="categorisation of outcome column"))
 
+    # drop rows with missing values
+    dataV = dataV.dropna()
+    dataV.reset_index(drop=True, inplace=True)
+    print("Dropped rows with missing values")
+
     if string_issue == False:
         t3 = time()
-        for i in data.columns:  # vague
+        for i in dataV.columns:  # vague
             if i in not_cat:
                 continue
+            if i == 'outcome':
+                cat_dtype_out = CategoricalDtype(
+                    categories=["NoSL", "VSSL", "SSL", "LSL"], ordered=True)
+                dataV[i] = dataV[i].astype(cat_dtype_out)
+                dataV[i] = dataV[i].astype("category").cat.codes
+                continue
             for j in range(len(colNames.columns)):  # eg 0 - 104
+                ordered_values = []
                 opt = int(colNames.iloc[2, j])  # opt row value
                 if (i == colNames.iloc[0, j]):  # j = column index
                     for k in range(1, opt + 1):  # 1 to "opt" row value +1
                         if pd.isnull(colNames.iloc[k, j]):
                             break
-                        for l in range(len(data)):  # 0 - 45000+ (rows)
-                            if data[i][l] == k:  # Q1...== 0, 1 == 1
-                                # k+1 because "cat" and "opt" rows is row 1 and 2
-                                data[i][l] = colNames.iloc[k + 2, j]
-                            if not isinstance(data[i][l], str) and not pd.isnull(data[i][l]):
-                                if int(data[i][l]) > opt:
-                                    data[i][l] = None
-                                elif data[i][l] == 0:
-                                    data[i][l] = None
+                        for l in range(len(dataV)):  # 0 - 45000+ (rows)
+                            if dataV[i][l] == k:  # Q1...== 0, 1 == 1
+                                # k+2 because "cat" and "opt" rows is row 1 and 2
+                                dataV[i][l] = colNames.iloc[k + 2, j]
+                                if colNames.iloc[k + 2, j] not in ordered_values:
+                                    ordered_values.append(
+                                        colNames.iloc[k + 2, j])
+                            if not isinstance(dataV[i][l], str) and not pd.isnull(dataV[i][l]):
+                                if int(dataV[i][l]) > opt:
+                                    dataV[i][l] = None
+                                elif dataV[i][l] == 0:
+                                    dataV[i][l] = None
+                    if colNames.iloc[1, j] == "CO":
+                        cat_dtype = CategoricalDtype(
+                            categories=ordered_values, ordered=True)
+                        dataV[i] = dataV[i].astype(cat_dtype).cat.codes
+                    else:
+                        cat_dtype = CategoricalDtype(
+                            categories=ordered_values, ordered=None)
+                        dataV[i] = dataV[i].astype(cat_dtype).cat.codes
+                    cat_codes[i] = (pd.Categorical.from_codes(
+                        codes=range(len(ordered_values)), dtype=cat_dtype))
+
         t4 = time()
         print(time_e(t3, t4, v="change values in catagorical columns"))
 
     else:  # if string_issue == True
         t3 = time()
-        for i in data.columns:  # vague
-            if i in not_cat:
+        for i in dataV.columns:  # vague
+            if i in not_cat or i == 'outcome':  # because outcome is not in colNames
                 continue
             for j in range(len(colNames.columns)):  # eg 0 - 104
                 if (i == colNames.iloc[0, j]):  # j = column index
@@ -262,20 +309,24 @@ def categorise(data, string_issue=False):
                     for k in range(1, opt + 1):  # 1 to "opt" row value +1
                         if pd.isnull(colNames.iloc[k, j]):
                             break
-                        for l in range(len(data)):  # 0 - 45000+ (rows)
-                            if not isinstance(data[i][l], str) and not pd.isnull(data[i][l]):
-                                if int(data[i][l]) > opt:
-                                    data[i][l] = None
-                                elif data[i][l] == 0:
-                                    data[i][l] = None
+                        for l in range(len(dataV)):  # 0 - 45000+ (rows)
+                            if dataV[i][l] == k:  # Q1...== 0, 1 == 1
+                                # k+2 because "cat" and "opt" rows is row 1 and 2
+                                dataV[i][l] = colNames.iloc[k + 2, j]
+                            if not isinstance(dataV[i][l], str) and not pd.isnull(dataV[i][l]):
+                                if int(dataV[i][l]) > opt:
+                                    dataV[i][l] = None
+                                elif dataV[i][l] == 0:
+                                    dataV[i][l] = None
+
         t4 = time()
         print(time_e(t3, t4, v="change values > opt"))
 
     # drop the columns that were used to create the outcome column
-    data.drop(vShort_column + short_columns +
-              long_columns, axis=1, inplace=True)
+    dataV.drop(vShort_column + short_columns +
+               long_columns, axis=1, inplace=True)
 
-    return data
+    return dataV
 
 
 def one_hot_encode(data):
@@ -340,36 +391,36 @@ def main(dataV=data, retained=False, one_hot=False, string_issue=False):
     st = time()
 
     # Age categorisation
-    dataV = age_cat(dataV)
+    dataA = age_cat(dataV, retained)
 
     # Correct the systematic error
-    dataV = correct_sys_err(dataV)
+    dataB = correct_sys_err(dataA, retained)
 
     # Load the column names
-    dataV = load_col_names(dataV)
+    dataC = load_col_names(dataB)
 
     # Clean the data
-    dataV = clean_data(dataV, retained)
+    dataD = clean_data(dataC, retained)
 
     if retained == False:
         mst = time()
         # Using MICE to impute missing values
-        columns = dataV.columns
-        data = mice(dataV, columns)
+        columns = dataD.columns
+        dataD = mice(dataD, columns)
         met = time()
         print(time_e(mst, met, v="complete MICE imputation"))
 
     # Categorise the data
-    dataV = categorise(dataV, string_issue)
+    dataE = categorise(dataD, string_issue)
 
     if one_hot:
         # One hot encode the data
-        dataV = one_hot_encode(dataV)
+        dataE = one_hot_encode(dataE)
 
     et = time()
     print(time_e(st, et, v="Full process"))
 
-    return dataV
+    return dataE
 
 
 def train_random_forests(X_train, y_train, X_test, y_test, num_forests=1, num_trees=100):
