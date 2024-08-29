@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_div40H2ECDKKEP5HJO"></div>
+        <div class="lime top_div" id="top_divILVY77PQLBJXDFS"></div>
         
         <script>
-        var top_div = d3.select('#top_div40H2ECDKKEP5HJO').classed('lime top_div', true);
+        var top_div = d3.select('#top_divILVY77PQLBJXDFS').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.66, 0.23, 0.05, 0.06]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.72, 0.23, 0.02, 0.03]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1", "2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Age <= 1.00", 0.06458560441751095], ["state of health in general <= 1.00", 0.028869072332953452], ["difficulty reconciling your work with your other personal commitments > 2.00", -0.02516538114255267], ["work on screen <= 0.00", 0.021215074681172917], ["Full Time/Part Time <= 0.00", 0.020100256592159933], ["personal concerns > 2.00", -0.01633010227231433], ["Work type <= 0.00", 0.015643408240671196], ["clarity of your role in the company <= 0.00", 0.012317422246807283], ["Sleep disorders <= 1.00", 0.011349888894630376], ["1.00 < drinks (At least once a week) <= 2.00", -0.010488662300036334]], 1, exp_div);
+                exp.show([["Age <= 1.00", 0.03176810016341065], ["work on screen <= 0.00", 0.007878570790390534], ["Work type <= 0.00", 0.00718038447974342], ["state of health in general <= 1.00", -0.007131691539657498], ["midday meal <= 1.00", 0.006627127825282189], ["1.00 < physically tiring <= 2.00", 0.006559198113279918], ["size of business <= 1.00", -0.0058375364813932655], ["No of 18 years and over children <= 0.00", 0.005830341893151561], ["count on supervisor <= 1.00", 0.005744089889374319], ["Headaches <= 1.00", -0.004878625325476081]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Age", "0.00", 0.06458560441751095], ["state of health in general", "1.00", 0.028869072332953452], ["difficulty reconciling your work with your other personal commitments", "3.00", -0.02516538114255267], ["work on screen", "0.00", 0.021215074681172917], ["Full Time/Part Time", "0.00", 0.020100256592159933], ["personal concerns", "3.00", -0.01633010227231433], ["Work type", "0.00", 0.015643408240671196], ["clarity of your role in the company", "0.00", 0.012317422246807283], ["Sleep disorders", "1.00", 0.011349888894630376], ["drinks (At least once a week)", "2.00", -0.010488662300036334]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "0.00", 0.03176810016341065], ["work on screen", "0.00", 0.007878570790390534], ["Work type", "0.00", 0.00718038447974342], ["state of health in general", "1.00", -0.007131691539657498], ["midday meal", "1.00", 0.006627127825282189], ["physically tiring", "2.00", 0.006559198113279918], ["size of business", "1.00", -0.0058375364813932655], ["No of 18 years and over children", "0.00", 0.005830341893151561], ["count on supervisor", "1.00", 0.005744089889374319], ["Headaches", "1.00", -0.004878625325476081]], 1, raw_div);
         
         </script>
         </body></html>

@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divKVUXX8YR09PQ2CW"></div>
+        <div class="lime top_div" id="top_div5990EDBUYO549GA"></div>
         
         <script>
-        var top_div = d3.select('#top_divKVUXX8YR09PQ2CW').classed('lime top_div', true);
+        var top_div = d3.select('#top_div5990EDBUYO549GA').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.44, 0.23, 0.19, 0.14]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.69, 0.08, 0.09, 0.14]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1", "2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Age <= 1.00", 0.06478179581548361], ["state of health in general <= 1.00", 0.027127038995590193], ["work on screen > 1.00", -0.019999529145643978], ["Full Time/Part Time > 0.00", -0.016608625614930088], ["midday meal > 3.00", -0.016519422435427953], ["No of 3 to 6 years old children <= 0.00", -0.013708815414796148], ["long periods of concentration > 1.00", -0.01149034236575731], ["clarity of your role in the company <= 0.00", 0.01145333841084472], ["0.00 < Gender <= 1.00", -0.010898554154145826], ["0.00 < long-term illness <= 1.00", -0.010083388235523402]], 1, exp_div);
+                exp.show([["Age <= 1.00", 0.030738861492069957], ["size of business <= 1.00", -0.007932928081252769], ["work on screen > 1.00", -0.00752041073516141], ["state of health in general <= 1.00", -0.006047130621138175], ["No of 3 to 6 years old children <= 0.00", -0.006017323398884699], ["1.00 < midday meal <= 4.00", -0.005579139391019966], ["make decisions > 2.00", 0.005113138442599013], ["0.00 < Place of work <= 2.00", 0.004960631814389067], ["lack of tone <= 1.00", -0.004884721899839094], ["Headaches > 1.00", 0.004430900073876222]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Age", "0.00", 0.06478179581548361], ["state of health in general", "1.00", 0.027127038995590193], ["work on screen", "3.00", -0.019999529145643978], ["Full Time/Part Time", "1.00", -0.016608625614930088], ["midday meal", "4.00", -0.016519422435427953], ["No of 3 to 6 years old children", "0.00", -0.013708815414796148], ["long periods of concentration", "3.00", -0.01149034236575731], ["clarity of your role in the company", "0.00", 0.01145333841084472], ["Gender", "1.00", -0.010898554154145826], ["long-term illness", "1.00", -0.010083388235523402]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "0.00", 0.030738861492069957], ["size of business", "0.00", -0.007932928081252769], ["work on screen", "3.00", -0.00752041073516141], ["state of health in general", "1.00", -0.006047130621138175], ["No of 3 to 6 years old children", "0.00", -0.006017323398884699], ["midday meal", "4.00", -0.005579139391019966], ["make decisions", "3.00", 0.005113138442599013], ["Place of work", "1.00", 0.004960631814389067], ["lack of tone", "1.00", -0.004884721899839094], ["Headaches", "2.00", 0.004430900073876222]], 1, raw_div);
         
         </script>
         </body></html>

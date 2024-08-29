@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divSC1DJWDZGHC0470"></div>
+        <div class="lime top_div" id="top_divGBDD0BBEKXZ90FG"></div>
         
         <script>
-        var top_div = d3.select('#top_divSC1DJWDZGHC0470').classed('lime top_div', true);
+        var top_div = d3.select('#top_divGBDD0BBEKXZ90FG').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.2, 0.3, 0.18, 0.32]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1", "2", "3"], [0.68, 0.15, 0.08, 0.09]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1", "2", "3"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Age > 3.00", -0.05804320113287702], ["work on screen <= 0.00", 0.022959627267597166], ["state of health in general <= 1.00", 0.022509880144276212], ["can talk to loved ones > 1.00", -0.0214674415887948], ["Work type <= 0.00", 0.016326743913237886], ["Full Time/Part Time <= 0.00", 0.014343084580297386], ["No of 3 to 6 years old children <= 0.00", -0.010419117026457642], ["2.00 < hurtful or aggressive remarks <= 3.00", -0.01012393188362559], ["Sleep disorders <= 1.00", 0.009605471994471914], ["Place of work <= 0.00", 0.009235585307102374]], 1, exp_div);
+                exp.show([["Age > 3.00", -0.02851303267137283], ["lack of tone <= 1.00", -0.008126705689409658], ["Work type <= 0.00", 0.007390693772366874], ["state of health in general <= 1.00", -0.007234552940576982], ["work on screen <= 0.00", 0.006415778709745177], ["1.00 < midday meal <= 4.00", -0.004962237089208178], ["decreased alertness <= 2.00", 0.004690635876090788], ["sleeping pills, anxiolytics or anti-depressants <= 0.00", -0.0040857552623471995], ["No of 3 to 6 years old children <= 0.00", -0.0040766397308131105], ["other parts of the body pain <= 0.00", -0.003686303714040901]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Age", "4.00", -0.05804320113287702], ["work on screen", "0.00", 0.022959627267597166], ["state of health in general", "1.00", 0.022509880144276212], ["can talk to loved ones", "2.00", -0.0214674415887948], ["Work type", "0.00", 0.016326743913237886], ["Full Time/Part Time", "0.00", 0.014343084580297386], ["No of 3 to 6 years old children", "0.00", -0.010419117026457642], ["hurtful or aggressive remarks", "3.00", -0.01012393188362559], ["Sleep disorders", "1.00", 0.009605471994471914], ["Place of work", "0.00", 0.009235585307102374]], 1, raw_div);
+            exp.show_raw_tabular([["Age", "4.00", -0.02851303267137283], ["lack of tone", "1.00", -0.008126705689409658], ["Work type", "0.00", 0.007390693772366874], ["state of health in general", "1.00", -0.007234552940576982], ["work on screen", "0.00", 0.006415778709745177], ["midday meal", "3.00", -0.004962237089208178], ["decreased alertness", "2.00", 0.004690635876090788], ["sleeping pills, anxiolytics or anti-depressants", "0.00", -0.0040857552623471995], ["No of 3 to 6 years old children", "0.00", -0.0040766397308131105], ["other parts of the body pain", "0.00", -0.003686303714040901]], 1, raw_div);
         
         </script>
         </body></html>
