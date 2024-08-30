@@ -1,0 +1,1598 @@
+;No SL;VSSL;SSL;LSL
+0;"A man      16286
+A woman    13387
+Name: Q1- Your sex?, dtype: int64";"A woman    2570
+A man      2546
+Name: Q1- Your sex?, dtype: int64";"A man      1824
+A woman    1795
+Name: Q1- Your sex?, dtype: int64";"A woman    3204
+A man      2920
+Name: Q1- Your sex?, dtype: int64"
+1;"30 - 39    8073
+18 - 30    5329
+40 - 44    4619
+50 - 55    4481
+45 - 49    4411
+56 - 70    2740
+Name: Q2- How old are you?, dtype: int64";"30 - 39    1784
+18 - 30    1366
+40 - 44     739
+50 - 55     486
+45 - 49     485
+56 - 70     249
+Name: Q2- How old are you?, dtype: int64";"30 - 39    1161
+18 - 30     675
+40 - 44     579
+45 - 49     485
+50 - 55     475
+56 - 70     239
+Name: Q2- How old are you?, dtype: int64";"30 - 39    1578
+50 - 55    1093
+40 - 44     982
+18 - 30     955
+45 - 49     904
+56 - 70     604
+Name: Q2- How old are you?, dtype: int64"
+2;"Employees         8731
+Frames            8203
+Workers           7950
+AM Technicians    4791
+Name: STATUS, dtype: int64";"Frames            1726
+Employees         1529
+Workers           1106
+AM Technicians     755
+Name: STATUS, dtype: int64";"Workers           1204
+Employees         1038
+Frames             846
+AM Technicians     531
+Name: STATUS, dtype: int64";"Workers           2537
+Employees         1751
+Frames            1026
+AM Technicians     811
+Name: STATUS, dtype: int64"
+3;"Industry                                   7288
+Services                                   5828
+Wholesale trade (all businesses in 206)    4982
+Construction                               2899
+Human health and social action             2113
+Transport, energy, telecommunications      2093
+Retail business                            1897
+Other businesses                           1368
+Design office and engineering              1207
+Name: In which sector of activity do you work?, dtype: int64";"Industry                                   1231
+Services                                   1092
+Wholesale trade (all businesses in 206)     813
+Construction                                426
+Transport, energy, telecommunications       389
+Human health and social action              361
+Design office and engineering               326
+Retail business                             252
+Other businesses                            226
+Name: In which sector of activity do you work?, dtype: int64";"Industry                                   1088
+Services                                    650
+Wholesale trade (all businesses in 206)     536
+Construction                                357
+Transport, energy, telecommunications       299
+Human health and social action              262
+Retail business                             174
+Other businesses                            133
+Design office and engineering               120
+Name: In which sector of activity do you work?, dtype: int64";"Industry                                   1778
+Services                                   1102
+Wholesale trade (all businesses in 206)     857
+Construction                                606
+Human health and social action              593
+Transport, energy, telecommunications       423
+Retail business                             361
+Other businesses                            270
+Design office and engineering               135
+Name: In which sector of activity do you work?, dtype: int64"
+4;"250 - 999        9929
+0 - 10           7587
+50 - 249         6894
+Oct-49           4016
+5000 and more     709
+1000 - 4999       540
+Name: What is the size of your business (in total, all locations combined)? 2009 fake, dtype: int64";"250 - 999        2103
+50 - 249         1312
+0 - 10           1027
+Oct-49            631
+5000 and more      30
+1000 - 4999        13
+Name: What is the size of your business (in total, all locations combined)? 2009 fake, dtype: int64";"250 - 999        1438
+50 - 249         1033
+0 - 10            656
+Oct-49            466
+5000 and more      17
+1000 - 4999         9
+Name: What is the size of your business (in total, all locations combined)? 2009 fake, dtype: int64";"250 - 999        2331
+50 - 249         1763
+0 - 10           1213
+Oct-49            785
+5000 and more      18
+1000 - 4999        15
+Name: What is the size of your business (in total, all locations combined)? 2009 fake, dtype: int64"
+5;"0.0    23680
+1.0     5107
+2.0      818
+3.0       56
+4.0       12
+9.0        1
+5.0        1
+Name: Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    4057
+1.0     862
+2.0     179
+3.0      16
+5.0       2
+Name: Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    2897
+1.0     580
+2.0     132
+3.0       7
+4.0       2
+5.0       1
+Name: Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    5033
+1.0     911
+2.0     155
+3.0      23
+4.0       1
+5.0       1
+6.0       1
+Name: Q4- (3 to 6 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64"
+6;"0.0    22170
+1.0     5808
+2.0     1504
+3.0      173
+4.0       13
+9.0        4
+7.0        2
+8.0        1
+Name: Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    4134
+1.0     733
+2.0     222
+3.0      25
+4.0       2
+Name: Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    2892
+1.0     533
+2.0     171
+3.0      18
+4.0       2
+9.0       1
+8.0       1
+5.0       1
+Name: Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    4870
+1.0     904
+2.0     302
+3.0      42
+4.0       4
+7.0       1
+5.0       1
+8.0       1
+Name: Q4- (7 to 12 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64"
+7;"0.0    23069
+1.0     5434
+2.0     1054
+3.0      105
+4.0        9
+8.0        2
+5.0        1
+9.0        1
+Name: Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    4441
+1.0     530
+2.0     129
+3.0      16
+Name: Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    2996
+1.0     484
+2.0     123
+3.0      14
+4.0       1
+9.0       1
+Name: Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    5030
+1.0     834
+2.0     241
+3.0      16
+4.0       4
+Name: Q4- (13 to 17 years old) In each of the following age groups, how many children live totally or partially with you?, dtype: int64"
+8;"0.0    23376
+1.0     4648
+2.0     1322
+3.0      275
+4.0       45
+5.0        3
+6.0        2
+9.0        2
+8.0        2
+Name: Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    4573
+1.0     354
+2.0     153
+3.0      32
+4.0       3
+5.0       1
+Name: Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    3096
+1.0     345
+2.0     149
+3.0      25
+4.0       4
+Name: Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?, dtype: int64";"0.0    5006
+1.0     741
+2.0     299
+3.0      59
+4.0      17
+5.0       3
+Name: Q4- (18 years and over) In each of the following age groups, how many children live totally or partially with you?, dtype: int64"
+9;"No                          23857
+Yes, who lives elsewhere     3223
+Yes, who lives with me       2593
+Name: Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?, dtype: int64";"No                          4131
+Yes, who lives elsewhere     621
+Yes, who lives with me       363
+Name: Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?, dtype: int64";"No                          2808
+Yes, who lives elsewhere     542
+Yes, who lives with me       268
+Name: Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?, dtype: int64";"No                          4795
+Yes, who lives elsewhere     837
+Yes, who lives with me       492
+Name: Q5- Apart from your children, do you have a dependent or sick family member(s) whom you take care of regularly?, dtype: int64"
+10;"Stabilized     11396
+Slow down       9434
+Accelerated     5316
+Do not know     3319
+Name: Would you say that over the last 12 months, your company's activity has:, dtype: int64";"Stabilized     1846
+Slow down      1749
+Accelerated     923
+Do not know     544
+Name: Would you say that over the last 12 months, your company's activity has:, dtype: int64";"Slow down      1330
+Stabilized     1254
+Accelerated     583
+Do not know     413
+Name: Would you say that over the last 12 months, your company's activity has:, dtype: int64";"Slow down      2195
+Stabilized     2194
+Accelerated     964
+Do not know     705
+Name: Would you say that over the last 12 months, your company's activity has:, dtype: int64"
+11;"Full time    25742
+Part time     3933
+Name: Q9- Are you working?, dtype: int64";"Full time    4564
+Part time     552
+Name: Q9- Are you working?, dtype: int64";"Full time    3269
+Part time     350
+Name: Q9- Are you working?, dtype: int64";"Full time    5235
+Part time     890
+Name: Q9- Are you working?, dtype: int64"
+12;"No     23339
+Yes     6335
+Name: Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?, dtype: int64";"No     4138
+Yes     976
+Name: Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?, dtype: int64";"No     2681
+Yes     938
+Name: Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?, dtype: int64";"No     4265
+Yes    1859
+Name: Q10- Do you have shift work (work organized in successive teams, which take turns at the same workstations) with alternating hours?, dtype: int64"
+13;"In an office alone or in pairs         7009
+In a workshop, a technical room        5020
+In a shared office (3 to 5 people)     4862
+In an open space, a tray               4458
+In a commercial premises or agency     2617
+Outside-outside                        2482
+In a vehicle                           1712
+At home teleworking                     842
+At customers                            384
+In a shared work space - co-working     196
+Name: Q12- Do you work most often?, dtype: int64";"In an office alone or in pairs         1308
+In an open space, a tray               1051
+In a shared office (3 to 5 people)     1003
+In a workshop, a technical room         723
+Outside-outside                         360
+In a commercial premises or agency      358
+In a vehicle                            165
+At home teleworking                      57
+At customers                             49
+In a shared work space - co-working      39
+Name: Q12- Do you work most often?, dtype: int64";"In a workshop, a technical room        840
+In an office alone or in pairs         719
+In a shared office (3 to 5 people)     623
+In an open space, a tray               587
+Outside-outside                        344
+In a commercial premises or agency     264
+In a vehicle                           156
+At customers                            37
+At home teleworking                     28
+In a shared work space - co-working     18
+Name: Q12- Do you work most often?, dtype: int64";"In a workshop, a technical room        1637
+In an office alone or in pairs         1076
+In a shared office (3 to 5 people)      830
+In an open space, a tray                780
+Outside-outside                         665
+In a commercial premises or agency      533
+In a vehicle                            393
+At customers                             86
+At home teleworking                      77
+In a shared work space - co-working      46
+Name: Q12- Do you work most often?, dtype: int64"
+14;"Never               9851
+Most of the time    7917
+Rarely              6641
+Occasionally        5257
+Name: Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture, dtype: int64";"Never               2068
+Rarely              1137
+Most of the time    1104
+Occasionally         806
+Name: Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture, dtype: int64";"Most of the time    1174
+Never               1148
+Rarely               729
+Occasionally         568
+Name: Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture, dtype: int64";"Most of the time    2450
+Never               1411
+Occasionally        1149
+Rarely              1112
+Name: Q13- Is the performance of your work taxing on you?-To remain standing for a long time or in an awkward posture, dtype: int64"
+15;"Never               11538
+Rarely               7222
+Occasionally         6650
+Most of the time     4250
+Name: Q13- Is the performance of your work taxing on you?-To carry or move heavy loads, dtype: int64";"Never               2339
+Rarely              1207
+Occasionally         942
+Most of the time     627
+Name: Q13- Is the performance of your work taxing on you?-To carry or move heavy loads, dtype: int64";"Never               1323
+Rarely               854
+Occasionally         777
+Most of the time     664
+Name: Q13- Is the performance of your work taxing on you?-To carry or move heavy loads, dtype: int64";"Never               1717
+Occasionally        1562
+Most of the time    1543
+Rarely              1300
+Name: Q13- Is the performance of your work taxing on you?-To carry or move heavy loads, dtype: int64"
+16;"Most of the time    8790
+Occasionally        7309
+Never               7288
+Rarely              6278
+Name: Q13- Is the performance of your work taxing on you?-To perform repetitive gestures, dtype: int64";"Most of the time    1416
+Never               1344
+Occasionally        1249
+Rarely              1107
+Name: Q13- Is the performance of your work taxing on you?-To perform repetitive gestures, dtype: int64";"Most of the time    1285
+Occasionally         900
+Never                724
+Rarely               709
+Name: Q13- Is the performance of your work taxing on you?-To perform repetitive gestures, dtype: int64";"Most of the time    2721
+Occasionally        1452
+Rarely              1001
+Never                948
+Name: Q13- Is the performance of your work taxing on you?-To perform repetitive gestures, dtype: int64"
+17;"Most of the time    17104
+Occasionally         4893
+Never                4716
+Rarely               2958
+Name: Q13- Is the performance of your work taxing on you?-To work on screen, dtype: int64";"Most of the time    3525
+Occasionally         656
+Never                575
+Rarely               359
+Name: Q13- Is the performance of your work taxing on you?-To work on screen, dtype: int64";"Most of the time    2124
+Occasionally         563
+Never                542
+Rarely               388
+Name: Q13- Is the performance of your work taxing on you?-To work on screen, dtype: int64";"Most of the time    2912
+Never               1312
+Occasionally        1082
+Rarely               819
+Name: Q13- Is the performance of your work taxing on you?-To work on screen, dtype: int64"
+18;"Never               11233
+Rarely               6795
+Occasionally         6259
+Most of the time     5378
+Name: Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat, dtype: int64";"Never               2188
+Rarely              1218
+Occasionally         918
+Most of the time     789
+Name: Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat, dtype: int64";"Never               1260
+Rarely               806
+Most of the time     791
+Occasionally         760
+Name: Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat, dtype: int64";"Never               1727
+Most of the time    1719
+Occasionally        1403
+Rarely              1270
+Name: Q13- Is the performance of your work taxing on you?-Working in the cold / in the heat, dtype: int64"
+19;"Occasionally        8282
+Rarely              7793
+Most of the time    6967
+Never               6625
+Name: Q13- Is the performance of your work taxing on you?-To work in noise, dtype: int64";"Occasionally        1380
+Rarely              1378
+Most of the time    1279
+Never               1079
+Name: Q13- Is the performance of your work taxing on you?-To work in noise, dtype: int64";"Most of the time    1205
+Occasionally         993
+Rarely               800
+Never                619
+Name: Q13- Is the performance of your work taxing on you?-To work in noise, dtype: int64";"Most of the time    2311
+Occasionally        1645
+Rarely              1285
+Never                882
+Name: Q13- Is the performance of your work taxing on you?-To work in noise, dtype: int64"
+20;"No     21331
+Yes     8338
+Name: Q14- During your work, are you in a situation? (Of-breathe toxic products or dust, dtype: int64";"No     3779
+Yes    1336
+Name: Q14- During your work, are you in a situation? (Of-breathe toxic products or dust, dtype: int64";"No     2338
+Yes    1278
+Name: Q14- During your work, are you in a situation? (Of-breathe toxic products or dust, dtype: int64";"No     3765
+Yes    2359
+Name: Q14- During your work, are you in a situation? (Of-breathe toxic products or dust, dtype: int64"
+21;"No     24029
+Yes     5642
+Name: Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products, dtype: int64";"No     4225
+Yes     891
+Name: Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products, dtype: int64";"No     2772
+Yes     846
+Name: Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products, dtype: int64";"No     4504
+Yes    1619
+Name: Q14- During your work, are you in a situation? (Of-handle toxic or dangerous products, dtype: int64"
+22;"No     23990
+Yes     5681
+Name: Q14- During your work, are you in a situation? (Of-risk a serious fall, dtype: int64";"No     4303
+Yes     812
+Name: Q14- During your work, are you in a situation? (Of-risk a serious fall, dtype: int64";"No     2814
+Yes     804
+Name: Q14- During your work, are you in a situation? (Of-risk a serious fall, dtype: int64";"No     4421
+Yes    1704
+Name: Q14- During your work, are you in a situation? (Of-risk a serious fall, dtype: int64"
+23;"No     22983
+Yes     6689
+Name: Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury, dtype: int64";"No     4065
+Yes    1051
+Name: Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury, dtype: int64";"No     2545
+Yes    1073
+Name: Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury, dtype: int64";"No     4052
+Yes    2071
+Name: Q14- During your work, are you in a situation? (Of-working on machinery that could expose you to injury, dtype: int64"
+24;"Rather        14659
+Completely     6573
+Rather not     6446
+Not at all     1997
+Name: Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things, dtype: int64";"Rather        2594
+Completely    1166
+Rather not    1045
+Not at all     311
+Name: Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things, dtype: int64";"Rather        1678
+Rather not     924
+Completely     704
+Not at all     313
+Name: Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things, dtype: int64";"Rather        2630
+Rather not    1656
+Completely    1102
+Not at all     737
+Name: Q15- Indicate whether each of the following sentences suits you-My work allows me to learn new things, dtype: int64"
+25;"Rather        14023
+Rather not     7701
+Completely     6331
+Not at all     1620
+Name: Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely, dtype: int64";"Rather        2478
+Rather not    1228
+Completely    1199
+Not at all     211
+Name: Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely, dtype: int64";"Rather        1715
+Completely     920
+Rather not     839
+Not at all     145
+Name: Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely, dtype: int64";"Rather        2712
+Completely    1878
+Rather not    1268
+Not at all     267
+Name: Q15- Indicate whether each of the following sentences suits you-My job requires working very quickly or very intensely, dtype: int64"
+26;"Rather        14892
+Completely     7582
+Rather not     5901
+Not at all     1300
+Name: Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration, dtype: int64";"Rather        2623
+Completely    1476
+Rather not     874
+Not at all     143
+Name: Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration, dtype: int64";"Rather        1755
+Completely    1016
+Rather not     713
+Not at all     135
+Name: Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration, dtype: int64";"Rather        2780
+Completely    1733
+Rather not    1301
+Not at all     311
+Name: Q15- Indicate whether each of the following sentences suits you-My job requires long periods of concentration, dtype: int64"
+27;"Rather not    10553
+Rather         8082
+Not at all     5710
+Completely     5327
+Name: Q15- Indicate whether each of the following sentences suits you-My job is physically tiring, dtype: int64";"Rather not    2003
+Rather        1207
+Not at all    1125
+Completely     781
+Name: Q15- Indicate whether each of the following sentences suits you-My job is physically tiring, dtype: int64";"Rather not    1191
+Rather         967
+Completely     839
+Not at all     622
+Name: Q15- Indicate whether each of the following sentences suits you-My job is physically tiring, dtype: int64";"Completely    1914
+Rather        1751
+Rather not    1635
+Not at all     825
+Name: Q15- Indicate whether each of the following sentences suits you-My job is physically tiring, dtype: int64"
+28;"Rather        12763
+Rather not     7957
+Completely     7119
+Not at all     1835
+Name: Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring, dtype: int64";"Rather        2317
+Completely    1325
+Rather not    1256
+Not at all     218
+Name: Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring, dtype: int64";"Rather        1598
+Completely    1106
+Rather not     773
+Not at all     142
+Name: Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring, dtype: int64";"Rather        2499
+Completely    2217
+Rather not    1162
+Not at all     247
+Name: Q15- Indicate whether each of the following sentences suits you-My work is nervously tiring, dtype: int64"
+29;"Rather        17022
+Completely     6638
+Rather not     4679
+Not at all     1336
+Name: Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work, dtype: int64";"Rather        3025
+Completely     978
+Rather not     886
+Not at all     227
+Name: Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work, dtype: int64";"Rather        1960
+Rather not     785
+Completely     662
+Not at all     212
+Name: Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work, dtype: int64";"Rather        3025
+Rather not    1366
+Completely    1132
+Not at all     602
+Name: Q15- Indicate whether each of the following sentences suits you-I am satisfied with my work, dtype: int64"
+30;"Rather        14126
+Completely     8199
+Rather not     5489
+Not at all     1861
+Name: Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions, dtype: int64";"Rather        2498
+Completely    1286
+Rather not    1029
+Not at all     303
+Name: Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions, dtype: int64";"Rather        1641
+Completely     918
+Rather not     786
+Not at all     274
+Name: Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions, dtype: int64";"Rather        2542
+Completely    1497
+Rather not    1400
+Not at all     686
+Name: Q15- Indicate whether each of the following sentences suits you-In my job I have the opportunity to make decisions, dtype: int64"
+31;"Rather not    13500
+Rather         8557
+Not at all     5441
+Completely     2177
+Name: Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities, dtype: int64";"Rather not    2239
+Rather        1718
+Not at all     759
+Completely     400
+Name: Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities, dtype: int64";"Rather not    1629
+Rather        1120
+Not at all     583
+Completely     287
+Name: Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities, dtype: int64";"Rather not    2615
+Rather        1765
+Not at all    1201
+Completely     542
+Name: Q15- Indicate whether each of the following sentences suits you-At times, I have difficulty managing priorities, dtype: int64"
+32;"Rather        13567
+Rather not     7890
+Completely     4557
+Not at all     3659
+Name: Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy, dtype: int64";"Rather        2381
+Rather not    1462
+Completely     663
+Not at all     610
+Name: Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy, dtype: int64";"Rather        1440
+Rather not    1175
+Not at all     603
+Completely     401
+Name: Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy, dtype: int64";"Rather        2121
+Rather not    1944
+Not at all    1447
+Completely     613
+Name: Q15- Indicate whether each of the following sentences suits you-I feel recognized by my hierarchy, dtype: int64"
+33;"Rather        14253
+Rather not     7438
+Completely     5439
+Not at all     2545
+Name: Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills, dtype: int64";"Rather        2452
+Rather not    1341
+Completely     944
+Not at all     379
+Name: Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills, dtype: int64";"Rather        1568
+Rather not    1093
+Completely     580
+Not at all     378
+Name: Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills, dtype: int64";"Rather        2359
+Rather not    1952
+Not at all     961
+Completely     853
+Name: Q15- Indicate whether each of the following sentences suits you-I have the opportunity to develop my professional skills, dtype: int64"
+34;"Rather        16454
+Completely     7637
+Rather not     4255
+Not at all     1329
+Name: Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work, dtype: int64";"Rather        2851
+Completely    1312
+Rather not     759
+Not at all     194
+Name: Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work, dtype: int64";"Rather        1946
+Completely     780
+Rather not     671
+Not at all     222
+Name: Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work, dtype: int64";"Rather        3045
+Rather not    1320
+Completely    1174
+Not at all     586
+Name: Q15- Indicate whether each of the following sentences suits you-There is good understanding where I work, dtype: int64"
+35;"Rather        17436
+Rather not     5933
+Completely     4886
+Not at all     1420
+Name: Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation, dtype: int64";"Rather        3111
+Rather not    1028
+Completely     758
+Not at all     219
+Name: Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation, dtype: int64";"Rather        2008
+Rather not     943
+Completely     470
+Not at all     198
+Name: Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation, dtype: int64";"Rather        2974
+Rather not    1801
+Completely     758
+Not at all     592
+Name: Q15- Indicate whether each of the following sentences suits you-I have a well-suited workstation, dtype: int64"
+36;"Rather        18242
+Completely     7541
+Rather not     3187
+Not at all      705
+Name: Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work, dtype: int64";"Rather        3235
+Completely    1256
+Rather not     545
+Not at all      80
+Name: Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work, dtype: int64";"Rather        2251
+Completely     903
+Rather not     395
+Not at all      70
+Name: Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work, dtype: int64";"Rather        3675
+Completely    1585
+Rather not     704
+Not at all     161
+Name: Q15- Indicate whether each of the following sentences suits you-I systematically seek to improve the way I work, dtype: int64"
+37;"Rather        13572
+Rather not     9426
+Not at all     3751
+Completely     2924
+Name: Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees, dtype: int64";"Rather        2292
+Rather not    1795
+Not at all     601
+Completely     428
+Name: Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees, dtype: int64";"Rather not    1397
+Rather        1389
+Not at all     592
+Completely     241
+Name: Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees, dtype: int64";"Rather not    2296
+Rather        2115
+Not at all    1302
+Completely     410
+Name: Q15- Indicate whether each of the following sentences suits you-My company takes care of the well-being of its employees, dtype: int64"
+38;"Rather        14430
+Completely     6958
+Rather not     6250
+Not at all     2037
+Name: Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business, dtype: int64";"Rather        2517
+Rather not    1236
+Completely    1020
+Not at all     343
+Name: Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business, dtype: int64";"Rather        1728
+Rather not     822
+Completely     800
+Not at all     269
+Name: Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business, dtype: int64";"Rather        2654
+Rather not    1483
+Completely    1367
+Not at all     621
+Name: Q15- Indicate whether each of the following sentences suits you-Security is a priority for my business, dtype: int64"
+39;"Rather        14259
+Rather not     6555
+Completely     6042
+Not at all     2803
+Name: Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor, dtype: int64";"Rather        2535
+Rather not    1200
+Completely     969
+Not at all     406
+Name: Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor, dtype: int64";"Rather        1639
+Rather not     913
+Completely     611
+Not at all     455
+Name: Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor, dtype: int64";"Rather        2447
+Rather not    1696
+Not at all    1020
+Completely     958
+Name: Q15- Indicate whether each of the following sentences suits you-In the event of a problem, I can count on my supervisor, dtype: int64"
+40;"Stabilized     10616
+Slow motion     8529
+Accelerated     8445
+Do not know     1944
+Name: Would you say that over the last 12 months, your pace of work has:, dtype: int64";"Slow motion    1720
+Stabilized     1618
+Accelerated    1439
+Do not know     321
+Name: Would you say that over the last 12 months, your pace of work has:, dtype: int64";"Slow motion    1310
+Stabilized     1117
+Accelerated     955
+Do not know     213
+Name: Would you say that over the last 12 months, your pace of work has:, dtype: int64";"Slow motion    2173
+Stabilized     1855
+Accelerated    1680
+Do not know     391
+Name: Would you say that over the last 12 months, your pace of work has:, dtype: int64"
+41;"Rather        14126
+Rather not     7832
+Completely     4532
+Not at all     3129
+Name: Q16- And for each of these sentences?-I would recommend my company to a friend, dtype: int64";"Rather        2347
+Rather not    1522
+Completely     708
+Not at all     522
+Name: Q16- And for each of these sentences?-I would recommend my company to a friend, dtype: int64";"Rather        1524
+Rather not    1194
+Not at all     452
+Completely     438
+Name: Q16- And for each of these sentences?-I would recommend my company to a friend, dtype: int64";"Rather        2416
+Rather not    1953
+Not at all    1045
+Completely     699
+Name: Q16- And for each of these sentences?-I would recommend my company to a friend, dtype: int64"
+42;"Rather        15993
+Rather not     6270
+Completely     5578
+Not at all     1823
+Name: Q16- And for each of these sentences?-I am proud to work in my company, dtype: int64";"Rather        2727
+Rather not    1221
+Completely     905
+Not at all     258
+Name: Q16- And for each of these sentences?-I am proud to work in my company, dtype: int64";"Rather        1909
+Rather not     911
+Completely     536
+Not at all     259
+Name: Q16- And for each of these sentences?-I am proud to work in my company, dtype: int64";"Rather        2930
+Rather not    1631
+Completely     882
+Not at all     679
+Name: Q16- And for each of these sentences?-I am proud to work in my company, dtype: int64"
+43;"Sometimes     19259
+Never          5279
+Often          4063
+Very Often     1073
+Name: Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention, dtype: int64";"Sometimes     3540
+Often          792
+Never          578
+Very Often     206
+Name: Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention, dtype: int64";"Sometimes     2483
+Often          572
+Never          421
+Very Often     143
+Name: Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention, dtype: int64";"Sometimes     3953
+Often         1081
+Never          689
+Very Often     402
+Name: Q17- At work, does it happen to you: (D-have decreased alertness, lack of attention, dtype: int64"
+44;"Never         15376
+Sometimes      9777
+Often          2721
+Very Often     1674
+Name: Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company, dtype: int64";"Never         2441
+Sometimes     1750
+Very Often     453
+Often          443
+Name: Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company, dtype: int64";"Never         1559
+Sometimes     1270
+Very Often     390
+Often          381
+Name: Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company, dtype: int64";"Never         2389
+Sometimes     2114
+Very Often     875
+Often          711
+Name: Q17- At work, does it happen to you: (D-e receiving hurtful or aggressive remarks within the company, dtype: int64"
+45;"Never         18045
+Sometimes      7762
+Often          2130
+Very Often     1567
+Name: Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers, dtype: int64";"Never         3121
+Sometimes     1157
+Very Often     457
+Often          349
+Name: Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers, dtype: int64";"Never         2097
+Sometimes      893
+Very Often     329
+Often          262
+Name: Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers, dtype: int64";"Never         3312
+Sometimes     1593
+Very Often     661
+Often          519
+Name: Q17- At work, does it happen to you: (D-being insulted or attacked by the public or customers, dtype: int64"
+46;"Satisfying        19136
+Unsatisfactory    10491
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization, dtype: int64";"Satisfying        3052
+Unsatisfactory    2050
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization, dtype: int64";"Satisfying        1970
+Unsatisfactory    1640
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization, dtype: int64";"Satisfying        3070
+Unsatisfactory    3038
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-'work organization, dtype: int64"
+47;"Satisfying        22008
+Unsatisfactory     7654
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity, dtype: int64";"Satisfying        3633
+Unsatisfactory    1481
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity, dtype: int64";"Satisfying        2432
+Unsatisfactory    1183
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity, dtype: int64";"Satisfying        3898
+Unsatisfactory    2225
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-clarity of your role in the companyÔøΩs activity, dtype: int64"
+48;"Satisfying        15268
+Unsatisfactory    14281
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training, dtype: int64";"Unsatisfactory    2581
+Satisfying        2491
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training, dtype: int64";"Unsatisfactory    1961
+Satisfying        1633
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training, dtype: int64";"Unsatisfactory    3513
+Satisfying        2558
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-access to professional training, dtype: int64"
+49;"Satisfying        21195
+Unsatisfactory     8454
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior, dtype: int64";"Satisfying        3556
+Unsatisfactory    1556
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior, dtype: int64";"Satisfying        2344
+Unsatisfactory    1274
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior, dtype: int64";"Satisfying        3472
+Unsatisfactory    2640
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a relationship with your direct superior, dtype: int64"
+50;"Satisfying        23193
+Unsatisfactory     6475
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team, dtype: int64";"Satisfying        3948
+Unsatisfactory    1165
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team, dtype: int64";"Satisfying        2607
+Unsatisfactory    1012
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team, dtype: int64";"Satisfying        4135
+Unsatisfactory    1989
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-atmosphere in your team, dtype: int64"
+51;"Satisfying        21974
+Unsatisfactory     7689
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation, dtype: int64";"Satisfying        3697
+Unsatisfactory    1417
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation, dtype: int64";"Satisfying        2459
+Unsatisfactory    1157
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation, dtype: int64";"Satisfying        3887
+Unsatisfactory    2236
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-tools or your workstation, dtype: int64"
+52;"Unsatisfactory    17201
+Satisfying        12349
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development, dtype: int64";"Unsatisfactory    3137
+Satisfying        1945
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development, dtype: int64";"Unsatisfactory    2433
+Satisfying        1140
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development, dtype: int64";"Unsatisfactory    4352
+Satisfying        1706
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-the prospects for development, dtype: int64"
+53;"Satisfying        17626
+Unsatisfactory    11996
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services, dtype: int64";"Satisfying        2773
+Unsatisfactory    2325
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services, dtype: int64";"Unsatisfactory    1856
+Satisfying        1748
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services, dtype: int64";"Unsatisfactory    3292
+Satisfying        2804
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-relationships between services, dtype: int64"
+54;"Satisfying        15275
+Unsatisfactory    14224
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management, dtype: int64";"Unsatisfactory    2706
+Satisfying        2347
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management, dtype: int64";"Unsatisfactory    2095
+Satisfying        1492
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management, dtype: int64";"Unsatisfactory    3732
+Satisfying        2318
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-e management, dtype: int64"
+55;"Satisfying        15329
+Unsatisfactory    14208
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy, dtype: int64";"Unsatisfactory    2672
+Satisfying        2407
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy, dtype: int64";"Unsatisfactory    2088
+Satisfying        1496
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy, dtype: int64";"Unsatisfactory    3659
+Satisfying        2386
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a communication and understanding of business strategy, dtype: int64"
+56;"Satisfying        15056
+Unsatisfactory    14411
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work, dtype: int64";"Unsatisfactory    2720
+Satisfying        2333
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work, dtype: int64";"Unsatisfactory    2162
+Satisfying        1404
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work, dtype: int64";"Unsatisfactory    3889
+Satisfying        2157
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-recognition at work, dtype: int64"
+57;"Satisfying        23045
+Unsatisfactory     6622
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills, dtype: int64";"Satisfying        3846
+Unsatisfactory    1268
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills, dtype: int64";"Satisfying        2609
+Unsatisfactory    1010
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills, dtype: int64";"Satisfying        4264
+Unsatisfactory    1858
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-has mastery of your position (responsibility, means, skills, dtype: int64"
+58;"Satisfying        19152
+Unsatisfactory    10455
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality, dtype: int64";"Satisfying        3227
+Unsatisfactory    1869
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality, dtype: int64";"Satisfying        2056
+Unsatisfactory    1553
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality, dtype: int64";"Satisfying        3212
+Unsatisfactory    2894
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-moments of conviviality, dtype: int64"
+59;"Satisfying        20608
+Unsatisfactory     9038
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life, dtype: int64";"Satisfying        3431
+Unsatisfactory    1678
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life, dtype: int64";"Satisfying        2276
+Unsatisfactory    1337
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life, dtype: int64";"Satisfying        3716
+Unsatisfactory    2401
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a balance between private life and professional life, dtype: int64"
+60;"Unsatisfactory    21019
+Satisfying         8338
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.), dtype: int64";"Unsatisfactory    3716
+Satisfying        1311
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.), dtype: int64";"Unsatisfactory    2781
+Satisfying         774
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.), dtype: int64";"Unsatisfactory    4764
+Satisfying        1263
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-The services provided by the company (crÔøΩche, concierge, gym, etc.), dtype: int64"
+61;"Satisfying        20654
+Unsatisfactory     8995
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company, dtype: int64";"Satisfying        3554
+Unsatisfactory    1550
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company, dtype: int64";"Satisfying        2388
+Unsatisfactory    1227
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company, dtype: int64";"Satisfying        4053
+Unsatisfactory    2066
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-a social protection (mutual health, insurance) offered by your company, dtype: int64"
+62;"Satisfying        22124
+Unsatisfactory     7533
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours, dtype: int64";"Satisfying        3721
+Unsatisfactory    1392
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours, dtype: int64";"Satisfying        2482
+Unsatisfactory    1135
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours, dtype: int64";"Satisfying        4071
+Unsatisfactory    2051
+Name: Q19- For each of the following points indicate whether, in your work, you find it satisfactory or unsatisfactory: (L-working hours, dtype: int64"
+63;"I adhere to the directions chosen by my company                             10511
+I make sure to adapt                                                         6591
+I am involved upstream, we integrate my point of view                        5287
+I benefit from support in implementation (training, communication, etc.)     2660
+They come back too often                                                     2613
+I understand they are necessary                                              1866
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse), dtype: int64";"I adhere to the directions chosen by my company                             1995
+I make sure to adapt                                                        1159
+I am involved upstream, we integrate my point of view                        771
+They come back too often                                                     418
+I understand they are necessary                                              395
+I benefit from support in implementation (training, communication, etc.)     362
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse), dtype: int64";"I adhere to the directions chosen by my company                             1471
+I make sure to adapt                                                         821
+I am involved upstream, we integrate my point of view                        544
+I understand they are necessary                                              282
+They come back too often                                                     255
+I benefit from support in implementation (training, communication, etc.)     238
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse), dtype: int64";"I adhere to the directions chosen by my company                             2243
+I make sure to adapt                                                        1671
+I am involved upstream, we integrate my point of view                        852
+They come back too often                                                     493
+I understand they are necessary                                              442
+I benefit from support in implementation (training, communication, etc.)     404
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-Loss of job (yourself or your spouse), dtype: int64"
+64;"I adhere to the directions chosen by my company                             7037
+I am involved upstream, we integrate my point of view                       6205
+I understand they are necessary                                             5366
+I make sure to adapt                                                        5167
+I benefit from support in implementation (training, communication, etc.)    4004
+They come back too often                                                    1436
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession, dtype: int64";"I am involved upstream, we integrate my point of view                       1371
+I adhere to the directions chosen by my company                             1148
+I benefit from support in implementation (training, communication, etc.)     964
+I make sure to adapt                                                         775
+They come back too often                                                     357
+I understand they are necessary                                              352
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession, dtype: int64";"I adhere to the directions chosen by my company                             894
+I am involved upstream, we integrate my point of view                       861
+I make sure to adapt                                                        655
+I benefit from support in implementation (training, communication, etc.)    618
+I understand they are necessary                                             307
+They come back too often                                                    223
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession, dtype: int64";"I am involved upstream, we integrate my point of view                       1594
+I adhere to the directions chosen by my company                             1528
+I make sure to adapt                                                        1129
+I benefit from support in implementation (training, communication, etc.)    1008
+I understand they are necessary                                              423
+They come back too often                                                     343
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-An imposed change of position or profession, dtype: int64"
+65;"I make sure to adapt                                                        6981
+I adhere to the directions chosen by my company                             6757
+I am involved upstream, we integrate my point of view                       6190
+I understand they are necessary                                             5666
+I benefit from support in implementation (training, communication, etc.)    2830
+They come back too often                                                     964
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business, dtype: int64";"I make sure to adapt                                                        1305
+I adhere to the directions chosen by my company                             1303
+I am involved upstream, we integrate my point of view                       1048
+I understand they are necessary                                              615
+I benefit from support in implementation (training, communication, etc.)     572
+They come back too often                                                     215
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business, dtype: int64";"I make sure to adapt                                                        967
+I adhere to the directions chosen by my company                             920
+I am involved upstream, we integrate my point of view                       749
+I understand they are necessary                                             438
+I benefit from support in implementation (training, communication, etc.)    394
+They come back too often                                                    109
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business, dtype: int64";"I make sure to adapt                                                        1638
+I adhere to the directions chosen by my company                             1562
+I am involved upstream, we integrate my point of view                       1166
+I understand they are necessary                                              725
+I benefit from support in implementation (training, communication, etc.)     719
+They come back too often                                                     254
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-A restructuring or reorganization of your service or business, dtype: int64"
+66;"I make sure to adapt                                                        11142
+I understand they are necessary                                             10013
+I adhere to the directions chosen by my company                              6009
+I am involved upstream, we integrate my point of view                        1773
+I benefit from support in implementation (training, communication, etc.)      684
+They come back too often                                                       52
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company, dtype: int64";"I make sure to adapt                                                        2207
+I understand they are necessary                                             1334
+I adhere to the directions chosen by my company                             1132
+I am involved upstream, we integrate my point of view                        360
+I benefit from support in implementation (training, communication, etc.)      74
+They come back too often                                                       9
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company, dtype: int64";"I make sure to adapt                                                        1541
+I understand they are necessary                                              902
+I adhere to the directions chosen by my company                              854
+I am involved upstream, we integrate my point of view                        243
+I benefit from support in implementation (training, communication, etc.)      71
+They come back too often                                                       7
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company, dtype: int64";"I make sure to adapt                                                        2633
+I understand they are necessary                                             1493
+I adhere to the directions chosen by my company                             1436
+I am involved upstream, we integrate my point of view                        442
+I benefit from support in implementation (training, communication, etc.)     105
+They come back too often                                                      16
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-A social plan, layoffs in your company, dtype: int64"
+67;"I make sure to adapt                                                        12121
+I understand they are necessary                                             11700
+I adhere to the directions chosen by my company                              4682
+I am involved upstream, we integrate my point of view                         889
+They come back too often                                                      216
+I benefit from support in implementation (training, communication, etc.)       67
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment, dtype: int64";"I make sure to adapt                                                        2365
+I understand they are necessary                                             1668
+I adhere to the directions chosen by my company                              889
+I am involved upstream, we integrate my point of view                        172
+I benefit from support in implementation (training, communication, etc.)      12
+They come back too often                                                      10
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment, dtype: int64";"I make sure to adapt                                                        1688
+I understand they are necessary                                             1107
+I adhere to the directions chosen by my company                              685
+I am involved upstream, we integrate my point of view                        121
+I benefit from support in implementation (training, communication, etc.)      11
+They come back too often                                                       7
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment, dtype: int64";"I make sure to adapt                                                        2866
+I understand they are necessary                                             1947
+I adhere to the directions chosen by my company                             1107
+I am involved upstream, we integrate my point of view                        186
+I benefit from support in implementation (training, communication, etc.)      14
+They come back too often                                                       5
+Name: Q22- Over the last 12 months have you personally experienced one or more of the following events:-One or more periods of technical unemployment, dtype: int64"
+68;"No, rather not    12601
+Yes, rather        7309
+No not at all      6012
+Yes quite          1890
+TOTAL YES          1857
+TOTAL NO              5
+Name: Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite, dtype: int64";"No, rather not    2486
+Yes, rather       1368
+No not at all      849
+Yes quite          352
+TOTAL YES           61
+Name: Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite, dtype: int64";"No, rather not    1649
+Yes, rather       1021
+No not at all      675
+Yes quite          243
+TOTAL YES           30
+TOTAL NO             1
+Name: Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite, dtype: int64";"No, rather not    2595
+Yes, rather       1728
+No not at all     1154
+Yes quite          621
+TOTAL YES           25
+TOTAL NO             1
+Name: Q23- Do you have difficulty reconciling your work with your other personal or family commitments?-Yes quite, dtype: int64"
+69;"Less than 1 hour per day              20195
+Between 1 hour and 2 hours per day     7487
+From 2 hours to 3 hours per day        1517
+More than 3 hours per day               476
+Name: Q25-Your workplace-home transportation time (round trip) is:, dtype: int64";"Less than 1 hour per day              3193
+Between 1 hour and 2 hours per day    1535
+From 2 hours to 3 hours per day        311
+More than 3 hours per day               77
+Name: Q25-Your workplace-home transportation time (round trip) is:, dtype: int64";"Less than 1 hour per day              2311
+Between 1 hour and 2 hours per day     996
+From 2 hours to 3 hours per day        247
+More than 3 hours per day               65
+Name: Q25-Your workplace-home transportation time (round trip) is:, dtype: int64";"Less than 1 hour per day              4026
+Between 1 hour and 2 hours per day    1634
+From 2 hours to 3 hours per day        322
+More than 3 hours per day              143
+Name: Q25-Your workplace-home transportation time (round trip) is:, dtype: int64"
+70;"Confident               15983
+Not very confident       7974
+Very confident           3743
+Not confident at all     1956
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation, dtype: int64";"Confident               2763
+Not very confident      1521
+Very confident           552
+Not confident at all     276
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation, dtype: int64";"Confident               1786
+Not very confident      1197
+Very confident           342
+Not confident at all     291
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation, dtype: int64";"Confident               2797
+Not very confident      2046
+Not confident at all     659
+Very confident           619
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your professional situation, dtype: int64"
+71;"Confident               15700
+Not very confident       9197
+Very confident           2849
+Not confident at all     1917
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household, dtype: int64";"Confident               2683
+Not very confident      1668
+Very confident           444
+Not confident at all     317
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household, dtype: int64";"Confident               1754
+Not very confident      1348
+Not confident at all     274
+Very confident           240
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household, dtype: int64";"Confident               2708
+Not very confident      2372
+Not confident at all     610
+Very confident           430
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-The financial situation of your household, dtype: int64"
+72;"Confident               17929
+Very confident           6674
+Not very confident       4329
+Not confident at all      741
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions, dtype: int64";"Confident               3086
+Very confident          1063
+Not very confident       850
+Not confident at all     117
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions, dtype: int64";"Confident               2209
+Very confident           693
+Not very confident       625
+Not confident at all      92
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions, dtype: int64";"Confident               3587
+Very confident          1309
+Not very confident      1023
+Not confident at all     205
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your housing conditions, dtype: int64"
+73;"Confident               15470
+Very confident           6995
+Not very confident       5587
+Not confident at all     1611
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life, dtype: int64";"Confident               2614
+Very confident          1197
+Not very confident      1085
+Not confident at all     217
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life, dtype: int64";"Confident               1877
+Very confident           809
+Not very confident       744
+Not confident at all     187
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life, dtype: int64";"Confident               2997
+Very confident          1471
+Not very confident      1263
+Not confident at all     391
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your emotional life, dtype: int64"
+74;"Confident               19037
+Not very confident       6274
+Very confident           3502
+Not confident at all      862
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your health, dtype: int64";"Confident               3245
+Not very confident      1204
+Very confident           540
+Not confident at all     126
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your health, dtype: int64";"Confident               2120
+Not very confident      1042
+Very confident           336
+Not confident at all     121
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your health, dtype: int64";"Confident               3133
+Not very confident      2026
+Very confident           527
+Not confident at all     439
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-Your health, dtype: int64"
+75;"Confident               15196
+Not very confident       8657
+Very confident           2997
+Not confident at all     2791
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren), dtype: int64";"Confident               2630
+Not very confident      1528
+Very confident           489
+Not confident at all     458
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren), dtype: int64";"Confident               1688
+Not very confident      1226
+Not confident at all     368
+Very confident           331
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren), dtype: int64";"Confident               2681
+Not very confident      2123
+Not confident at all     751
+Very confident           555
+Name: Q31- When you think about the next 3 years, for each of the following points are you:-The future of your child(ren), dtype: int64"
+76;"Rather        15703
+Completely     9394
+Rather not     3764
+Not at all      814
+Name: Q34- In your personal life, would you say:-I feel well surrounded, dtype: int64";"Rather        2781
+Completely    1622
+Rather not     605
+Not at all     108
+Name: Q34- In your personal life, would you say:-I feel well surrounded, dtype: int64";"Rather        1882
+Completely    1151
+Rather not     481
+Not at all     105
+Name: Q34- In your personal life, would you say:-I feel well surrounded, dtype: int64";"Rather        3078
+Completely    1886
+Rather not     938
+Not at all     223
+Name: Q34- In your personal life, would you say:-I feel well surrounded, dtype: int64"
+77;"Not at all    11724
+Rather not     8984
+Rather         6655
+Completely     2208
+Name: Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry, dtype: int64";"Not at all    1870
+Rather not    1693
+Rather        1177
+Completely     358
+Name: Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry, dtype: int64";"Not at all    1331
+Rather not    1157
+Rather         831
+Completely     284
+Name: Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry, dtype: int64";"Not at all    2112
+Rather not    1813
+Rather        1496
+Completely     673
+Name: Q34- In your personal life, would you say:-One of my loved ones (child/parent/spouse) is causing me a lot of worry, dtype: int64"
+78;"Rather not    11379
+Not at all     8205
+Rather         7686
+Completely     2166
+Name: Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health, dtype: int64";"Rather not    1983
+Rather        1429
+Not at all    1261
+Completely     430
+Name: Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health, dtype: int64";"Rather not    1344
+Rather        1085
+Not at all     806
+Completely     371
+Name: Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health, dtype: int64";"Rather        2110
+Rather not    1857
+Not at all    1085
+Completely    1054
+Name: Q34- In your personal life, would you say:-I have personal concerns (emotional life, money, health, dtype: int64"
+79;"Rather        14388
+Completely     8989
+Rather not     4813
+Not at all     1479
+Name: Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one, dtype: int64";"Rather        2563
+Completely    1543
+Rather not     820
+Not at all     187
+Name: Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one, dtype: int64";"Rather        1725
+Completely    1090
+Rather not     639
+Not at all     164
+Name: Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one, dtype: int64";"Rather        2920
+Completely    1812
+Rather not    1059
+Not at all     333
+Name: Q34- In your personal life, would you say:-If there is a problem I can talk to a loved one, dtype: int64"
+80;"Good         18165
+AVERAGE       6778
+Very good     3863
+Bad            757
+Very bad       112
+Name: Q37- How do you rate your state of health in general?, dtype: int64";"Good         3131
+AVERAGE      1301
+Very good     530
+Bad           141
+Very bad       13
+Name: Q37- How do you rate your state of health in general?, dtype: int64";"Good         1952
+AVERAGE      1217
+Very good     265
+Bad           169
+Very bad       16
+Name: Q37- How do you rate your state of health in general?, dtype: int64";"AVERAGE      2535
+Good         2526
+Bad           679
+Very good     276
+Very bad      109
+Name: Q37- How do you rate your state of health in general?, dtype: int64"
+81;"No     24877
+Yes     4793
+Name: Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently, dtype: int64";"No     4143
+Yes     973
+Name: Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently, dtype: int64";"No     2719
+Yes     900
+Name: Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently, dtype: int64";"No     3648
+Yes    2477
+Name: Q38- Did you:-A chronic illness (a long-term illness or one that recurs frequently, dtype: int64"
+82;"No     28203
+Yes     1469
+Name: Q38- Did you:-Disabilities, dtype: int64";"No     4877
+Yes     239
+Name: Q38- Did you:-Disabilities, dtype: int64";"No     3379
+Yes     240
+Name: Q38- Did you:-Disabilities, dtype: int64";"No     5110
+Yes    1013
+Name: Q38- Did you:-Disabilities, dtype: int64"
+83;"No     28875
+Yes      785
+Name: Q42-During the last 12 months have you had a work accident?, dtype: int64";"No     4845
+Yes     269
+Name: Q42-During the last 12 months have you had a work accident?, dtype: int64";"No     3329
+Yes     290
+Name: Q42-During the last 12 months have you had a work accident?, dtype: int64";"No     5094
+Yes    1030
+Name: Q42-During the last 12 months have you had a work accident?, dtype: int64"
+84;"Sometimes      17624
+Never           6084
+Often           5517
+Permanently      450
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head, dtype: int64";"Sometimes      2981
+Often          1300
+Never           725
+Permanently     110
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head, dtype: int64";"Sometimes      2066
+Often           970
+Never           486
+Permanently      97
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head, dtype: int64";"Sometimes      3311
+Often          1643
+Never           942
+Permanently     228
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the head, dtype: int64"
+85;"Sometimes      13693
+Never           8562
+Often           6119
+Permanently     1301
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm, dtype: int64";"Sometimes      2384
+Often          1253
+Never          1217
+Permanently     262
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm, dtype: int64";"Sometimes      1658
+Often          1066
+Never           671
+Permanently     224
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm, dtype: int64";"Sometimes      2376
+Often          1948
+Never          1035
+Permanently     766
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the neck, shoulder, arm, dtype: int64"
+86;"Sometimes      15015
+Often           7599
+Never           5300
+Permanently     1761
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back, dtype: int64";"Sometimes      2543
+Often          1531
+Never           703
+Permanently     339
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back, dtype: int64";"Sometimes      1603
+Often          1311
+Never           355
+Permanently     350
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back, dtype: int64";"Often          2264
+Sometimes      2210
+Permanently    1069
+Never           582
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the back, dtype: int64"
+87;"Never          12472
+Sometimes      12117
+Often           4139
+Permanently      947
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee, dtype: int64";"Sometimes      2187
+Never          2009
+Often           780
+Permanently     140
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee, dtype: int64";"Sometimes      1542
+Never          1204
+Often           716
+Permanently     157
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee, dtype: int64";"Sometimes      2403
+Never          1624
+Often          1514
+Permanently     584
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in the leg, foot, knee, dtype: int64"
+88;"Never          16701
+Sometimes      10502
+Often           1967
+Permanently      505
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body, dtype: int64";"Never          2640
+Sometimes      2009
+Often           384
+Permanently      83
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body, dtype: int64";"Never          1672
+Sometimes      1540
+Often           341
+Permanently      66
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body, dtype: int64";"Sometimes      2535
+Never          2449
+Often           872
+Permanently     269
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-in other parts of the body, dtype: int64"
+89;"Never          12783
+Sometimes      12736
+Often           3677
+Permanently      479
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes, dtype: int64";"Sometimes      2364
+Never          1835
+Often           819
+Permanently      98
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes, dtype: int64";"Sometimes      1663
+Never          1300
+Often           581
+Permanently      75
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes, dtype: int64";"Sometimes      2755
+Never          2271
+Often           957
+Permanently     142
+Name: Q44- Over the last 12 months have you experienced the following difficulties (excluding traumatic accident)? (Wrong-to the eyes, dtype: int64"
+90;"When returning home                                 9636
+By bringing your meal from home                     8450
+In the canteen or company restaurant                5746
+While eating a sandwich                             3372
+When going to a restaurant, brasserie, snack bar    2459
+Name: Q57- How do you most frequently eat your midday meal?, dtype: int64";"By bringing your meal from home                     1635
+When returning home                                 1168
+In the canteen or company restaurant                1165
+While eating a sandwich                              606
+When going to a restaurant, brasserie, snack bar     542
+Name: Q57- How do you most frequently eat your midday meal?, dtype: int64";"By bringing your meal from home                     1144
+When returning home                                  930
+In the canteen or company restaurant                 742
+While eating a sandwich                              507
+When going to a restaurant, brasserie, snack bar     294
+Name: Q57- How do you most frequently eat your midday meal?, dtype: int64";"When returning home                                 2054
+By bringing your meal from home                     1842
+In the canteen or company restaurant                1065
+While eating a sandwich                              730
+When going to a restaurant, brasserie, snack bar     432
+Name: Q57- How do you most frequently eat your midday meal?, dtype: int64"
+91;"Energy drinks (like Red Bull or Monster)    12239
+Alcoholic beverages                          6677
+Sodas                                        2659
+Name: Q58- For each of these drinks, indicate whether you consume them:-Every day, dtype: int64";"Energy drinks (like Red Bull or Monster)    2037
+Alcoholic beverages                         1331
+Sodas                                        571
+Name: Q58- For each of these drinks, indicate whether you consume them:-Every day, dtype: int64";"Energy drinks (like Red Bull or Monster)    1406
+Alcoholic beverages                         1000
+Sodas                                        424
+Name: Q58- For each of these drinks, indicate whether you consume them:-Every day, dtype: int64";"Energy drinks (like Red Bull or Monster)    2470
+Alcoholic beverages                         1425
+Sodas                                        685
+Name: Q58- For each of these drinks, indicate whether you consume them:-Every day, dtype: int64"
+92;"Energy drinks (like Red Bull or Monster)    11472
+Alcoholic beverages                         10627
+Sodas                                        2185
+Name: Q58- For each of these drinks, indicate whether you consume them:-At least once a week, dtype: int64";"Energy drinks (like Red Bull or Monster)    2033
+Alcoholic beverages                         1889
+Sodas                                        316
+Name: Q58- For each of these drinks, indicate whether you consume them:-At least once a week, dtype: int64";"Energy drinks (like Red Bull or Monster)    1424
+Alcoholic beverages                         1209
+Sodas                                        276
+Name: Q58- For each of these drinks, indicate whether you consume them:-At least once a week, dtype: int64";"Energy drinks (like Red Bull or Monster)    2509
+Alcoholic beverages                         1781
+Sodas                                        509
+Name: Q58- For each of these drinks, indicate whether you consume them:-At least once a week, dtype: int64"
+93;"No     22594
+Yes     7080
+Name: Q60- Are you a smoker?, dtype: int64";"No     3823
+Yes    1291
+Name: Q60- Are you a smoker?, dtype: int64";"No     2576
+Yes    1042
+Name: Q60- Are you a smoker?, dtype: int64";"No     4302
+Yes    1823
+Name: Q60- Are you a smoker?, dtype: int64"
+94;"Never                     28115
+Less than once a month      829
+Every day or almost         294
+Once a month                242
+Once a week                 195
+Name: Q61- Do you smoke cannabis, hashish, marijuana?, dtype: int64";"Never                     4682
+Less than once a month     213
+Every day or almost         94
+Once a month                69
+Once a week                 58
+Name: Q61- Do you smoke cannabis, hashish, marijuana?, dtype: int64";"Never                     3391
+Less than once a month     108
+Every day or almost         51
+Once a month                39
+Once a week                 30
+Name: Q61- Do you smoke cannabis, hashish, marijuana?, dtype: int64";"Never                     5792
+Less than once a month     164
+Every day or almost         66
+Once a week                 59
+Once a month                44
+Name: Q61- Do you smoke cannabis, hashish, marijuana?, dtype: int64"
+95;"Never                     26565
+Less than once a month     1237
+At least once a week       1117
+Several times a month       390
+Once a month                366
+Name: Q62- Do you take sleeping pills, anxiolytics or anti-depressants:, dtype: int64";"Never                     4416
+Less than once a month     318
+At least once a week       197
+Several times a month      102
+Once a month                83
+Name: Q62- Do you take sleeping pills, anxiolytics or anti-depressants:, dtype: int64";"Never                     3026
+Less than once a month     232
+At least once a week       215
+Several times a month       76
+Once a month                70
+Name: Q62- Do you take sleeping pills, anxiolytics or anti-depressants:, dtype: int64";"Never                     4654
+At least once a week       756
+Less than once a month     417
+Several times a month      189
+Once a month               109
+Name: Q62- Do you take sleeping pills, anxiolytics or anti-depressants:, dtype: int64"
+96;"sometimes      14521
+Never           7466
+often           5844
+permanently     1844
+Name: Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.), dtype: int64";"sometimes      2617
+often          1144
+Never          1007
+permanently     348
+Name: Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.), dtype: int64";"sometimes      1720
+often           978
+Never           605
+permanently     316
+Name: Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.), dtype: int64";"sometimes      2556
+often          1946
+permanently     840
+Never           783
+Name: Q63- Over the past 12 months have you experienced the following difficulties?-Sleep disorders (difficulty falling asleep, waking up at night, waking up early without being able to go back to sleep, etc.), dtype: int64"
+97;"sometimes      17961
+Never           5823
+often           5003
+permanently      888
+Name: Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone, dtype: int64";"sometimes      3154
+often          1205
+Never           586
+permanently     171
+Name: Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone, dtype: int64";"sometimes      2142
+often           949
+Never           321
+permanently     206
+Name: Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone, dtype: int64";"sometimes      3111
+often          1922
+permanently     570
+Never           522
+Name: Q63- Over the past 12 months have you experienced the following difficulties?-A lack of tone, dtype: int64"
+98;"0    29675
+Name: outcome, dtype: int64";"1    5116
+Name: outcome, dtype: int64";"2    3619
+Name: outcome, dtype: int64";"3    6125
+Name: outcome, dtype: int64"
