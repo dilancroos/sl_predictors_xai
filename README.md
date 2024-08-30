@@ -130,9 +130,19 @@ Project Link: [https://github.com/dilancroos/sl_predictors_xai](https://github.c
 
 ## Acknowledgments
 
-- []()
-- []()
-- []()
+I would like to extend my deepest gratitude to all those who have supported me throughout this project and my studies.
+First and foremost, I am profoundly thankful to my supervisor, Professor Nacima Mounia HOCINE, whose mentorship has gone far beyond academic guidance. Her constant support, invaluable advice, and efforts to ensure I enjoyed my time in Paris have made this experience truly enriching. Her dedication and encouragement have been crucial to the successful completion of this project.
+I am also deeply grateful to Professor AMODSEN, the coordinator of the master’s program, for helping me to find this project and providing continuous support throughout my studies. His assistance has been indispensable.
+My sincere thanks go to Professor Jean Christophe THALABARD, who also played a significant role in helping me secure this project. His guidance and encouragement have been greatly appreciated.
+I would also like to acknowledge Tom DUCHEMIN, whose paper forms the foundation of my project. His willingness to discuss his work and share his insights has been incredibly valuable to my research. I am fortunate to have benefited from his experience, and I am grateful for his contributions.
+I would like to express my appreciation to Université Paris Cité and the Learning Planet Institute (LPI) for providing an inspiring and supportive academic environment. I am especially thankful for the financial support from the SMARTS-UP scholarship program, which has allowed me to focus fully on my studies and research.
+To all the teachers in my master’s program, I extend my deepest thanks for their dedication and for imparting their knowledge and wisdom, which have significantly shaped my academic journey.
+I am also thankful to my colleagues for their camaraderie, collaboration, and the stimulating discussions we shared, which have enriched my learning experience.
+Lastly, I am deeply grateful to my family and wife for their unwavering love, support, and understanding. Their encouragement has been the foundation of my achievements, and I could not have accomplished this without them.
+
+This work was supported by the Agence Nationale de la Recherche as part of the program France 2030, ANR-20-SFRI-0013
+Ce travail a bénéficié d'une aide de l’État gérée par l'Agence Nationale de la Recherche au titre de France 2030 portant la référence ANR-20-SFRI-0013
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
