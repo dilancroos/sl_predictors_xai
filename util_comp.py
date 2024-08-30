@@ -445,7 +445,7 @@ def train_random_forests(X_train, y_train, X_test, y_test, num_forests=1, num_tr
         # Initialize the Random Forest model
         t1 = time()
         rf = RandomForestClassifier(
-            n_estimators=num_trees, random_state=i, class_weight='balanced')
+            n_estimators=num_trees, random_state=i, class_weight='balanced_subsample')
 
         # Train the model
         rf.fit(X_train, y_train)
@@ -471,8 +471,9 @@ def train_random_forests(X_train, y_train, X_test, y_test, num_forests=1, num_tr
         print(f"F1 score: {f1_score(y_test, y_pred, average='macro')}")
         print(f"test accuracy: {test_accuracy:.4f}")
         print(f"train accuracy: {train_accuracy:.4f}")
-        print(f"ROAUC: {roc_auc_score(
-            y_test, y_pred_proba[:, 1], multi_class='ovo')}")
+        if X_train.shape[0] < 24000:
+            roc = roc_auc_score(y_test, y_pred_proba[:, 1], multi_class='ovo')
+            print(f"ROAUC: {roc}")
         print(f"Classification report:\n{
               classification_report(y_test, y_pred)}")
 
