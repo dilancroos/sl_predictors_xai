@@ -4,7 +4,7 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url1]
 
-<!-- PROJECT LOGO -->sl_predictors_xai
+<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <h2 align="center">Predictors of Sick Leave: Exploring Hierarchical Determinants and Explainable AI</h2>
