@@ -60,7 +60,14 @@ How can eXplainable Artificial Intelligence (XAI) techniques enhance the interpr
 
 2. Integrating XAI with robust data collection methods will help in identifying and addressing potential discrimination in SL predictions, ensuring the ethical use of AI in workforce management.
 
-<img href="https://github.com/dilancroos/sl_predictors_xai/blob/99901a68581e88e256e12393a3cf33ee61d606bc/outputs/02_SHAP/3_waterfall_plot_0_0.png" ></img>
+#### SHAP
+1)![image](outputs/02_SHAP/3_waterfall_plot_0_0.png)
+
+2)![image](outputs/02_SHAP/shap_summary_plot_all.png)
+#### LIME
+1)![image](outputs/04_lime_indv/lime_1.jpg)
+
+2)![image](outputs/04_lime_indv/lime_2.jpg)
 
 All the code and data used in this study are publicly available in a GitHub repository, ensuring transparency and reproducibility. 
 
